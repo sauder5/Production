@@ -1,0 +1,26 @@
+{
+  "id": "41724610-14b9-4eb2-bd67-e0c159638f2b",
+  "name": "RuppCustom",
+  "publisher": "Rupp Seeds, Inc",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "Rupp Custom Objects",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+    "dependencies": [
+    ],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "runtime": "3.2", 
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+  ],
+  "showMyCode": true,
+  "target":"Internal"}

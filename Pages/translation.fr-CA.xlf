@@ -1,0 +1,1917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fr-CA" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Page 2337365189 - Action 127686680 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show &amp;Document</source>
+          <target>Afficher &amp;doc. magasin</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Premium Lines - Action ShowDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1081945192 - Action 127686680 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show &amp;Document</source>
+          <target>Afficher &amp;doc. magasin</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purchase Contract Lines - Action ShowDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2093608227 - Action 127686680 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show &amp;Document</source>
+          <target>Afficher &amp;doc. magasin</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Receipt Lines - Action ShowDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3572263660 - Action 127686680 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show &amp;Document</source>
+          <target>Afficher &amp;doc. magasin</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Receipt Lines - Action ShowDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2265437581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order</source>
+          <target>Bon de commande</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2265437581 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>Général</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2265437581 - Control 1976942833 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Buy-from State</source>
+          <target>CP/Ville fournisseur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO - Control Buy-from County - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2265437581 - Control 1450094168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoicing</source>
+          <target>Facturation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO - Control Invoicing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2265437581 - Control 1727270656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>State</source>
+          <target>État-Province/code postal</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO - Control Pay-to County - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2265437581 - Control 3097346278 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping</source>
+          <target>Livraison</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO - Control Shipping - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2265437581 - Control 187607738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Envío a-Estado / C.P.</source>
+          <target>État-Province/code postal de livraison</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO - Control Ship-to County - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2265437581 - Control 3624777196 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Foreign Trade</source>
+          <target>Commerce étranger</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO - Control Foreign Trade - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2265437581 - Control 1587433127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepayment</source>
+          <target>Paiement anticipé</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO - Control Prepayment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2265437581 - Control 1401769901 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic Invoice</source>
+          <target>Facture électronique</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO - Control Electronic Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2265437581 - Action 4051756668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>O&amp;rder</source>
+          <target>C&amp;ommande</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO - Action O&amp;rder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2265437581 - Action 3000180178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Co&amp;mments</source>
+          <target>Co&amp;mmentaires</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO - Action Co&amp;mments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2265437581 - Action 1002420131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <target>Imprimer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO - Action Print - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2265437581 - Action 1344672713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Print</source>
+          <target>&amp;Imprimer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO - Action &amp;Print - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1378075203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <target>Lignes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO SubForm - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1378075203 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to run this function while in View mode.</source>
+          <target>Impossible d'exécuter cette fonction en mode Afficher.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO SubForm - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Page 1378075203 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot use the Explode BOM function because a prepayment of the purchase order has been invoiced.</source>
+          <target>Vous ne pouvez pas utiliser la fonction Éclater nomenclature car un paiement anticipé du bon de commande a été facturé.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Current/History PO SubForm - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <target>Lignes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Control 1828185298 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Price Exists</source>
+          <target>Prix de vente existant</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Control SalesPriceExist - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Control 3176527701 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Line Disc. Exists</source>
+          <target>Rem. ligne vente existante</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Control SalesLineDiscExists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <target>&amp;Ligne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 3035192297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Availability by</source>
+          <target>Disponibilité d'article par</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Item Availability by - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 3101858065 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Event</source>
+          <target>Événement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action &lt;Action3&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 912261439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <target>Période</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 112710097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant</source>
+          <target>Variante</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Variant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <target>Emplacement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 2882465090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM Level</source>
+          <target>Niveau nomenclature</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action BOM Level - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 3868741142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reservation Entries</source>
+          <target>Entrées de réservation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Reservation Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 3557000673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item &amp;Tracking Lines</source>
+          <target>&amp;Lignes de traçabilité d'article</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action ItemTrackingLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 1497016646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Item Substitution</source>
+          <target>Sélectionner la substitution d'article</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Select Item Substitution - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 2173385693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimensions</source>
+          <target>Dimensions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Dimensions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 3000180178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Co&amp;mments</source>
+          <target>Co&amp;mmentaires</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Co&amp;mments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 3470782150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Charge &amp;Assignment</source>
+          <target>&amp;Affectation frais annexes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Item Charge &amp;Assignment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 1137230472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order &amp;Promising</source>
+          <target>&amp;Promesse de livraison</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action OrderPromising - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 576768657 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assemble to Order</source>
+          <target>Assembler pour commande</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Assemble to Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 1950264030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assemble-to-Order Lines</source>
+          <target>Lignes Assembler pour commande</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action AssembleToOrderLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 3269837029 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Roll Up &amp;Price</source>
+          <target>&amp;Prix relation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Roll Up &amp;Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 2028552399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Roll Up &amp;Cost</source>
+          <target>&amp;Coûts relation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Roll Up &amp;Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target>F&amp;onctions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 2811724005 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get Price</source>
+          <target>Obtenir le prix</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action GetPrice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 2269973469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get Li&amp;ne Discount</source>
+          <target>Obtenir l'escompte de li&amp;gne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Get Li&amp;ne Discount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 485657195 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E&amp;xplode BOM</source>
+          <target>É&amp;clater nomenclature</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action ExplodeBOM_Functions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 166497642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insert &amp;Ext. Text</source>
+          <target>Insérer te&amp;xte étendu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Insert Ext. Texts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 825293260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Reserve</source>
+          <target>&amp;Réserver</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Reserve - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 1661329771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order &amp;Tracking</source>
+          <target>&amp;Suivi de commande</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action OrderTracking - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 3696516953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nonstoc&amp;k Items</source>
+          <target>Articles &amp;hors stock</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Nonstoc&amp;k Items - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 4051756668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>O&amp;rder</source>
+          <target>&amp;Commande</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action O&amp;rder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 1680165625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dr&amp;op Shipment</source>
+          <target>&amp;Livraison directe</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Dr&amp;op Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 2446493245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase &amp;Order</source>
+          <target>Bon de c&amp;ommande</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Purchase &amp;Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 2668226155 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Speci&amp;al Order</source>
+          <target>Commande spéci&amp;ale</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action Speci&amp;al Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - Action 1716871108 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase &amp;Order</source>
+          <target>Bon de c&amp;ommande</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - Action OpenSpecialPurchaseOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4059005410 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot use the Explode BOM function because a prepayment of the sales order has been invoiced.</source>
+          <target>Vous ne pouvez pas utiliser la fonction Éclater nomenclature car un acompte du document de vente a été facturé.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Invt. Status Change Subpage - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Page 2790259055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment Sheet</source>
+          <target>Feuille de commentaires</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notes for Cancellation Notice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2860871653 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Lines</source>
+          <target>Lignes ventes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Lines Worksheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2860871653 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <target>&amp;Ligne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Lines Worksheet - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2860871653 - Action 1107476520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Document</source>
+          <target>Afficher le document</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Lines Worksheet - Action Show Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2860871653 - Action 3868741142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reservation Entries</source>
+          <target>Écritures réservation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Lines Worksheet - Action Reservation Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2860871653 - Action 1621753147 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item &amp;Tracking Lines</source>
+          <target>&amp;Lignes de traçabilité d'article</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Lines Worksheet - Action Item &amp;Tracking Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item List</source>
+          <target>Liste des articles</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2336152139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Availability</source>
+          <target>Disponibilité</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Availability - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 465220434 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items b&amp;y Location</source>
+          <target>Articles &amp;par emplacement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Items b&amp;y Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1327594867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Item Availability by</source>
+          <target>Disponibilité d'&amp;article par</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action &amp;Item Availability by - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1893945779 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Event</source>
+          <target>Événement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action &lt;Action5&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 912261439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <target>Période</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 112710097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant</source>
+          <target>Variante</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Variant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <target>Emplacement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2882465090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM Level</source>
+          <target>Niveau nomenclature</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action BOM Level - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 38117613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Timeline</source>
+          <target>Chronologie</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Timeline - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 138642376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Master Data</source>
+          <target>Données principales</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Master Data - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1934293742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Units of Measure</source>
+          <target>&amp;Unités de mesure</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action &amp;Units of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 560452558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Va&amp;riants</source>
+          <target>Va&amp;riantes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Va&amp;riants - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2173385693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimensions</source>
+          <target>Dimensions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Dimensions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 937422408 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimensions-Single</source>
+          <target>Dimensions - Simples</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Dimensions-Single - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1990766644 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimensions-&amp;Multiple</source>
+          <target>Dimensions - &amp;Multiples</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Dimensions-&amp;Multiple - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1127181102 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Substituti&amp;ons</source>
+          <target>Articles de su&amp;bstitution</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Substituti&amp;ons - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2248771700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cross Re&amp;ferences</source>
+          <target>Ren&amp;vois</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Cross Re&amp;ferences - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 908108888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E&amp;xtended Text</source>
+          <target>Te&amp;xtes étendus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action E&amp;xtended Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2653012956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Translations</source>
+          <target>Traductions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Translations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1235454278 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Picture</source>
+          <target>&amp;Image</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action &amp;Picture - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3076206668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Identifiers</source>
+          <target>Identificateurs</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Identifiers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3576799342 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly/Production</source>
+          <target>Assemblage/Production</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Assembly/Production - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2369427383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Structure</source>
+          <target>Structure</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Structure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3599785199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Shares</source>
+          <target>Coûts totaux</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Cost Shares - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2515278164 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assemb&amp;ly</source>
+          <target>Assemb&amp;lage</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Assemb&amp;ly - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1031842751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly BOM</source>
+          <target>Nomenclature d'assemblage</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action &lt;Action32&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3114594945 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Where-Used</source>
+          <target>Cas d'emploi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Where-Used - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3540372295 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calc. Stan&amp;dard Cost</source>
+          <target>Calculer coût stan&amp;dard</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Calc. Stan&amp;dard Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1621026876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calc. Unit Price</source>
+          <target>Calculer prix unitaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Calc. Unit Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1065337893 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production</source>
+          <target>Fabrication</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Production - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1211261581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production BOM</source>
+          <target>Nomenclature de production</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Production BOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 72622039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Where-Used</source>
+          <target>Cas d'emploi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Action29 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2454499484 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calc. Stan&amp;dard Cost</source>
+          <target>Calculer coût stan&amp;dard</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Action24 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 4201773078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>History</source>
+          <target>Historique</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action History - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 956727360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E&amp;ntries</source>
+          <target>É&amp;critures</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action E&amp;ntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1111476699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledger E&amp;ntries</source>
+          <target>É&amp;critures comptables</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Ledger E&amp;ntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3647306376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Reservation Entries</source>
+          <target>Écritures &amp;réservation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action &amp;Reservation Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3827382521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Phys. Inventory Ledger Entries</source>
+          <target>Écritures du grand livre de l'inventaire physique</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action &amp;Phys. Inventory Ledger Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2270291913 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Value Entries</source>
+          <target>Écritures &amp;valeur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action &amp;Value Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2170564227 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Warehouse Entries</source>
+          <target>É&amp;critures d'entrepôt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action &amp;Warehouse Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 84074407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statistics</source>
+          <target>Statistiques</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 387093787 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statistics</source>
+          <target>Statistiques</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Action16 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 162786187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Statistics</source>
+          <target>Statistiques écritures</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Entry Statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3764889183 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>T&amp;urnover</source>
+          <target>Ro&amp;ulement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action T&amp;urnover - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3000180178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Co&amp;mments</source>
+          <target>Co&amp;mmentaires</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Co&amp;mments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 655202066 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>S&amp;ales</source>
+          <target>V&amp;entes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action S&amp;ales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1167061642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prices</source>
+          <target>Prix</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Prices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2185526028 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Discounts</source>
+          <target>Ligne Escomptes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Line Discounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1361257300 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepa&amp;yment Percentages</source>
+          <target>Pour&amp;centages paiement anticipé</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Prepa&amp;yment Percentages - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3435539207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Orders</source>
+          <target>Commandes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 4153998688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Returns Orders</source>
+          <target>Retours</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Returns Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 544081834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Purchases</source>
+          <target>&amp;Achats</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action &amp;Purchases - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1911892283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ven&amp;dors</source>
+          <target>&amp;Fournisseurs</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Ven&amp;dors - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3753239016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prices</source>
+          <target>Prix</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Action39 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1335269804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Discounts</source>
+          <target>Ligne Escomptes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Action42 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 13300884 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepa&amp;yment Percentages</source>
+          <target>Pour&amp;centages paiement anticipé</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Action125 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2610663038 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Orders</source>
+          <target>Commandes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Action40 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2778639561 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Orders</source>
+          <target>Retours</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Return Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3696516953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nonstoc&amp;k Items</source>
+          <target>Articles &amp;hors stock</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Nonstoc&amp;k Items - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1484878399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse</source>
+          <target>Entrepôt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Warehouse - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 4285823019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Bin Contents</source>
+          <target>C&amp;ontenu de la zone</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action &amp;Bin Contents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3524452708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stockkeepin&amp;g Units</source>
+          <target>Unités de stoc&amp;k</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Stockkeepin&amp;g Units - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2187938695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service</source>
+          <target>Service</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3743510551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ser&amp;vice Items</source>
+          <target>&amp;Articles de service</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Ser&amp;vice Items - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2374845420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Troubleshooting</source>
+          <target>Dépannage</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Troubleshooting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2867160721 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Troubleshooting Setup</source>
+          <target>Configuration dépannage</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Troubleshooting Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3504687331 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resources</source>
+          <target>Ressources</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Resources - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3510195800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>R&amp;esource</source>
+          <target>Re&amp;ssource</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action R&amp;esource - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 4195668082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource &amp;Skills</source>
+          <target>&amp;Compétences de la ressource</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Resource &amp;Skills - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 635594185 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skilled R&amp;esources</source>
+          <target>&amp;Ressources compétentes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Skilled R&amp;esources - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target>F&amp;onctions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1106185521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Create Stockkeeping Unit</source>
+          <target>&amp;Créer unité de stock</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action &amp;Create Stockkeeping Unit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2396359224 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>C&amp;alculate Counting Period</source>
+          <target>C&amp;alculer période d'inventaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action C&amp;alculate Counting Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 352260082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Prices</source>
+          <target>Prix de vente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Sales Prices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 311504068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Line Discounts</source>
+          <target>Escomptes de ligne de vente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Sales Line Discounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2896033718 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requisition Worksheet</source>
+          <target>Feuille de réquisition</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Requisition Worksheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3940806096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journal</source>
+          <target>Journal article</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Item Journal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1109308239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Reclassification Journal</source>
+          <target>Journal de reclassements d'articles</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Item Reclassification Journal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 4087909443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Tracing</source>
+          <target>Repérage d'article</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Item Tracing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 54835715 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adjust Item Cost/Price</source>
+          <target>Ajuster coût et prix article</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Adjust Item Cost/Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3094448912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adjust Cost - Item Entries</source>
+          <target>Articles - Ajuster les coûts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Adjust Cost - Item Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 359861775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory - List</source>
+          <target>Inventaire - Liste</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory - List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1880227855 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item/Vendor Catalog</source>
+          <target>Catalogue article/fournisseur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Item/Vendor Catalog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3253409176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phys. Inventory List</source>
+          <target>Liste de l'inventaire physique</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Phys. Inventory List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1176349481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price List</source>
+          <target>Liste de prix</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Price List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 4158090559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Cost and Price List</source>
+          <target>Coût de l'inventaire et liste de prix</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory Cost and Price List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2683832369 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory - Top 10 List</source>
+          <target>Inventaire - Liste des 10 meilleurs</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory - Top 10 List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1085471037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Where-Used (Top Level)</source>
+          <target>Cas d'emploi (échelon le plus élevé)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Where-Used (Top Level) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2848065425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity Explosion of BOM</source>
+          <target>Explosion de la quantité de nomenclature</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Quantity Explosion of BOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 434249775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compare List</source>
+          <target>Liste de comparaison</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Compare List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2784129654 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Register - Quantity</source>
+          <target>Registre d'articles - Quantité</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Item Register - Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2478537982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory - Transaction Detail</source>
+          <target>Inventaire - Détail de transaction</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory - Transaction Detail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 322208840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Back Order Fill by Item</source>
+          <target>Commande en retard par article</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Back Order Fill by Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1941435189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issue History</source>
+          <target>Émettre l'historique</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Issue History - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3976776903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picking List by Item</source>
+          <target>Bon de cueillette par article</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Picking List by Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2410416993 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advice</source>
+          <target>Avis d'achat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Purchase Advice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3556324406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Order Status</source>
+          <target>État du document de vente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Sales Order Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1198997472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Purchase Orders</source>
+          <target>Bons de commande d'inventaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory Purchase Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1389888702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory - Sales Statistics</source>
+          <target>Inventaire - Statistiques de ventes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory - Sales Statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 598141710 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assemble to Order - Sales</source>
+          <target>Assembler pour commande - Ventes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Assemble to Order - Sales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2893605781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory - Customer Sales</source>
+          <target>Inventaire - Ventes client</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory - Customer Sales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1822841853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory - Vendor Purchases</source>
+          <target>Inventaire - Achats fournisseur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory - Vendor Purchases - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3983795751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory - Reorders</source>
+          <target>Inventaire - Réapprovisionnement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory - Reorders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 315029323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory - Sales Back Orders</source>
+          <target>Inventaire - Commandes en retard</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory - Sales Back Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1070215966 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nonstock Item Sales</source>
+          <target>Ventes d'articles hors stock</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Nonstock Item Sales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1874917531 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory - Cost Variance</source>
+          <target>Inventaire : Évolution des coûts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory - Cost Variance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1818270507 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Valuation</source>
+          <target>Évaluation de l'inventaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory Valuation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 696019919 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invt. Valuation - Cost Spec.</source>
+          <target>Évaluation des stocks - Spécification coût</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Invt. Valuation - Cost Spec. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1252771262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Valuation - WIP</source>
+          <target>Évaluation de l'inventaire d'en-cours</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory Valuation - WIP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 4096990406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Register - Value</source>
+          <target>Registre d'article - Valeur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Item Register - Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 714056616 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Charges - Specification</source>
+          <target>Frais annexes - Spécification</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Item Charges - Specification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 18802971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Age Composition - Qty.</source>
+          <target>Ancienneté d'article - Qté</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Item Age Composition - Qty. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3163183628 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Age Composition - Value</source>
+          <target>Ancienneté d'article - Valeur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Item Age Composition - Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 4293722860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Expiration - Quantity</source>
+          <target>Expiration d'article - Quantité</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Item Expiration - Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1813101220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Shares Breakdown</source>
+          <target>Ventilation des partages de coûts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Cost Shares Breakdown - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1336040859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Detailed Calculation</source>
+          <target>Calcul détaillé</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Detailed Calculation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 4259720451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rolled-up Cost Shares</source>
+          <target>Coût actions d'ensemble</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Rolled-up Cost Shares - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 1694229536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Single-Level Cost Shares</source>
+          <target>Coût actions à niveau unique</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Single-Level Cost Shares - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 972259749 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory to G/L Reconcile</source>
+          <target>Rapprocher inventaire avec GL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory to G/L Reconcile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 4077995341 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Availability</source>
+          <target>Disponibilité de l'inventaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Inventory Availability - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 3907968000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Availability Projection</source>
+          <target>Prévision de la disponibilité</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Availability Projection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 12354155 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Charges - Specification</source>
+          <target>Frais annexes - Spécification</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Action1908000106 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1696202501 - Action 2177859426 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Turnover</source>
+          <target>Rotation d'articles</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp - Item List Omit Non-Sale - Action Item Turnover - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2204137076 - Control 1225278069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No</source>
+          <target>N° client (débiteur)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Open Order List - Control Sell-to Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2204137076 - Control 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order No</source>
+          <target>N° de document</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Open Order List - Control Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2204137076 - Control 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target>Date de report</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Open Order List - Control Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2204137076 - Control 4112852368 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requested Ship Date</source>
+          <target>Date de livraison</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Open Order List - Control Shipment Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2204137076 - Control 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No</source>
+          <target>N°</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Open Order List - Control No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2204137076 - Control 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty Ordered</source>
+          <target>Quantité</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Open Order List - Control Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2204137076 - Control 184790795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty Outstanding</source>
+          <target>Quantité en suspens</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Open Order List - Control Outstanding Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2204137076 - Control 553464652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Person</source>
+          <target>Code représentant</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Open Order List - Control Salesperson Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2204137076 - Control 936397875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wt In Grms</source>
+          <target>Poids brut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Open Order List - Control gdWtGms - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Control 63266223 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>Général</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Control Control2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 3035192297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Availability by</source>
+          <target>Disponibilité d'article par</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Item Availability by - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 3310733264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Event</source>
+          <target>Événement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Event - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 912261439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <target>Période</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 112710097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant</source>
+          <target>Variante</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Variant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <target>Emplacement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 2882465090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM Level</source>
+          <target>Niveau nomenclature</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action BOM Level - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>Général</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 871244238 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Co&amp;mments</source>
+          <target>Co&amp;mmentaires</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action &lt;Page Rupp Comment Sheet&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 4201773078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>History</source>
+          <target>Historique</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action History - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 2571907030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entries</source>
+          <target>Écritures</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 3595318222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Ledger Entries</source>
+          <target>Écritures du grand livre d'articles</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Item Ledger Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 3841429197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Capacity Ledger Entries</source>
+          <target>Écritures du grand livre de capacité</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Capacity Ledger Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 997740791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource Ledger Entries</source>
+          <target>Écritures ressource</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Resource Ledger Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 2513602899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value Entries</source>
+          <target>Écritures valeur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Value Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 3183467001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Entries</source>
+          <target>Écritures d'entrepôt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Warehouse Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 1280852974 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Assembly Orders</source>
+          <target>Ordres d'assemblage reportés</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Posted Assembly Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 4032263875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Release</source>
+          <target>Libérer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Release - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 2667510389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finish</source>
+          <target>&amp;Libérer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Finish - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 530829447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Re&amp;open</source>
+          <target>Ré&amp;ouvrir</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Re&amp;open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target>Fonction&amp;s</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 2179944918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Availability</source>
+          <target>Afficher disponibilité</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action ShowAvailability - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 4052351936 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Unit Cost</source>
+          <target>Mettre à jour coût unitaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Update Unit Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 2938369596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh Lines</source>
+          <target>Actualiser lignes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Refresh Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 59861814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy Document</source>
+          <target>Copier document</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Copy Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 2245087378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>P&amp;osting</source>
+          <target>&amp;Report</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action P&amp;osting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 4236135242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>P&amp;ost</source>
+          <target>&amp;Reporter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action P&amp;ost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 732253414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post &amp;Batch</source>
+          <target>Reporter &amp;lot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Post &amp;Batch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 1002420131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <target>Imprimer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Print - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4156029073 - Action 146219450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order</source>
+          <target>Commande</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order - Action Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <target>&amp;Ligne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 3035192297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Availability by</source>
+          <target>Disponibilité d'article par</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action Item Availability by - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 3310733264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Event</source>
+          <target>Événement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action Event - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 912261439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <target>Période</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 112710097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant</source>
+          <target>Variante</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action Variant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <target>Emplacement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 2882465090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM Level</source>
+          <target>Niveau nomenclature</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action BOM Level - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 3868741142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reservation Entries</source>
+          <target>Écritures réservation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action Reservation Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 4023405129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item &amp;Tracking Lines</source>
+          <target>&amp;Lignes de traçabilité d'article</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action Item Tracking Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 3330051323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Warning</source>
+          <target>Afficher avertissement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action Show Warning - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 2173385693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimensions</source>
+          <target>Dimensions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action Dimensions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 3000180178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Co&amp;mments</source>
+          <target>Co&amp;mmentaires</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action Co&amp;mments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 2167191298 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly BOM</source>
+          <target>Nomenclature d'assemblage</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action AssemblyBOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target>Fonction&amp;s</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 3506855390 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Item Substitution</source>
+          <target>Sélectionner la substitution d'article</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action SelectItemSubstitution - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 1032360289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E&amp;xplode BOM</source>
+          <target>É&amp;clater nomenclature</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action ExplodeBOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 2018581010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Reserve</source>
+          <target>&amp;Réserver</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action &amp;Reserve - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4212803762 - Action 1673074985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order &amp;Tracking</source>
+          <target>&amp;Suivi de commande</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Produced - Action Order &amp;Tracking - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <target>&amp;Ligne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 3035192297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Availability by</source>
+          <target>Disponibilité d'article par</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action Item Availability by - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 3310733264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Event</source>
+          <target>Événement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action Event - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 912261439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <target>Période</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 112710097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant</source>
+          <target>Variante</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action Variant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <target>Emplacement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 2882465090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM Level</source>
+          <target>Niveau nomenclature</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action BOM Level - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 3868741142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reservation Entries</source>
+          <target>Écritures réservation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action Reservation Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 4023405129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item &amp;Tracking Lines</source>
+          <target>&amp;Lignes de traçabilité d'article</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action Item Tracking Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 3330051323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Warning</source>
+          <target>Afficher avertissement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action Show Warning - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 2173385693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimensions</source>
+          <target>Dimensions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action Dimensions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 3000180178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Co&amp;mments</source>
+          <target>Co&amp;mmentaires</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action Co&amp;mments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 2167191298 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly BOM</source>
+          <target>Nomenclature d'assemblage</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action AssemblyBOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target>Fonction&amp;s</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 3506855390 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Item Substitution</source>
+          <target>Sélectionner la substitution d'article</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action SelectItemSubstitution - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 1032360289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E&amp;xplode BOM</source>
+          <target>É&amp;clater nomenclature</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action ExplodeBOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 2018581010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Reserve</source>
+          <target>&amp;Réserver</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action &amp;Reserve - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2638696516 - Action 1673074985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order &amp;Tracking</source>
+          <target>&amp;Suivi de commande</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Order Subform - Consumed - Action Order &amp;Tracking - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Control 3752523554 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RecordLinks</source>
+          <target>RecordLinks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Control RecordLinks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 1735507514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line</source>
+          <target>Ligne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 2571907030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entries</source>
+          <target>Écritures</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 3595318222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Ledger E&amp;ntries</source>
+          <target>Écritures du gra&amp;nd livre d'articles</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action Item Ledger Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 3841429197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Capacity Ledger Entries</source>
+          <target>Écritures du grand livre de capacité</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action Capacity Ledger Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 997740791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource Ledger Entries</source>
+          <target>Écritures ressource</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action Resource Ledger Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 2513602899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value Entries</source>
+          <target>Écritures valeur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action Value Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 3183467001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Warehouse Entries</source>
+          <target>É&amp;critures d'entrepôt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action Warehouse Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 2776961255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Order</source>
+          <target>Afficher commande</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action Show Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 503024588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Co&amp;mments</source>
+          <target>Co&amp;mmentaires</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action Comments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target>Fonction&amp;s</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 483158641 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Re&amp;lease</source>
+          <target>&amp;Libérer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action Re&amp;lease - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 530829447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Re&amp;open</source>
+          <target>Ré&amp;ouvrir</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action Re&amp;open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 2245087378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>P&amp;osting</source>
+          <target>&amp;Report</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action P&amp;osting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 4236135242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>P&amp;ost</source>
+          <target>&amp;Reporter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action P&amp;ost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 732253414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post &amp;Batch</source>
+          <target>Reporter &amp;lot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action Post &amp;Batch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 1002420131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <target>Imprimer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action Print - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2664582728 - Action 146219450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order</source>
+          <target>Commande</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Work Orders - Action Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2184042621 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment Sheet</source>
+          <target>Feuille de commentaires</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Comment Sheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3014924552 - Control 318613646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target>Détails</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Item Discount Calculator - Control Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3014924552 - Control 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <target>N°</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Item Discount Calculator - Control No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3014924552 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Description</source>
+          <target>Description</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Item Discount Calculator - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3014924552 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target>Fonction&amp;s</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Item Discount Calculator - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3014924552 - Action 1592581304 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate</source>
+          <target>Actualiser lignes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Item Discount Calculator - Action Calculate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Session List</source>
+          <target>Liste des sessions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,Session,SQL Trace,Events</source>
+          <target>Nouveau,Traitement,Rapport,Session,Trace SQL,Événements</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 591262642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Session ID</source>
+          <target>Code session</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control SessionIdText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 591262642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the session in the list.</source>
+          <target>Spécifie la session dans la liste.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control SessionIdText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <target>Code utilisateur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the user name of the user who is logged on to the active session.</source>
+          <target>Spécifie le nom d'utilisateur de l'utilisateur qui est connecté à la session active.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 3725197100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SQL Tracing</source>
+          <target>Traçage SQL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control IsSQLTracing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 3725197100 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if SQL tracing is enabled.</source>
+          <target>Indique si le traçage SQL est activé.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control IsSQLTracing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 1212258331 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client Type</source>
+          <target>Type de client</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control Client Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 1212258331 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the client type on which the session event occurred, such as Web Service and Client Service . </source>
+          <target>Spécifie le type de client sur lequel l'événement de session s'est produit, par exemple le Service Web et le Service Client. </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control Client Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 3195452294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Login Date</source>
+          <target>Date connexion</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control Login Datetime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 3195452294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date and time that the session started on the Dynamics NAV Server instance.</source>
+          <target>Spécifie la date et l'heure auxquelles la session a démarré sur l'instance Dynamics NAV Server.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control Login Datetime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 3935890327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Server Computer Name</source>
+          <target>Nom du serveur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control Server Computer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 3935890327 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the fully qualified domain name (FQDN) of the computer on which the Dynamics NAV Server instance runs.</source>
+          <target>Spécifie le nom de domaine complet (FQDN) de l'ordinateur sur lequel l'instance Dynamics NAV Server est exécutée.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control Server Computer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 1960287909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Server Instance Name</source>
+          <target>Nom d'instance de serveur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control Server Instance Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 1960287909 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the Dynamics NAV Server instance to which the session is connected. The server instance name comes from the Session Event table.</source>
+          <target>Spécifie le nom de l'instance Dynamics NAV Server à laquelle la session est connectée. Le nom de l'instance de serveur provient de la table Événement de session.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control Server Instance Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 178877184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debugging</source>
+          <target>Débogage</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control IsDebugging - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 178877184 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies sessions that are being debugged.</source>
+          <target>Spécifie les sessions en cours de débogage.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control IsDebugging - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 2311136359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debugged</source>
+          <target>Débogué</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control IsDebugged - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Control 2311136359 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies debugged sessions.</source>
+          <target>Spécifie les sessions déboguées.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Control IsDebugged - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Action 381004922 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Session</source>
+          <target>Session</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Action Session - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Action 1074617178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debug</source>
+          <target>Déboguer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Action Debug Selected Session - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Action 1074617178 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debug the selected session</source>
+          <target>Déboguez la session sélectionnée.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Action Debug Selected Session - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Action 1667593996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debug Next</source>
+          <target>Déboguer suivant</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Action Debug Next Session - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Action 1667593996 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debug the next session that breaks code execution.</source>
+          <target>Déboguez la session suivante qui interrompt l'exécution du code.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Action Debug Next Session - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Action 3022701881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SQL Trace</source>
+          <target>Trace SQL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Action SQL Trace - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Action 2406922915 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Full SQL Tracing</source>
+          <target>Démarrer traçage SQL complet</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Action Start Full SQL Tracing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Action 2406922915 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start SQL tracing.</source>
+          <target>Démarrez le traçage SQL.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Action Start Full SQL Tracing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Action 3655055107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop Full SQL Tracing</source>
+          <target>Arrêter traçage SQL complet</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Action Stop Full SQL Tracing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Action 3655055107 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop the current SQL tracing.</source>
+          <target>Arrêtez le traçage SQL en cours.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Action Stop Full SQL Tracing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Action 3310733264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Event</source>
+          <target>Événement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Action Event - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Action 2332345844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subscriptions</source>
+          <target>Abonnements</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Action Subscriptions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3751014469 - Action 2332345844 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show event subscriptions.</source>
+          <target>Affichez les abonnements aux évènements.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rupp Session List - Action Subscriptions - Property ToolTip</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

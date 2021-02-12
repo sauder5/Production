@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fr-CA" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 3489653344 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The warehouse shipment was not created because an open warehouse shipment exists for the Sales Header and Shipping Advice is %1.\\You must add the item(s) as new line(s) to the existing warehouse shipment or change Shipping Advice to Partial.</source>
+          <target>La livraison entrepôt n'a pas été créée car une livraison entrepôt ouverte existe pour l'en-tête vente et l'option de livraison est %1.\\Vous devez ajouter les articles comme nouvelles lignes à la livraison entrepôt existante ou modifier l'option de livraison en la définissant sur Partielle.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Rupp Warehouse Mgt - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3489653344 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No %1 was found. The warehouse shipment could not be created.</source>
+          <target>Aucun %1 n'a été trouvé. Impossible de créer la livraison entrepôt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Rupp Warehouse Mgt - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3489653344 - NamedType 1026443335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nothing to handle.</source>
+          <target>Il n'y a rien à traiter.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Rupp Warehouse Mgt - NamedType Text011</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 375742324 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For sercurity reasons data cleaning can only be performed\with a NSC 004/006 license.</source>
+          <target>Pour des raisons de sécurité, le nettoyage des données ne peut être effectué\qu'avec une licence NSC 004/006.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Data Cleaning -OnlyTransaction - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 375742324 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current process @1@@@@@@@@@@@@@@@\</source>
+          <target>Traitement en cours @1@@@@@@@@@@@@@@@\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Data Cleaning -OnlyTransaction - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 375742324 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current status  #2###################</source>
+          <target>Statut actuel       #2###################</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Data Cleaning -OnlyTransaction - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 375742324 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table No.</source>
+          <target>N° de la table</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Data Cleaning -OnlyTransaction - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 838905058 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For sercurity reasons data cleaning can only be performed\with a NSC 004/006 license.</source>
+          <target>Pour des raisons de sécurité, le nettoyage des données ne peut être effectué\qu'avec une licence NSC 004/006.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Data Cleaning -MastersAndTrans - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 838905058 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current process @1@@@@@@@@@@@@@@@\</source>
+          <target>Traitement en cours @1@@@@@@@@@@@@@@@\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Data Cleaning -MastersAndTrans - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 838905058 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current status  #2###################</source>
+          <target>Statut actuel       #2###################</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Data Cleaning -MastersAndTrans - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 838905058 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table No.</source>
+          <target>N° de la table</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Data Cleaning -MastersAndTrans - NamedType Text004</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

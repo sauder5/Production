@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-CA" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1137027125 - Field 1861213814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global Dimension 1 Filter</source>
+          <target>Global Dimension 1 Filter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field Global Dimension 1 Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137027125 - Field 588326355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global Dimension 2 Filter</source>
+          <target>Global Dimension 2 Filter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field Global Dimension 2 Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137027125 - Field 4277715959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Filter</source>
+          <target>Location Filter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field Location Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137027125 - Field 1970403988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lot No. Filter</source>
+          <target>Lot No. Filter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field Lot No. Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137027125 - Field 1973853953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial No. Filter</source>
+          <target>Serial No. Filter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field Serial No. Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137027125 - Field 2037375551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Posting Group</source>
+          <target>Inventory Posting Group</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field Inventory Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137027125 - Field 2139693550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gen. Prod. Posting Group</source>
+          <target>Gen. Prod. Posting Group</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field Gen. Prod. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137027125 - Field 1037119892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Category Code</source>
+          <target>Item Category Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field Item Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137027125 - Field 231643163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Group Code</source>
+          <target>Product Group Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field Product Group Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137027125 - Field 2552458873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Group Code</source>
+          <target>Tax Group Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field Tax Group Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137027125 - Field 1303377601 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global Dimension 1 Code</source>
+          <target>Global Dimension 1 Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field Global Dimension 1 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137027125 - Field 1337243520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global Dimension 2 Code</source>
+          <target>Global Dimension 2 Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field Global Dimension 2 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137027125 - Field 236064653 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Prod. Posting Group</source>
+          <target>Tax Prod. Posting Group</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field VAT Prod. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137027125 - Field 2165769856 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Costing Method</source>
+          <target>Costing Method</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field Costing Method - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137027125 - Field 2165769856 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIFO,LIFO,Specific,Average,Standard</source>
+          <target>FIFO,LIFO,Specific,Average,Standard</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Product - Field Costing Method - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target>Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - Field 966287263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name 2</source>
+          <target>Name 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - Field Name 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - Field 3168444338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address</source>
+          <target>Address</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - Field Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - Field 2306852000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address 2</source>
+          <target>Address 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - Field Address 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - Field 714791889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>City</source>
+          <target>City</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - Field City - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - Field 3986423421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No.</source>
+          <target>Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - Field Phone No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - Field 395248923 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No. 2</source>
+          <target>Phone No. 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - Field Phone No. 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - Field 2018866145 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Telex No.</source>
+          <target>Telex No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - Field Telex No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - Field 1807381932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fax No.</source>
+          <target>Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - Field Fax No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - Field 3993128796 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <target>Contact</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - Field Contact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - Field 3660300303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ZIP Code</source>
+          <target>Postal/ZIP Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - Field Post Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - Field 499448942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>State</source>
+          <target>Province/State</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - Field County - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - Field 284764054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <target>Country/Region Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - Field Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot delete the %1 %2, because they contain items.</source>
+          <target>You cannot delete the %1 %2, because they contain items.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot delete the %1 %2, because one or more Warehouse Activity Lines exist for this %1.</source>
+          <target>You cannot delete the %1 %2, because one or more Warehouse Activity Lines exist for this %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be Yes, because the bins contain items.</source>
+          <target>%1 must be Yes, because the bins contain items.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Canceled.</source>
+          <target>Cancelled.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The total quantity of items in the warehouse is 0, but the Adjustment Bin contains a negative quantity and other bins contain a positive quantity.\</source>
+          <target>The total quantity of items in the warehouse is 0, but the Adjustment Bin contains a negative quantity and other bins contain a positive quantity.\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you still want to delete this %1?</source>
+          <target>Do you still want to delete this %1?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot change the %1 until the inventory stored in %2 %3 is 0.</source>
+          <target>You cannot change the %1 until the inventory stored in %2 %3 is 0.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 2645849790" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have to delete all Adjustment Warehouse Journal Lines first before you can change the %1.</source>
+          <target>You have to delete all Adjustment Warehouse Journal Lines first before you can change the %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text007</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be %2, because one or more %3 exist.</source>
+          <target>%1 must be %2, because one or more %3 exist.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text008</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 3921243024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot change %1 because there are one or more open ledger entries on this location.</source>
+          <target>You cannot change %1 because there are one or more open ledger entries on this location.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text009</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Checking item ledger entries for open entries...</source>
+          <target>Checking item ledger entries for open entries...</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text010</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 1026443335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot change the %1 to %2 until the inventory stored in this bin is 0.</source>
+          <target>You cannot change the %1 to %2 until the inventory stored in this bin is 0.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text011</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 2939533186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Before you can use Online Map, you must fill in the Online Map Setup window.\See Setting Up Online Map in Help.</source>
+          <target>Before you can use Online Map, you must fill in the Online Map Setup window.\See Setting Up Online Map in Help.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text012</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 2301836569" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot delete %1 because there are one or more ledger entries on this location.</source>
+          <target>You cannot delete %1 because there are one or more ledger entries on this location.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text013</note>
+        </trans-unit>
+        <trans-unit id="Table 3050087373 - NamedType 4214926420" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot change %1 because one or more %2 exist.</source>
+          <target>You cannot change %1 because one or more %2 exist.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Location Address - NamedType Text014</note>
+        </trans-unit>
+        <trans-unit id="Table 1004390082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reason Code</source>
+          <target>Reason Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rupp Reason Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1004390082 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rupp Reason Code - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1004390082 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rupp Reason Code - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 214948135 - Field 4152805219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Código</source>
+          <target>Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Item Creation Pkg Size - Field Lowest UOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 214948135 - Field 332278462 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Código</source>
+          <target>Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Item Creation Pkg Size - Field Common UOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 950670484 - Field 1332305997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bal. Account No.</source>
+          <target>Bal. Account No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rupp Setup - Field Check-off Bal. Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 950670484 - Field 1906384412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Payment Type</source>
+          <target>Bank Payment Type</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rupp Setup - Field Check-off Bank Payment Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 950670484 - Field 1906384412 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Computer Check,Manual Check,Electronic Payment,Electronic Payment-IAT</source>
+          <target> ,Computer Check,Manual Check,Electronic Payment,Electronic Payment-IAT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rupp Setup - Field Check-off Bank Payment Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 950670484 - Field 3102776538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rupp Setup - Field Premium/ Discount No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 907207146 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot rename a %1.</source>
+          <target>You cannot rename a %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purchase Contract Header - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Table 2782585457 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot rename a %1.</source>
+          <target>You cannot rename a %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purchase Contract Line - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Table 1841943581 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot rename a %1.</source>
+          <target>You cannot rename a %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Receipt Header - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Table 742160374 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot rename a %1.</source>
+          <target>You cannot rename a %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Receipt Line - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Table 3643489846 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <target>Comment</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rupp Comment Line - Field Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3643489846 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target>Date</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rupp Comment Line - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3643489846 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rupp Comment Line - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 47657272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Description 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Description 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 1407200743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creation Date</source>
+          <target>Creation Date</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Creation Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 2393253273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Date Modified</source>
+          <target>Last Date Modified</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Last Date Modified - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <target>Item No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Variant Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 2037375551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Posting Group</source>
+          <target>Inventory Posting Group</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Inventory Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 2139693550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gen. Prod. Posting Group</source>
+          <target>Gen. Prod. Posting Group</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Gen. Prod. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Location Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Posting Date</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 4085727052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <target>Due Date</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Due Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 460889064 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Starting Date</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Starting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 458406397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Ending Date</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Ending Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 2814799924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Code</source>
+          <target>Bin Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Bin Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Quantity</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 3179217921 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity (Base)</source>
+          <target>Quantity (Base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Quantity (Base) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 2367056265 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Quantity</source>
+          <target>Remaining Quantity</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Remaining Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 678654269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Quantity (Base)</source>
+          <target>Remaining Quantity (Base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Remaining Quantity (Base) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 262600583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembled Quantity</source>
+          <target>Assembled Quantity</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Assembled Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 2398111499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembled Quantity (Base)</source>
+          <target>Assembled Quantity (Base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Assembled Quantity (Base) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 551266934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity to Assemble</source>
+          <target>Quantity to Assemble</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Quantity to Assemble - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 4165460906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity to Assemble (Base)</source>
+          <target>Quantity to Assemble (Base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Quantity to Assemble (Base) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 2385270358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <target>Unit of Measure Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Unit of Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 806193894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. per Unit of Measure</source>
+          <target>Qty. per Unit of Measure</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Qty. per Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target>Status</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 513339096 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open,Finished</source>
+          <target>Open,Released</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - Field 1482668068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lot No.</source>
+          <target>Lot No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - Field Lot No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 cannot be created, because it already exists or has been posted.</source>
+          <target>%1 %2 cannot be created, because it already exists or has been posted.</target>
+          <note from="Developer" annotates="general" priority="2">, Comment='%1 = Document Type, %2 = No.'</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cannot be lower than the %2, which is %3.</source>
+          <target>%1 cannot be lower than the %2, which is %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cannot be higher than the %2, which is %3.</source>
+          <target>%1 cannot be higher than the %2, which is %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Changing %1 or %2 is not allowed when %3 is %4.</source>
+          <target>Changing %1 or %2 is not allowed when %3 is %4.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - NamedType 2645849790" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nothing to handle.</source>
+          <target>Nothing to handle.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - NamedType Text007</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item tracking is defined for one or more lines on assembly %1 %2. Do you want to delete the %1 anyway?</source>
+          <target>Item tracking is defined for one or more lines on assembly %1 %2. Do you want to delete the %1 anyway?</target>
+          <note from="Developer" annotates="general" priority="2">, Comment='%1 = Document Type, %2 = No.'</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - NamedType Text008</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - NamedType 3921243024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot rename an %1.</source>
+          <target>You cannot rename an %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - NamedType Text009</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have modified %1.</source>
+          <target>You have modified %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - NamedType Text010</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - NamedType 1026443335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>the %1 from %2 to %3</source>
+          <target>the %1 from %2 to %3</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - NamedType Text011</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - NamedType 2939533186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2</source>
+          <target>%1 %2</target>
+          <note from="Developer" annotates="general" priority="2">, Comment='By design, translate as %1 %2'</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - NamedType Text012</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - NamedType 2301836569" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to update %1?</source>
+          <target>Do you want to update %1?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - NamedType Text013</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - NamedType 4214926420" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 and %2</source>
+          <target>%1 and %2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - NamedType Text014</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - NamedType 3577229803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 is before %3 %4.</source>
+          <target>%1 %2 is before %3 %4.</target>
+          <note from="Developer" annotates="general" priority="2">, Comment='%1 and %3 = Date Captions, %2 and %4 = Date Values'</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - NamedType Text015</note>
+        </trans-unit>
+        <trans-unit id="Table 1659610789 - NamedType 182677577" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date on Assembly Order %1 must not be later than the Posting Date on Sales Order %2.</source>
+          <target>Posting Date on Assembly Order %1 must not be later than the Posting Date on Sales Order %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Produced Item - NamedType PostingDateLaterErr</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Line No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target>Type</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 1878130204 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Item,Resource</source>
+          <target> ,Item,Resource</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Variant Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 47657272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Description 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Description 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 2611207985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource Usage Type</source>
+          <target>Resource Usage Type</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Resource Usage Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 2611207985 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Direct,Fixed</source>
+          <target> ,Direct,Fixed</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Resource Usage Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Location Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 2814799924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Code</source>
+          <target>Bin Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Bin Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Quantity</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 3179217921 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity (Base)</source>
+          <target>Quantity (Base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Quantity (Base) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 2367056265 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Quantity</source>
+          <target>Remaining Quantity</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Remaining Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 678654269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Quantity (Base)</source>
+          <target>Remaining Quantity (Base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Remaining Quantity (Base) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 4253872189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumed Quantity</source>
+          <target>Consumed Quantity</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Consumed Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 3155035433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumed Quantity (Base)</source>
+          <target>Consumed Quantity (Base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Consumed Quantity (Base) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 1196134352 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity to Consume</source>
+          <target>Quantity to Consume</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Quantity to Consume - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 3079674236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity to Consume (Base)</source>
+          <target>Quantity to Consume (Base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Quantity to Consume (Base) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 2590598785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Avail. Warning</source>
+          <target>Avail. Warning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Avail. Warning - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 4282391146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Substitution Available</source>
+          <target>Substitution Available</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Substitution Available - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 4085727052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <target>Due Date</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Due Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 3196119024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity per</source>
+          <target>Quantity per</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Quantity per - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 806193894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. per Unit of Measure</source>
+          <target>Qty. per Unit of Measure</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Qty. per Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 2385270358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <target>Unit of Measure Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Unit of Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target>Status</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 513339096 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open,Finished</source>
+          <target>Open,Released</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 3610108984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Quantity</source>
+          <target>Remaining Quantity</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Qty. in Lowest UOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 1230551717 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity to Consume</source>
+          <target>Quantity to Consume</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Qty. to Consume in Lowest UOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 292203952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumed Quantity</source>
+          <target>Consumed Quantity</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Consumed Qty. in Lowest UOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 3012603652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Quantity</source>
+          <target>Remaining Quantity</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Remaining Qty. in Lowest UOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 3504595041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Quantity</source>
+          <target>Remaining Quantity</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Qty. in Common UOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 3351847676 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity to Consume</source>
+          <target>Quantity to Consume</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Qty. to Consume in Common UOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 4019429225 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumed Quantity</source>
+          <target>Consumed Quantity</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Consumed Qty. in Common UOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 679612573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Quantity</source>
+          <target>Remaining Quantity</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Remaining Qty. in Common UOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - Field 1482668068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lot No.</source>
+          <target>Lot No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - Field Lot No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatic reservation is not possible.\Do you want to reserve items manually?</source>
+          <target>Automatic reservation is not possible.\Do you want to reserve items manually?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot rename an %1.</source>
+          <target>You cannot rename an %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cannot be higher than the %2, which is %3.</source>
+          <target>%1 cannot be higher than the %2, which is %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - NamedType 3384974482" size-unit="char" translate="yes" xml:space="preserve">
+          <source>must be positive</source>
+          <target>must be positive</target>
+          <note from="Developer" annotates="general" priority="2">, Comment='starts with "Quantity"'</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - NamedType Text029</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - NamedType 2679796917" size-unit="char" translate="yes" xml:space="preserve">
+          <source>When posting the Applied to Ledger Entry, %1 will be opened first.</source>
+          <target>When posting the Applied to Ledger Entry, %1 will be opened first.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - NamedType Text042</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - NamedType 1409433913" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot change %1 when %2 is '%3'.</source>
+          <target>You cannot change %1 when %2 is '%3'.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - NamedType Text99000002</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - NamedType 2848705940" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cannot be later than %2 because the %3 is set to %4.</source>
+          <target>%1 cannot be later than %2 because the %3 is set to %4.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - NamedType Text049</note>
+        </trans-unit>
+        <trans-unit id="Table 203151679 - NamedType 612391220" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date %1 is before work date %2.</source>
+          <target>Due Date %1 is before work date %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Consumed Item - NamedType Text050</note>
+        </trans-unit>
+        <trans-unit id="Table 2088635342 - Field 1482668068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lot No.</source>
+          <target>Lot No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Geographical Restriction - Field Lot No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 1893238986 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nº</source>
+          <target>No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Pick No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 2947543684 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nº línea</source>
+          <target>Line No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Pick Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <target>Source Type</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 205345179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Subtype</source>
+          <target>Source Subtype</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Source Subtype - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 205345179 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>0,1,2,3,4,5,6,7,8,9,10</source>
+          <target>0,1,2,3,4,5,6,7,8,9,10</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Source Subtype - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 1882905478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <target>Source No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Source No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 312545736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Line No.</source>
+          <target>Source Line No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Source Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 1043593140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Subline No.</source>
+          <target>Source Subline No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Source Subline No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 1045917230 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Document</source>
+          <target>Source Document</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Source Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 1045917230 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Sales Order,,,Sales Return Order,Purchase Order,,,Purchase Return Order,Inbound Transfer,Outbound Transfer,Prod. Consumption,Prod. Output,,,,,,Service Order,,Assembly Consumption,Assembly Order</source>
+          <target> ,Sales Order,,,Sales Return Order,Purchase Order,,,Purchase Return Order,Inbound Transfer,Outbound Transfer,Prod. Consumption,Prod. Output,,,,,,Service Order,,Assembly Consumption,Assembly Order</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Source Document - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <target>Item No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Variant Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 2385270358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <target>Unit of Measure Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Unit of Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 806193894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. per Unit of Measure</source>
+          <target>Qty. per Unit of Measure</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Qty. per Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2436114305 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Quantity</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Order Line Seed Worksheet Line - Field Quantity - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
