@@ -1,4 +1,4 @@
-pageextension 60004 PaymentTermsExt extends "Payment Terms"
+pageextension 60004 PaymentTermsPageExt extends "Payment Terms"
 {
     layout
     {
