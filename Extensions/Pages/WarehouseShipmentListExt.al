@@ -120,11 +120,11 @@ pageextension 67339 WarehouseShipmentListExt extends "Warehouse Shipment List"
     var
         WhseShipLine: Record "Warehouse Shipment Line";
     begin
-        WhseShipLine.SETFILTER("No.", "No.");
-        IF WhseShipLine.FINDFIRST() THEN
-            SalesHeader.GET(WhseShipLine."Source Document", WhseShipLine."Source No.")
-        ELSE
-            CLEAR(SalesHeader);
-
+        /*        WhseShipLine.SETFILTER("No.", "No.");
+                IF WhseShipLine.FINDFIRST() THEN
+                    SalesHeader.GET(WhseShipLine."Source Document", WhseShipLine."Source No.")
+                ELSE
+                    CLEAR(SalesHeader);
+        */
     end;
 }

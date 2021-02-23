@@ -6,6 +6,13 @@ pageextension 60047 SalesInvoiceSubformExt extends "Sales Invoice Subform"
         {
             Visible = false;
         }
+        addafter("Line No.")
+        {
+            field("Unit Price Reason Code"; "Unit Price Reason Code")
+            {
+                ApplicationArea = all;
+            }
+        }
     }
 
     actions
