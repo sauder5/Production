@@ -12,6 +12,10 @@ pageextension 60047 SalesInvoiceSubformExt extends "Sales Invoice Subform"
             {
                 ApplicationArea = all;
             }
+            field("Unit Discount"; "Unit Discount")
+            {
+                ApplicationArea = all;
+            }
         }
     }
 

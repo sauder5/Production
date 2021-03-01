@@ -6,7 +6,7 @@ page 50081 "Vegetable Label List"
     PageType = Card;
     UsageCategory = Lists;
     SourceTable = "Vegetable Label";
-    SourceTableView = WHERE ("Item Number" = FILTER (<> 'PRINTER'));
+    SourceTableView = WHERE("Item Number" = FILTER(<> 'PRINTER'));
 
     layout
     {
@@ -170,7 +170,7 @@ page 50081 "Vegetable Label List"
     var
         recVegLabel: Record "Vegetable Label";
     begin
-        if not IsNull(btEngine) then
+        if PrintEnabled then
             btEngine.Stop;
 
         if gPrinter > '' then begin
@@ -206,7 +206,7 @@ page 50081 "Vegetable Label List"
         end;
 
         if IsNull(btEngine) then begin
-            btEngine := btEngine.Engine(true);
+            PrintEnabled := StartEngine();
         end;
     end;
 
@@ -229,6 +229,9 @@ page 50081 "Vegetable Label List"
     var
         lLabel: Text;
     begin
+
+        if not PrintEnabled then
+            Exit;
 
         lLabel := Format(gLabel);
         if (lLabel = '') or (gPrinter = '') or (gQuantity = 0) then begin

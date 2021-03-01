@@ -585,14 +585,14 @@ report 50002 "Sales Invoice -Rupp"
 
                                   //SOC-SC 10-04-15
                                   begin
-                                    UnitPriceToPrint := Round(AmountExclInvDisc / Quantity, 0.00001);
-                                    /*     IF Type = Type::Item THEN BEGIN
-                                           IF recUOM.GET("Unit of Measure Code") THEN BEGIN
-                                             IF recUOM."Print CUOM Price on Sales Docs" THEN BEGIN
-                                               UnitPriceToPrint := "Unit Price per CUOM";
-                                             END;
-                                           END;
-                                         END;*/
+                                    UnitPriceToPrint := "Unit Price";
+                                    IF Type = Type::Item THEN BEGIN
+                                        IF recUOM.GET("Unit of Measure Code") THEN BEGIN
+                                            IF recUOM."Print CUOM Price on Sales Docs" THEN BEGIN
+                                                UnitPriceToPrint := "Unit Price per CUOM";
+                                            END;
+                                        END;
+                                    END;
                                 end;
                                 //SOC-SC 10-04-15
 
