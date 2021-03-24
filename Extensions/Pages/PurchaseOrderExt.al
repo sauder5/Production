@@ -104,4 +104,5 @@ pageextension 60050 PurchaseOrderExt extends "Purchase Order"
         if recVendor.Get("Buy-from Vendor No.") then
             gPhone := recVendor."Phone No.";
     end;
+
 }

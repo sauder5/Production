@@ -8,12 +8,14 @@ report 50038 "Update Missing Compliances"
     {
         dataitem("Sales Line"; "Sales Line")
         {
+            DataItemTableView = where("Compliance Group Code" = filter(> ''));
 
             trigger OnAfterGetRecord()
             var
                 codeCompliance: Codeunit "Compliance Management";
             begin
                 codeCompliance.UpdateSalesLineCompliance("Sales Line");
+                "Sales Line".Modify();
                 CurrReport.Skip;
             end;
         }

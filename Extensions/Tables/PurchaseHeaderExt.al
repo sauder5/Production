@@ -50,8 +50,10 @@ tableextension 60038 PurchaseHeaderExt extends "Purchase Header"
         if recUserSetup.Get(UserId) then
             if recUserSetup."Default Ship-To for Purch. " > '' then
                 if ("Receiving Address Code" = '') then begin
+                    Validate("Purchaser Code", recUserSetup."Default Purchaser Code");
                     validate("Location Code", recUserSetup."Default Location Code");
                     Validate("Receiving Address Code", recUserSetup."Default Ship-To for Purch. ");
+                    Modify();
                 End;
     end;
 

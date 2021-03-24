@@ -1233,13 +1233,13 @@ codeunit 50005 "Receipt Management"
                 IF NOT recCommodity.GET(recProdLot."Commodity  Code") THEN
                     CLEAR(recCommodity);
 
-                recItemLedg.RESET;
-                recItemLedg.SETFILTER("Document No.", recGrowerTkt."Transaction ID");
-                IF recItemLedg.FINDSET THEN BEGIN
-                    recItemLedg."Invoiced Quantity" += recAppliedAmt."Quantity Applied";
-                    recItemLedg.MODIFY;
-                END;
-
+                /*              recItemLedg.RESET;
+                                recItemLedg.SETFILTER("Document No.", recGrowerTkt."Transaction ID");
+                                IF recItemLedg.FINDSET THEN BEGIN
+                                    recItemLedg."Invoiced Quantity" += recAppliedAmt."Quantity Applied";
+                                    recItemLedg.MODIFY;
+                                END;
+                */
                 // Debit Grower Accrued purchases
                 WITH recPL DO BEGIN
                     INIT;
@@ -1378,7 +1378,7 @@ codeunit 50005 "Receipt Management"
                     VALIDATE("Global Dimension 2 Code", recItem."Global Dimension 2 Code");
                     "Source Type" := "Source Type"::Vendor;
                     "Cost Amount (Actual)" := ROUND("Valued Quantity" * ("Cost per Unit" + recGrowerTkt."Total Premi / Disc per UOM"), 0.01);
-                    "Cost Posted to G/L" := "Cost Amount (Actual)";
+                    //                    "Cost Posted to G/L" := "Cost Amount (Actual)";
                     VALIDATE("Gen. Bus. Posting Group", recVend."Gen. Bus. Posting Group");
                     VALIDATE("Gen. Prod. Posting Group", recItem."Gen. Prod. Posting Group");
                     "Document Date" := TODAY;
@@ -1390,7 +1390,7 @@ codeunit 50005 "Receipt Management"
                     "Purchase Amount (Actual)" := "Cost Amount (Actual)";
                     "Purchase Amount (Expected)" := -ROUND("Valued Quantity" * recScaleTkt."Unit Cost", 0.01);
                     "Cost Amount (Expected)" := "Purchase Amount (Expected)";
-                    "Expected Cost Posted to G/L" := "Purchase Amount (Expected)";
+                    //                    "Expected Cost Posted to G/L" := "Purchase Amount (Expected)";
                     Type := Type::"Work Center";
                     MODIFY;
 

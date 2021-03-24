@@ -19,6 +19,11 @@ pageextension 60119 UserSetupExt extends "User Setup"
             {
                 ApplicationArea = all;
             }
+            field("Default Purchaser Code"; "Default Purchaser Code")
+            {
+                ApplicationArea = all;
+            }
+
         }
     }
 }
