@@ -188,6 +188,7 @@ codeunit 50002 "Rupp Business Logic"
                     SalesLn."Seasonal Cash Disc Code" := recItem."Seasonal Cash Disc Code";
                     if SalesLn."Seasonal Cash Disc Code" <> '' then begin
                         recSalesHdr.Get(SalesLn."Document Type", SalesLn."Document No.");
+                        SalesLn.Validate("Salesperson Code", recSalesHdr."Salesperson Code");
                         if recSalesHdr."Seasonal Cash Disc Code" = '' then begin
                             recSalesHdr."Seasonal Cash Disc Code" := SalesLn."Seasonal Cash Disc Code";
                             recSalesHdr.Modify();

@@ -314,6 +314,21 @@ report 50025 "Purchase Order-Rupp"
                         column(GenericName; gsGeneric)
                         {
                         }
+                        dataitem("Purch. Comment Line"; "Purch. Comment Line")
+                        {
+                            DataItemLink = "No." = FIELD("Document No.");
+                            DataItemLinkReference = "Purchase Line";
+                            DataItemTableView = WHERE("Document Type" = CONST(Order), "Document Line No." = CONST(0));
+                            column(CommentDate; Date)
+                            {
+                            }
+                            column(CommentCode; Code)
+                            {
+                            }
+                            column(Comment; Comment)
+                            {
+                            }
+                        }
 
                         trigger OnAfterGetRecord()
                         var
@@ -436,21 +451,6 @@ report 50025 "Purchase Order-Rupp"
                             OnLineNumber := 0;
                             PrintFooter := false;
                         end;
-                    }
-                    dataitem("Purch. Comment Line"; "Purch. Comment Line")
-                    {
-                        DataItemLink = "No." = FIELD("No.");
-                        DataItemLinkReference = "Purchase Header";
-                        DataItemTableView = WHERE("Document Type" = CONST(Order), "Document Line No." = CONST(0));
-                        column(CommentDate; Date)
-                        {
-                        }
-                        column(CommentCode; Code)
-                        {
-                        }
-                        column(Comment; Comment)
-                        {
-                        }
                     }
                 }
 

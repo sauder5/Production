@@ -92,7 +92,7 @@ tableextension 60036 SalesHeaderExt extends "Sales Header"
             TableRelation = "Rupp Reason Code".Code where(Type = const("Order On Hold"));
             DataClassification = CustomerContent;
         }
-        field(51005; "Shipped By"; Code[35])
+        field(51005; "Shipped By"; Code[50])
         {
             FieldClass = FlowField;
             CalcFormula = Lookup("Sales Shipment Header"."User ID" WHERE("Order No." = FIELD("No.")));

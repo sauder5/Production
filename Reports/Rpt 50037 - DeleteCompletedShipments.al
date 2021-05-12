@@ -1,7 +1,7 @@
 report 50037 "Delete Completed Shipments"
 {
     DefaultLayout = RDLC;
-    RDLCLayout = './Reports/RDLC/DeleteCompletedShipments.rdlc';
+    RDLCLayout = './Reports/RDLC/DeleteCompletedShip.rdlc';
     UsageCategory = ReportsAndAnalysis;
 
     dataset

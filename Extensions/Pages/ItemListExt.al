@@ -63,6 +63,10 @@ pageextension 60031 ItemListExt extends "Item List"
             {
                 applicationarea = all;
             }
+            field("Product Inv. Status"; recProduct."Inventory Status Code")
+            {
+                ApplicationArea = all;
+            }
         }
         addafter("Default Deferral Template Code")
         {
@@ -113,6 +117,7 @@ pageextension 60031 ItemListExt extends "Item List"
 
     var
         recVendor: Record Vendor;
+        recProduct: record Product;
         cduProdMgt: Codeunit "Product Management";
 
     trigger OnAfterGetRecord()
@@ -120,5 +125,7 @@ pageextension 60031 ItemListExt extends "Item List"
         UpdateCalculatedQuantities();
         if not recVendor.get("Vendor No.") then
             Clear(recVendor);
+        if not recProduct.get("Product Code") then
+            clear(recProduct);
     end;
 }

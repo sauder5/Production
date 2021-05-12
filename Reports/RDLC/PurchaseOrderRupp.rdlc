@@ -7,7 +7,7 @@
         <DataProvider>SQL</DataProvider>
         <ConnectString />
       </ConnectionProperties>
-      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>54b4381e-ea37-4f69-8a33-5e0539f7d1fa</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <ReportSections>
@@ -2084,6 +2084,7 @@ First(Fields!LineAmtTaxAmtInvDiscountAmtFormat.Value)</Value>
                     </Paragraph>
                   </Paragraphs>
                   <Top>0.03979in</Top>
+                  <Left>0.00003in</Left>
                   <Height>11pt</Height>
                   <Width>7.26152in</Width>
                   <ZIndex>9</ZIndex>
@@ -3314,8 +3315,10 @@ First(Fields!LineAmtTaxAmtInvDiscountAmtFormat.Value)</Value>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value />
-                      <Style />
+                      <Value>=First(Fields!Comment.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <Color>Red</Color>
+                      </Style>
                     </TextRun>
                   </TextRuns>
                   <Style />
@@ -3323,7 +3326,7 @@ First(Fields!LineAmtTaxAmtInvDiscountAmtFormat.Value)</Value>
               </Paragraphs>
               <rd:DefaultName>Textbox20</rd:DefaultName>
               <Top>0.075in</Top>
-              <Left>0.11582in</Left>
+              <Left>0.1297in</Left>
               <Height>0.80511in</Height>
               <Width>2.83699in</Width>
               <ZIndex>18</ZIndex>
@@ -3699,6 +3702,7 @@ RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
   <Language>=User!Language</Language>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0e217de5-fbf6-4aba-8727-bd22bf1e3ca7</rd:ReportID>
   <DataSets>
     <DataSet Name="DataSet_Result">
       <Fields>

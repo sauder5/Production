@@ -291,7 +291,19 @@ tableextension 60037 SalesLineExt extends "Sales Line"
 
         IF SalesHeader."Shipping Status" IN [SalesHeader."Shipping Status"::Picking, SalesHeader."Shipping Status"::Picked, SalesHeader."Shipping Status"::Packing] THEN
             ERROR('You cannot add new lines if the order %1 is already in the shipping process', "No.");
-        "Salesperson Code" := SalesHeader."Salesperson Code";
+    end;
+
+    trigger OnAfterInsert()
+    var
+        SalesHeader: Record "Sales Header";
+        recCustomer: Record Customer;
+    begin
+        if SalesHeader.get("Document Type", "Document No.") then
+            "Salesperson Code" := SalesHeader."Salesperson Code"
+        else
+            if recCustomer.get("Sell-to Customer No.") then
+                "Salesperson Code" := recCustomer."Salesperson Code";
+        Modify();
     end;
 
     trigger OnAfterDelete()
@@ -304,15 +316,6 @@ tableextension 60037 SalesLineExt extends "Sales Line"
             Clear(SalesHeader);
         RuppFn.UpdateHdrShpgStatusFromSalesLn(Rec, TRUE);
         CustPmtLinkMgt.UpdateSHSeasDiscCode(SalesHeader, "Line No.");
-    end;
-
-    trigger OnAfterModify()
-    var
-        SalesHeader: Record "Sales Header";
-    begin
-        if not SalesHeader.get("Document Type", "Document No.") then
-            Clear(SalesHeader);
-        "Salesperson Code" := SalesHeader."Salesperson Code";
     end;
 
     procedure UpdateUOMQuantities()

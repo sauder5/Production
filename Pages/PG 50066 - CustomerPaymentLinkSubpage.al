@@ -8,12 +8,12 @@ page 50066 "Customer Payment Link Subpage"
     //   Speed up opening of screen
 
     Caption = 'Customer Payment Links';
-    DeleteAllowed = false;
+    DeleteAllowed = true;
     InsertAllowed = false;
     PageType = ListPart;
     SourceTable = "Customer Payment Link";
-    SourceTableView = SORTING ("Customer No.", "Order No.", "Invoice No.")
-                      WHERE (Request = FILTER (false));
+    SourceTableView = SORTING("Customer No.", "Order No.", "Invoice No.")
+                      WHERE(Request = FILTER(false));
 
     layout
     {

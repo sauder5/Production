@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:cl="http://schemas.microsoft.com/sqlserver/reporting/2010/01/componentdefinition" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="DataSource">
@@ -18,7 +18,7 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>8in</Width>
+                  <Width>7.94002in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -42,22 +42,19 @@
                                     <Width>0.7884in</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.10416in</Width>
+                                    <Width>1.7217in</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.40328in</Width>
+                                    <Width>0.74659in</Width>
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>1.00915in</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.55633in</Width>
+                                    <Width>0.74005in</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.83365in</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>1.11034in</Width>
+                                    <Width>1.73944in</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
@@ -73,7 +70,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -102,7 +99,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">Qty To Pick</Value>
+                                                    <Value>Qty To Pick</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -131,7 +128,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -160,7 +157,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -189,7 +186,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -218,7 +215,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -247,7 +244,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -255,35 +252,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox173</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                              </Border>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox136">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value EvaluationMode="Auto" />
-                                                    <Style />
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox136</rd:DefaultName>
                                             <Style>
                                               <Border>
                                                 <Style>None</Style>
@@ -306,7 +274,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">Bin Code</Value>
+                                                    <Value>Bin Code</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -340,7 +308,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -369,7 +337,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -398,7 +366,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -427,7 +395,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -456,7 +424,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -485,7 +453,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -514,7 +482,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -522,35 +490,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox174</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                              </Border>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox8">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value EvaluationMode="Auto" />
-                                                    <Style />
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox8</rd:DefaultName>
                                             <Style>
                                               <Border>
                                                 <Style>None</Style>
@@ -573,7 +512,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -607,7 +546,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -636,7 +575,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -665,7 +604,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -694,7 +633,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -723,7 +662,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -752,7 +691,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -781,7 +720,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -789,35 +728,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox175</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                              </Border>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox124">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value EvaluationMode="Auto" />
-                                                    <Style />
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox124</rd:DefaultName>
                                             <Style>
                                               <Border>
                                                 <Style>None</Style>
@@ -840,7 +750,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -878,7 +788,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value EvaluationMode="Auto">=First(Fields!SellTo1.Value)</Value>
+                                                            <Value>=First(Fields!SellTo1.Value)</Value>
                                                             <Style />
                                                           </TextRun>
                                                         </TextRuns>
@@ -906,7 +816,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value EvaluationMode="Auto">=First(Fields!SellTo2.Value)</Value>
+                                                            <Value>=First(Fields!SellTo2.Value)</Value>
                                                             <Style />
                                                           </TextRun>
                                                         </TextRuns>
@@ -935,7 +845,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value EvaluationMode="Auto">=First(Fields!SellTo3.Value)</Value>
+                                                            <Value>=First(Fields!SellTo3.Value)</Value>
                                                             <Style />
                                                           </TextRun>
                                                         </TextRuns>
@@ -964,7 +874,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value EvaluationMode="Auto">=First(Fields!SellTo4.Value)</Value>
+                                                            <Value>=First(Fields!SellTo4.Value)</Value>
                                                             <Style />
                                                           </TextRun>
                                                         </TextRuns>
@@ -993,7 +903,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value EvaluationMode="Auto">=First(Fields!SellTo5.Value)</Value>
+                                                            <Value>=First(Fields!SellTo5.Value)</Value>
                                                             <Style />
                                                           </TextRun>
                                                         </TextRuns>
@@ -1022,7 +932,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value EvaluationMode="Auto">=First(Fields!SellTo6.Value)</Value>
+                                                            <Value>=First(Fields!SellTo6.Value)</Value>
                                                             <Style />
                                                           </TextRun>
                                                         </TextRuns>
@@ -1051,7 +961,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value EvaluationMode="Auto">=First(Fields!SellTo7.Value)</Value>
+                                                            <Value>=First(Fields!SellTo7.Value)</Value>
                                                             <Style />
                                                           </TextRun>
                                                         </TextRuns>
@@ -1092,7 +1002,7 @@
                                                   <Paragraph>
                                                     <TextRuns>
                                                       <TextRun>
-                                                        <Value EvaluationMode="Auto">Bill To:</Value>
+                                                        <Value>Bill To:</Value>
                                                         <Style />
                                                       </TextRun>
                                                     </TextRuns>
@@ -1118,7 +1028,7 @@
                                                   <Paragraph>
                                                     <TextRuns>
                                                       <TextRun>
-                                                        <Value EvaluationMode="Auto">=First(Fields!DestNo.Value)</Value>
+                                                        <Value>=First(Fields!DestNo.Value)</Value>
                                                         <Style />
                                                       </TextRun>
                                                     </TextRuns>
@@ -1147,7 +1057,7 @@
                                                     <TextRuns>
                                                       <TextRun>
                                                         <Label>ShipToPhone</Label>
-                                                        <Value EvaluationMode="Auto">=First(Fields!ShipToPhone.Value)</Value>
+                                                        <Value>=First(Fields!ShipToPhone.Value)</Value>
                                                         <Style />
                                                       </TextRun>
                                                     </TextRuns>
@@ -1177,7 +1087,7 @@
                                                   <Paragraph>
                                                     <TextRuns>
                                                       <TextRun>
-                                                        <Value EvaluationMode="Auto">Phone:</Value>
+                                                        <Value>Phone:</Value>
                                                         <Style>
                                                           <FontWeight>Bold</FontWeight>
                                                         </Style>
@@ -1230,7 +1140,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value EvaluationMode="Auto">=First(Fields!ShipTo1.Value)</Value>
+                                                            <Value>=First(Fields!ShipTo1.Value)</Value>
                                                             <Style />
                                                           </TextRun>
                                                         </TextRuns>
@@ -1258,7 +1168,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value EvaluationMode="Auto">=First(Fields!ShipTo2.Value)</Value>
+                                                            <Value>=First(Fields!ShipTo2.Value)</Value>
                                                             <Style />
                                                           </TextRun>
                                                         </TextRuns>
@@ -1287,7 +1197,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value EvaluationMode="Auto">=First(Fields!ShipTo4.Value)</Value>
+                                                            <Value>=First(Fields!ShipTo4.Value)</Value>
                                                             <Style />
                                                           </TextRun>
                                                         </TextRuns>
@@ -1316,7 +1226,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value EvaluationMode="Auto">=First(Fields!ShipTo5.Value)</Value>
+                                                            <Value>=First(Fields!ShipTo5.Value)</Value>
                                                             <Style />
                                                           </TextRun>
                                                         </TextRuns>
@@ -1345,7 +1255,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value EvaluationMode="Auto">=First(Fields!ShipTo6.Value)</Value>
+                                                            <Value>=First(Fields!ShipTo6.Value)</Value>
                                                             <Style />
                                                           </TextRun>
                                                         </TextRuns>
@@ -1374,7 +1284,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value EvaluationMode="Auto">=First(Fields!ShipTo7.Value)</Value>
+                                                            <Value>=First(Fields!ShipTo7.Value)</Value>
                                                             <Style />
                                                           </TextRun>
                                                         </TextRuns>
@@ -1403,7 +1313,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value EvaluationMode="Auto">=First(Fields!ShipTo3.Value)</Value>
+                                                            <Value>=First(Fields!ShipTo3.Value)</Value>
                                                             <Style />
                                                           </TextRun>
                                                         </TextRuns>
@@ -1444,7 +1354,7 @@
                                                   <Paragraph>
                                                     <TextRuns>
                                                       <TextRun>
-                                                        <Value EvaluationMode="Auto">Ship To:</Value>
+                                                        <Value>Ship To:</Value>
                                                         <Style />
                                                       </TextRun>
                                                     </TextRuns>
@@ -1470,7 +1380,7 @@
                                                   <Paragraph>
                                                     <TextRuns>
                                                       <TextRun>
-                                                        <Value EvaluationMode="Auto">=First(Fields!ShipContact.Value)</Value>
+                                                        <Value>=First(Fields!ShipContact.Value)</Value>
                                                         <Style />
                                                       </TextRun>
                                                     </TextRuns>
@@ -1499,7 +1409,7 @@
                                                   <Paragraph>
                                                     <TextRuns>
                                                       <TextRun>
-                                                        <Value EvaluationMode="Auto">Contact:</Value>
+                                                        <Value>Contact:</Value>
                                                         <Style>
                                                           <FontWeight>Bold</FontWeight>
                                                         </Style>
@@ -1532,10 +1442,9 @@
                                               </Border>
                                             </Style>
                                           </Rectangle>
-                                          <ColSpan>4</ColSpan>
+                                          <ColSpan>3</ColSpan>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                     </TablixCells>
@@ -1552,7 +1461,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">Order No.</Value>
+                                                    <Value>Order No.</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1584,7 +1493,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">PO No.</Value>
+                                                    <Value>PO No.</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1618,7 +1527,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">Salesperson ID</Value>
+                                                    <Value>Ship To</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1631,7 +1540,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1663,7 +1572,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">Payment Terms</Value>
+                                                    <Value>Payment Terms</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1695,7 +1604,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">Req Ship Date</Value>
+                                                    <Value>Req Ship Date</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1722,15 +1631,14 @@
                                       <TablixCell />
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox211">
+                                          <Textbox Name="Textbox26">
                                             <CanGrow>true</CanGrow>
-                                            <CanShrink>true</CanShrink>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">Ship Via</Value>
+                                                    <Value>Ship Via</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1739,7 +1647,7 @@
                                                 <Style />
                                               </Paragraph>
                                             </Paragraphs>
-                                            <rd:DefaultName>Textbox21</rd:DefaultName>
+                                            <rd:DefaultName>Textbox26</rd:DefaultName>
                                             <Style>
                                               <Border>
                                                 <Style>Solid</Style>
@@ -1751,10 +1659,8 @@
                                               <PaddingBottom>2pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>2</ColSpan>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell />
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
@@ -1769,7 +1675,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">To Pick</Value>
+                                                    <Value>To Pick</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1800,7 +1706,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1837,7 +1743,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">Unit </Value>
+                                                    <Value>Unit </Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1874,7 +1780,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">Item Type</Value>
+                                                    <Value>Item Type</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1905,7 +1811,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">Description/ Item No.</Value>
+                                                    <Value>Description/ Item No.</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1944,7 +1850,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1977,38 +1883,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox199">
-                                            <CanGrow>true</CanGrow>
-                                            <CanShrink>true</CanShrink>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value EvaluationMode="Auto">Location </Value>
-                                                    <Style>
-                                                      <FontWeight>Bold</FontWeight>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox45</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>Solid</Style>
-                                              </Border>
-                                              <PaddingLeft>4pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="Textbox200">
                                             <CanGrow>true</CanGrow>
                                             <CanShrink>true</CanShrink>
@@ -2017,7 +1891,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">Bin</Value>
+                                                    <Value>Bin</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -2053,7 +1927,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -2085,7 +1959,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -2119,7 +1993,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -2153,7 +2027,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -2185,7 +2059,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -2212,14 +2086,14 @@
                                       <TablixCell />
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox63">
+                                          <Textbox Name="Textbox45">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -2228,7 +2102,7 @@
                                                 <Style />
                                               </Paragraph>
                                             </Paragraphs>
-                                            <rd:DefaultName>Textbox63</rd:DefaultName>
+                                            <rd:DefaultName>Textbox45</rd:DefaultName>
                                             <Style>
                                               <Border>
                                                 <Style>Solid</Style>
@@ -2240,10 +2114,8 @@
                                               <PaddingBottom>2pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>2</ColSpan>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell />
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
@@ -2258,7 +2130,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!OrderNo.Value</Value>
+                                                    <Value>=Fields!OrderNo.Value</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -2288,7 +2160,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!ExtDocNo.Value</Value>
+                                                    <Value>=Fields!ExtDocNo.Value</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -2320,7 +2192,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!SalespersonCode.Value</Value>
+                                                    <Value>=Fields!ShipTo1.Value</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -2350,7 +2222,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!PaymentTerms.Value</Value>
+                                                    <Value>=Fields!PaymentTerms.Value</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -2380,8 +2252,10 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!ReqShipDate.Value</Value>
-                                                    <Style />
+                                                    <Value>=Fields!ReqShipDate.Value</Value>
+                                                    <Style>
+                                                      <Format>d</Format>
+                                                    </Style>
                                                   </TextRun>
                                                 </TextRuns>
                                                 <Style />
@@ -2413,13 +2287,12 @@
                                         <CellContents>
                                           <Textbox Name="ShipVia">
                                             <CanGrow>true</CanGrow>
-                                            <CanShrink>true</CanShrink>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!ShipVia.Value</Value>
+                                                    <Value>=Fields!ShipVia.Value</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -2438,10 +2311,8 @@
                                               <PaddingBottom>2pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>2</ColSpan>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell />
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
@@ -2456,7 +2327,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -2487,7 +2358,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -2524,7 +2395,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -2561,7 +2432,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -2592,7 +2463,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -2631,7 +2502,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -2664,37 +2535,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox429">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value EvaluationMode="Auto" />
-                                                    <Style>
-                                                      <FontWeight>Bold</FontWeight>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox429</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>Solid</Style>
-                                              </Border>
-                                              <PaddingLeft>4pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="Textbox430">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -2702,7 +2542,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -2738,7 +2578,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -2773,7 +2613,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -2802,7 +2642,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -2834,7 +2674,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -2866,7 +2706,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -2895,7 +2735,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -2927,7 +2767,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -2952,38 +2792,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox49">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value EvaluationMode="Auto" />
-                                                    <Style />
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox49</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                              </Border>
-                                              <RightBorder>
-                                                <Style>Solid</Style>
-                                              </RightBorder>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="Textbox27">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -2991,7 +2799,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <Color>Red</Color>
                                                     </Style>
@@ -3030,7 +2838,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!QtyToPick.Value</Value>
+                                                    <Value>=Fields!QtyToPick.Value</Value>
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3068,7 +2876,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!UOMCode.Value</Value>
+                                                    <Value>=Fields!UOMCode.Value</Value>
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3105,7 +2913,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!GenericName.Value</Value>
+                                                    <Value>=Fields!GenericName.Value</Value>
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3140,7 +2948,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!Description.Value</Value>
+                                                    <Value>=Fields!Description.Value</Value>
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3171,42 +2979,6 @@
                                       <TablixCell />
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox148">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value EvaluationMode="Auto" />
-                                                    <Style>
-                                                      <FontSize>8pt</FontSize>
-                                                      <Color>Red</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox148</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                              </Border>
-                                              <RightBorder>
-                                                <Style>Solid</Style>
-                                              </RightBorder>
-                                              <BackgroundColor>#ffffff</BackgroundColor>
-                                              <PaddingLeft>3pt</PaddingLeft>
-                                              <PaddingRight>3pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="Textbox91">
                                             <CanGrow>true</CanGrow>
                                             <CanShrink>true</CanShrink>
@@ -3215,7 +2987,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3255,7 +3027,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3293,7 +3065,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3325,7 +3097,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3360,7 +3132,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3395,7 +3167,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!ItemNo.Value</Value>
+                                                    <Value>=Fields!ItemNo.Value</Value>
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3432,7 +3204,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3460,42 +3232,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="LocationCode">
-                                            <CanGrow>true</CanGrow>
-                                            <CanShrink>true</CanShrink>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!LocationCode.Value</Value>
-                                                    <Style>
-                                                      <FontSize>8pt</FontSize>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>LocationCode</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                              </Border>
-                                              <RightBorder>
-                                                <Style>Solid</Style>
-                                              </RightBorder>
-                                              <BackgroundColor>#efefef</BackgroundColor>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="BinCode">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -3503,7 +3239,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!BinCode.Value</Value>
+                                                    <Value>=Fields!BinCode.Value</Value>
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3546,7 +3282,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3584,7 +3320,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3616,7 +3352,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3651,7 +3387,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3686,7 +3422,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3721,7 +3457,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3756,7 +3492,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3784,48 +3520,13 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox25">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value EvaluationMode="Auto" />
-                                                    <Style>
-                                                      <FontSize>8pt</FontSize>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox25</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                              </Border>
-                                              <RightBorder>
-                                                <Style>Solid</Style>
-                                              </RightBorder>
-                                              <BackgroundColor>#efefef</BackgroundColor>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="HeaderInfo3">
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!WhseShptNo.Value + chr(177) + Fields!WhseShptDate1.Value</Value>
+                                                    <Value>=Fields!WhseShptNo.Value + chr(177) + Fields!WhseShptDate1.Value</Value>
                                                     <Style>
                                                       <Color>Red</Color>
                                                     </Style>
@@ -3866,7 +3567,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3903,7 +3604,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3935,7 +3636,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!LineComment.Value</Value>
+                                                    <Value>=Fields!LineComment.Value</Value>
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -3958,10 +3659,9 @@
                                               <PaddingBottom>2pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>7</ColSpan>
+                                          <ColSpan>6</ColSpan>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -3981,7 +3681,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -4005,10 +3705,9 @@
                                               <PaddingBottom>2pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>9</ColSpan>
+                                          <ColSpan>8</ColSpan>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -4030,7 +3729,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -4057,7 +3756,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -4084,7 +3783,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -4111,7 +3810,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -4138,7 +3837,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -4165,7 +3864,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -4192,7 +3891,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -4200,33 +3899,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox185</rd:DefaultName>
-                                            <Style>
-                                              <Border />
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox18">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value EvaluationMode="Auto" />
-                                                    <Style />
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox18</rd:DefaultName>
                                             <Style>
                                               <Border />
                                               <PaddingLeft>2pt</PaddingLeft>
@@ -4247,7 +3919,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -4279,7 +3951,6 @@
                                   <TablixMember />
                                   <TablixMember />
                                   <TablixMember />
-                                  <TablixMember />
                                 </TablixMembers>
                               </TablixColumnHierarchy>
                               <TablixRowHierarchy>
@@ -4295,7 +3966,7 @@
                                             <Paragraph>
                                               <TextRuns>
                                                 <TextRun>
-                                                  <Value EvaluationMode="Auto">Whse Shpt No</Value>
+                                                  <Value>Whse Shpt No</Value>
                                                   <Style>
                                                     <Color>Red</Color>
                                                   </Style>
@@ -4332,7 +4003,7 @@
                                                 <Paragraph>
                                                   <TextRuns>
                                                     <TextRun>
-                                                      <Value EvaluationMode="Auto">Dest Type</Value>
+                                                      <Value>Dest Type</Value>
                                                       <Style>
                                                         <Color>Red</Color>
                                                       </Style>
@@ -4366,7 +4037,7 @@
                                                     <Paragraph>
                                                       <TextRuns>
                                                         <TextRun>
-                                                          <Value EvaluationMode="Auto">Src Doc</Value>
+                                                          <Value>Src Doc</Value>
                                                           <Style>
                                                             <Color>Red</Color>
                                                           </Style>
@@ -4403,7 +4074,7 @@
                                                         <Paragraph>
                                                           <TextRuns>
                                                             <TextRun>
-                                                              <Value EvaluationMode="Auto">Order No</Value>
+                                                              <Value>Order No</Value>
                                                               <Style>
                                                                 <Color>Red</Color>
                                                               </Style>
@@ -4463,7 +4134,7 @@
                                             <Paragraph>
                                               <TextRuns>
                                                 <TextRun>
-                                                  <Value EvaluationMode="Auto">= Cstr(Fields!WhseShptNo.Value) +Chr(177)
+                                                  <Value>= Cstr(Fields!WhseShptNo.Value) +Chr(177)
 + Cstr(fields!WhseShptDate.Value) + Chr(177)
 + Cstr(Fields!CompanyInfo1.Value) + Chr(177)
 + Cstr(Fields!CompanyInfo2.Value) + Chr(177)
@@ -4523,7 +4194,7 @@
                                                 <Paragraph>
                                                   <TextRuns>
                                                     <TextRun>
-                                                      <Value EvaluationMode="Auto" />
+                                                      <Value />
                                                       <Style />
                                                     </TextRun>
                                                   </TextRuns>
@@ -4555,7 +4226,7 @@
                                                     <Paragraph>
                                                       <TextRuns>
                                                         <TextRun>
-                                                          <Value EvaluationMode="Auto" />
+                                                          <Value />
                                                           <Style />
                                                         </TextRun>
                                                       </TextRuns>
@@ -4587,7 +4258,7 @@
                                                         <Paragraph>
                                                           <TextRuns>
                                                             <TextRun>
-                                                              <Value EvaluationMode="Auto" />
+                                                              <Value />
                                                               <Style />
                                                             </TextRun>
                                                           </TextRuns>
@@ -4645,7 +4316,7 @@
                                                 <Paragraph>
                                                   <TextRuns>
                                                     <TextRun>
-                                                      <Value EvaluationMode="Auto">=Fields!DestType.Value</Value>
+                                                      <Value>=Fields!DestType.Value</Value>
                                                       <Style>
                                                         <Color>Red</Color>
                                                       </Style>
@@ -4682,7 +4353,7 @@
                                                     <Paragraph>
                                                       <TextRuns>
                                                         <TextRun>
-                                                          <Value EvaluationMode="Auto" />
+                                                          <Value />
                                                           <Style />
                                                         </TextRun>
                                                       </TextRuns>
@@ -4714,7 +4385,7 @@
                                                         <Paragraph>
                                                           <TextRuns>
                                                             <TextRun>
-                                                              <Value EvaluationMode="Auto" />
+                                                              <Value />
                                                               <Style />
                                                             </TextRun>
                                                           </TextRuns>
@@ -4749,7 +4420,7 @@
                                                     <Paragraph>
                                                       <TextRuns>
                                                         <TextRun>
-                                                          <Value EvaluationMode="Auto" />
+                                                          <Value />
                                                           <Style />
                                                         </TextRun>
                                                       </TextRuns>
@@ -4781,7 +4452,7 @@
                                                         <Paragraph>
                                                           <TextRuns>
                                                             <TextRun>
-                                                              <Value EvaluationMode="Auto" />
+                                                              <Value />
                                                               <Style />
                                                             </TextRun>
                                                           </TextRuns>
@@ -4816,7 +4487,7 @@
                                                     <Paragraph>
                                                       <TextRuns>
                                                         <TextRun>
-                                                          <Value EvaluationMode="Auto" />
+                                                          <Value />
                                                           <Style />
                                                         </TextRun>
                                                       </TextRuns>
@@ -4848,7 +4519,7 @@
                                                         <Paragraph>
                                                           <TextRuns>
                                                             <TextRun>
-                                                              <Value EvaluationMode="Auto" />
+                                                              <Value />
                                                               <Style />
                                                             </TextRun>
                                                           </TextRuns>
@@ -4883,7 +4554,7 @@
                                                     <Paragraph>
                                                       <TextRuns>
                                                         <TextRun>
-                                                          <Value EvaluationMode="Auto" />
+                                                          <Value />
                                                           <Style />
                                                         </TextRun>
                                                       </TextRuns>
@@ -4915,7 +4586,7 @@
                                                         <Paragraph>
                                                           <TextRuns>
                                                             <TextRun>
-                                                              <Value EvaluationMode="Auto" />
+                                                              <Value />
                                                               <Style />
                                                             </TextRun>
                                                           </TextRuns>
@@ -4962,7 +4633,7 @@
                                                     <Paragraph>
                                                       <TextRuns>
                                                         <TextRun>
-                                                          <Value EvaluationMode="Auto">=Fields!OrderNo.Value</Value>
+                                                          <Value>=Fields!OrderNo.Value</Value>
                                                           <Style />
                                                         </TextRun>
                                                       </TextRuns>
@@ -4998,7 +4669,7 @@
                                                         <Paragraph>
                                                           <TextRuns>
                                                             <TextRun>
-                                                              <Value EvaluationMode="Auto" />
+                                                              <Value />
                                                               <Style />
                                                             </TextRun>
                                                           </TextRuns>
@@ -5035,7 +4706,7 @@
                                                         <Paragraph>
                                                           <TextRuns>
                                                             <TextRun>
-                                                              <Value EvaluationMode="Auto" />
+                                                              <Value />
                                                               <Style />
                                                             </TextRun>
                                                           </TextRuns>
@@ -5069,7 +4740,7 @@
                                                         <Paragraph>
                                                           <TextRuns>
                                                             <TextRun>
-                                                              <Value EvaluationMode="Auto" />
+                                                              <Value />
                                                               <Style />
                                                             </TextRun>
                                                           </TextRuns>
@@ -5105,7 +4776,7 @@
                                                         <Paragraph>
                                                           <TextRuns>
                                                             <TextRun>
-                                                              <Value EvaluationMode="Auto" />
+                                                              <Value />
                                                               <Style />
                                                             </TextRun>
                                                           </TextRuns>
@@ -5164,7 +4835,7 @@
                                                         <Paragraph>
                                                           <TextRuns>
                                                             <TextRun>
-                                                              <Value EvaluationMode="Auto">=Fields!OrderNo.Value</Value>
+                                                              <Value>=Fields!OrderNo.Value</Value>
                                                               <Style>
                                                                 <FontSize>8pt</FontSize>
                                                                 <Color>Red</Color>
@@ -5235,7 +4906,7 @@
                                                     <Paragraph>
                                                       <TextRuns>
                                                         <TextRun>
-                                                          <Value EvaluationMode="Auto" />
+                                                          <Value />
                                                           <Style />
                                                         </TextRun>
                                                       </TextRuns>
@@ -5267,7 +4938,7 @@
                                                         <Paragraph>
                                                           <TextRuns>
                                                             <TextRun>
-                                                              <Value EvaluationMode="Auto" />
+                                                              <Value />
                                                               <Style />
                                                             </TextRun>
                                                           </TextRuns>
@@ -5304,7 +4975,7 @@
                                                 <Paragraph>
                                                   <TextRuns>
                                                     <TextRun>
-                                                      <Value EvaluationMode="Auto" />
+                                                      <Value />
                                                       <Style />
                                                     </TextRun>
                                                   </TextRuns>
@@ -5334,7 +5005,7 @@
                                                     <Paragraph>
                                                       <TextRuns>
                                                         <TextRun>
-                                                          <Value EvaluationMode="Auto" />
+                                                          <Value />
                                                           <Style />
                                                         </TextRun>
                                                       </TextRuns>
@@ -5364,7 +5035,7 @@
                                                         <Paragraph>
                                                           <TextRuns>
                                                             <TextRun>
-                                                              <Value EvaluationMode="Auto" />
+                                                              <Value />
                                                               <Style />
                                                             </TextRun>
                                                           </TextRuns>
@@ -5394,7 +5065,7 @@
                               </TablixRowHierarchy>
                               <DataSetName>DataSet_Result</DataSetName>
                               <Height>4.31118in</Height>
-                              <Width>8in</Width>
+                              <Width>7.94002in</Width>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
@@ -5427,7 +5098,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">Hdr Comment</Value>
+                                                    <Value>Hdr Comment</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -5454,7 +5125,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -5483,7 +5154,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto" />
+                                                    <Value />
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -5517,7 +5188,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value EvaluationMode="Auto">=Fields!HdrComment.Value</Value>
+                                                    <Value>=Fields!HdrComment.Value</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -5620,7 +5291,7 @@
             </TablixRowHierarchy>
             <DataSetName>DataSet_Result</DataSetName>
             <Height>4.31118in</Height>
-            <Width>8in</Width>
+            <Width>7.94002in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -5631,7 +5302,7 @@
         <Height>4.31118in</Height>
         <Style />
       </Body>
-      <Width>8in</Width>
+      <Width>8.04419in</Width>
       <Page>
         <PageHeader>
           <Height>1.6025in</Height>
@@ -5645,7 +5316,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">PICK TICKET</Value>
+                      <Value>PICK TICKET</Value>
                       <Style>
                         <FontSize>12pt</FontSize>
                         <FontWeight>Bold</FontWeight>
@@ -5675,7 +5346,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Cstr(Choose(1,Split(Cstr(ReportItems!HeaderInfo3.Value), Chr(177))))</Value>
+                      <Value>=Cstr(Choose(1,Split(Cstr(ReportItems!HeaderInfo3.Value), Chr(177))))</Value>
                       <Style />
                     </TextRun>
                   </TextRuns>
@@ -5703,7 +5374,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">Shipment</Value>
+                      <Value>Shipment</Value>
                       <Style />
                     </TextRun>
                   </TextRuns>
@@ -5732,7 +5403,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">Date</Value>
+                      <Value>Date</Value>
                       <Style />
                     </TextRun>
                   </TextRuns>
@@ -5761,7 +5432,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">Page</Value>
+                      <Value>Page</Value>
                       <Style />
                     </TextRun>
                   </TextRuns>
@@ -5790,7 +5461,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">Who Printed</Value>
+                      <Value>Who Printed</Value>
                       <Style />
                     </TextRun>
                   </TextRuns>
@@ -5823,7 +5494,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">Date/ Time Printed</Value>
+                      <Value>Date/ Time Printed</Value>
                       <Style />
                     </TextRun>
                   </TextRuns>
@@ -5856,7 +5527,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Cstr(Choose(2,Split(Cstr(ReportItems!HeaderInfo3.Value), Chr(177))))</Value>
+                      <Value>=Cstr(Choose(2,Split(Cstr(ReportItems!HeaderInfo3.Value), Chr(177))))</Value>
                       <Style />
                     </TextRun>
                   </TextRuns>
@@ -5884,7 +5555,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Globals!PageNumber</Value>
+                      <Value>=Globals!PageNumber</Value>
                       <Style />
                     </TextRun>
                   </TextRuns>
@@ -5912,7 +5583,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=replace(User!UserID, "RUPPSEEDS\","")</Value>
+                      <Value>=replace(User!UserID, "RUPPSEEDS\","")</Value>
                       <Style>
                         <FontSize>8pt</FontSize>
                       </Style>
@@ -5946,7 +5617,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Globals!ExecutionTime</Value>
+                      <Value>=Globals!ExecutionTime</Value>
                       <Style>
                         <FontSize>8pt</FontSize>
                         <Format>g</Format>
@@ -5981,7 +5652,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=First(Fields!CompanyInfo1.Value, "DataSet_Result")+chr(10)+
+                      <Value>=First(Fields!CompanyInfo1.Value, "DataSet_Result")+chr(10)+
  First(Fields!CompanyInfo2.Value, "DataSet_Result")+chr(10)+
  First(Fields!CompanyInfo3.Value, "DataSet_Result")</Value>
                       <Style>
@@ -6017,7 +5688,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=replace(First(Fields!CompanyInfo4.Value, "DataSet_Result"), "Phone No.:","") + chr(10) +
+                      <Value>=replace(First(Fields!CompanyInfo4.Value, "DataSet_Result"), "Phone No.:","") + chr(10) +
 First(Fields!CompanyInfo5.Value, "DataSet_Result") + chr(10) + 
 First(Fields!CompanyInfo6.Value, "DataSet_Result")</Value>
                       <Style>
@@ -6071,7 +5742,7 @@ First(Fields!CompanyInfo6.Value, "DataSet_Result")</Value>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">="*"+ Cstr(Choose(1,Split(Cstr(ReportItems!HeaderInfo3.Value), Chr(177)))) + "*"</Value>
+                      <Value>="*"+ Cstr(Choose(1,Split(Cstr(ReportItems!HeaderInfo3.Value), Chr(177)))) + "*"</Value>
                       <Style>
                         <FontFamily>3 of 9 Barcode</FontFamily>
                         <FontSize>18pt</FontSize>
@@ -6103,7 +5774,7 @@ First(Fields!CompanyInfo6.Value, "DataSet_Result")</Value>
           </Style>
         </PageHeader>
         <PageFooter>
-          <Height>0.58333in</Height>
+          <Height>1.05208in</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <Style>
@@ -6158,6 +5829,34 @@ First(Fields!CompanyInfo6.Value, "DataSet_Result")</Value>
       <Prompt>ContactLbl</Prompt>
     </ReportParameter>
   </ReportParameters>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>1</NumberOfColumns>
+      <NumberOfRows>4</NumberOfRows>
+      <CellDefinitions>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>BillToLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>ShipToLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>PhoneLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>ContactLbl</ParameterName>
+        </CellDefinition>
+      </CellDefinitions>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
   <Code>Public Function BlankZero(ByVal Value As Decimal)
     if Value = 0 then
         Return ""

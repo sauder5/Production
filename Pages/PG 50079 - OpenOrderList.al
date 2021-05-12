@@ -25,6 +25,20 @@ page 50079 "Open Order List"
                 field("Document No."; "Document No.")
                 {
                     Caption = 'Order No';
+                    DrillDown = true;
+                    DrillDownPageId = "Sales Order";
+                    Editable = false;
+
+                    trigger OnLookup(var Text: Text): Boolean
+                    var
+                        recSalesHead: Record "Sales Header";
+                        pageSalesOrder: page "Sales Order";
+
+                    begin
+                        recSalesHead.Get("Document Type", "Document No.");
+                        pageSalesOrder.SetRecord(recSalesHead);
+                        pageSalesOrder.Run;
+                    end;
                 }
                 field("Posting Date"; "Posting Date")
                 {
