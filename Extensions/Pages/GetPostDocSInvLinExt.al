@@ -25,6 +25,10 @@ pageextension 65852 GetPostDocSInvLinExt extends "Get Post.Doc - S.InvLn Subform
             {
                 ApplicationArea = all;
             }
+            field("Ship-to Name"; SalesInvHeader."Ship-to Name")
+            {
+                ApplicationArea = all;
+            }
         }
     }
 

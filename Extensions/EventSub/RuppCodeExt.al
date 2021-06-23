@@ -23,6 +23,15 @@ codeunit 50011 RuppCodeExt
         SalesLine.UpdateUOMQuantities();
     end;
 
+    [EventSubscriber(ObjectType::Table, Database::"Sales Line", 'OnBeforeUpdateUnitPrice', '', true, true)]
+    local procedure OnBeforeUpdateUnitPrice(VAR SalesLine: Record "Sales Line"; xSalesLine: Record "Sales Line"; CalledByFieldNo: Integer; CurrFieldNo: Integer; VAR Handled: Boolean)
+    begin
+        if SalesLine."Document Type" = SalesLine."Document Type"::"Return Order" then begin
+            Handled := true;
+            SalesLine.Validate("Unit Price");
+        end;
+    end;
+
     [EventSubscriber(ObjectType::Table, Database::"Sales Line", 'OnAfterUpdateUnitPrice', '', true, true)]
     local procedure OnAfterUpdateUnitPrice(var SalesLine: Record "Sales Line"; xSalesLine: Record "Sales Line"; CalledByFieldNo: Integer; CurrFieldNo: Integer)
     var

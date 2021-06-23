@@ -2,7 +2,18 @@ pageextension 60027 "VendorListExt" extends "Vendor List"
 {
     layout
     {
-
+        addlast(Control1)
+        {
+            field(County; County)
+            {
+                Caption = 'State';
+                ApplicationArea = all;
+            }
+            field(Address; Address)
+            {
+                ApplicationArea = all;
+            }
+        }
     }
     actions
     {
