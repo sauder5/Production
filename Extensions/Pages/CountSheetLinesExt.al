@@ -9,6 +9,14 @@ pageextension 84301 CountSheetLinesExt extends "IWX Count Sheet Lines"
                 applicationarea = all;
             }
         }
+        addafter(Description)
+        {
+            field("Rupp Description"; "Rupp Description")
+            {
+                caption = 'Rupp Description';
+                ApplicationArea = all;
+            }
+        }
     }
 
     actions

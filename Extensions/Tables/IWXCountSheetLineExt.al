@@ -6,6 +6,11 @@ tableextension 80301 IWXCountSheetLineExt extends "IWX Count Sheet Line"
         {
             DataClassification = CustomerContent;
         }
+        field(51010; "Rupp Description"; text[100])
+        {
+            Caption = 'Description';
+            DataClassification = CustomerContent;
+        }
         modify("Item No.")
         {
             trigger OnAfterValidate()
@@ -15,7 +20,12 @@ tableextension 80301 IWXCountSheetLineExt extends "IWX Count Sheet Line"
                 if not recItem.get("Item No.") then
                     Clear(recItem);
                 "Generic Name Code" := recItem."Generic Name Code";
+                "Rupp Description" := recItem.Description;
             end;
         }
+    }
+    keys
+    {
+        key(Generic; "Generic Name Code") { }
     }
 }
