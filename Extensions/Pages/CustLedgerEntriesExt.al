@@ -14,6 +14,16 @@ pageextension 60025 CustLedgerEntries extends "Customer Ledger Entries"
                 Editable = false;
             }
         }
+        //Added by TAE 2021-07-20 to support the online customer center and ordering
+        addafter("Remaining Pmt. Disc. Possible")
+        {
+            field("Pmt. Disc. Given (LCY)"; "Pmt. Disc. Given (LCY)")
+            {
+                ApplicationArea = All;
+                ToolTip = 'Pmt. Disc. Given (LCY)';
+                Visible = false;
+            }
+        }
     }
 
     actions

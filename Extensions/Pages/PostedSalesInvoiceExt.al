@@ -17,6 +17,17 @@ pageextension 60132 PostedSalesInvoiceExt extends "Posted Sales Invoice"
                 ApplicationArea = all;
             }
         }
+        // Added by TAE 2021-07-20 to support the online customer center and ordering
+        addafter("Order No.")
+        {
+            field("Order Date"; "Order Date")
+            {
+                ApplicationArea = All;
+                ToolTip = 'Order Date';
+                Visible = false;
+            }
+        }
+        // End
         addafter("PaymentGroup -CL-")
         {
             group(Rupp)
