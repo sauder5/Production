@@ -1,14 +1,22 @@
 {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "configurations": [
         {
             "type": "al",
             "request": "launch",
-            "name": "Your own server",
-            "server": "http://vnavserver",
-            "serverInstance": "NAVBCLive",
-            "port": 8049,
+            "name": "vsqltest navbc_time",
+            "environmentType": "OnPrem",
+            "server": "http://vsqltest:8088",
+            "serverInstance": "NAVBC_TIME",
+            "port": 7749,
             "authentication":"Windows",
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
             "schemaUpdateMode":"Synchronize"
         }
     ]
