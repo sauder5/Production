@@ -1,4 +1,3 @@
-// Added by TAE 2021-07-20 to support the online customer center and ordering
 query 50016 "CustomersAPI"
 {
     QueryType = API;
