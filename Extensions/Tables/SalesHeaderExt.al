@@ -150,6 +150,13 @@ tableextension 60036 SalesHeaderExt extends "Sales Header"
             TableRelation = Region;
             DataClassification = CustomerContent;
         }
+        // Added by TAE 2021-08-04 to support the online customer center and ordering
+        field(52010; "Customer Comment"; Text[250])
+        {
+            Caption = 'Customer Comment';
+            DataClassification = CustomerContent;
+        }
+        // End
         modify("Sell-to Customer No.")
         {
             trigger OnAfterValidate()

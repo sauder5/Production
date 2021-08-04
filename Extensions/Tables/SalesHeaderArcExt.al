@@ -59,6 +59,11 @@ tableextension 65107 SalesHeaderArcExt extends "Sales Header Archive"
             TableRelation = Region;
             DataClassification = CustomerContent;
         }
-
+        // Added by TAE 2021-08-04 to support the online customer center and ordering
+        field(52010; "Customer Comment"; Text[250])
+        {
+            DataClassification = CustomerContent;
+        }
+        // End
     }
 }

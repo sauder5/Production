@@ -57,6 +57,14 @@ pageextension 60042 SalesOrderExt extends "Sales Order"
             {
                 applicationarea = all;
             }
+            // Added by TAE 2021-08-04 to support the online customer center and ordering
+            field("CustomerComment"; "Customer Comment")
+            {
+                ApplicationArea = All;
+                ToolTip = 'Customer Comment';
+                Editable = false;
+            }
+            // End
         }
         addbefore("Bill-to Name")
         {
