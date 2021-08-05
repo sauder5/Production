@@ -63,7 +63,6 @@ pageextension 60042 SalesOrderExt extends "Sales Order"
                 ApplicationArea = All;
                 ToolTip = 'Customer Comment';
                 MultiLine = true;
-                Editable = false;
             }
             // End
         }
