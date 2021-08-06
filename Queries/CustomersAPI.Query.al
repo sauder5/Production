@@ -85,6 +85,10 @@ query 50016 "CustomersAPI"
             {
                 Caption = 'Default Ship-to Code', Locked = true;
             }
+            column(balanceDueLcy; "Balance Due (LCY)")
+            {
+                Caption = 'Balance ($)', Locked = true;
+            }
         }
     }
 
