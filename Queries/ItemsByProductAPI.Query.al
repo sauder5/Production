@@ -152,6 +152,27 @@ query 50010 "ItemsByProductAPI"
                                     {
                                         Caption = 'UOM Description', Locked = true;
                                     }
+                                    dataitem(ComplianceGroupProductItem; "Compliance Group Product Item")
+                                    {
+                                        DataItemLink = "Item No." = ItemTable."No.";
+                                        SqlJoinType = LeftOuterJoin;
+                                        column(WaiverCode; "Waiver Code")
+                                        {
+                                            Caption = 'Waiver Code', Locked = true;
+                                        }
+                                        column(LicenseRequired; "License Required")
+                                        {
+                                            Caption = 'License Required', Locked = true;
+                                        }
+                                        column(LiabilityWaiverRequired; "Liability Waiver Required")
+                                        {
+                                            Caption = 'Liability Waiver Required', Locked = true;
+                                        }
+                                        column(QualityReleaseRequired; "Quality Release Required")
+                                        {
+                                            Caption = 'Quality Release Required', Locked = true;
+                                        }
+                                    }
                                 }
                             }
                         }
