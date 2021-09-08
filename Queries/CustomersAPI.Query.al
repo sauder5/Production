@@ -89,6 +89,14 @@ query 50016 "CustomersAPI"
             {
                 Caption = 'Balance ($)', Locked = true;
             }
+            column(shippingAgentCode; "Shipping Agent Code")
+            {
+                Caption = 'Shipping Agent Code', Locked = true;
+            }
+            column(eShipAgentService; "E-Ship Agent Service")
+            {
+                Caption = 'E-Ship Agent Service', Locked = true;
+            }
         }
     }
 
