@@ -41,7 +41,7 @@ query 50018 ProductsAPI
                 DataItemLink = "Code" = Product."Inventory Status Code";
                 SqlJoinType = LeftOuterJoin;
                 DataItemTableFilter = Type = Filter("Inventory Status");
-                column(InventoryStatusCodeDescription; Description)
+                column(inventoryStatusCodeDescription; Description)
                 {
                     Caption = 'Inventory Status Code Description', Locked = true;
                 }
