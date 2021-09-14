@@ -4,7 +4,7 @@
         {
             "type": "al",
             "request": "launch",
-            "name": "vsqltest navbc_time",
+            "name": "vsqltest navbc_temp",
             "environmentType": "OnPrem",
             "server": "http://vsqltest:8080",
             "serverInstance": "NAVBC_TEMP",
