@@ -45,6 +45,10 @@ query 50018 ProductsAPI
                 {
                     Caption = 'Inventory Status Code Description', Locked = true;
                 }
+                column(inventoryStatusType; Type)
+                {
+                    Caption = 'Inventory Status Type', Locked = true;
+                }
             }
         }
     }
