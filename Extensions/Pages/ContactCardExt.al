@@ -7,7 +7,6 @@ pageextension 65050 ContactCardExt extends "Contact Card"
             field(Last_Website_Login; "Last Website Login")
             {
                 applicationarea = all;
-                Editable = false;
             }
         }
     }
