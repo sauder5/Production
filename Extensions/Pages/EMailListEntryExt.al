@@ -32,6 +32,7 @@ pageextension 80908 EmailListEntryExt extends "E-Mail List Entries"
         bDelivery: Boolean;
         bShipment: Boolean;
         bException: Boolean;
+
         sDeliveryAddress: text;
         sShipmentAddress: Text;
         sExceptionAddress: text;
@@ -45,24 +46,18 @@ pageextension 80908 EmailListEntryExt extends "E-Mail List Entries"
         CLEAR(sShipmentAddress);
         CLEAR(sExceptionAddress);
 
-        recEmailList.SETFILTER("Table ID", '%1', DATABASE::Customer);
-        recEmailList.SETFILTER(Code, Code);
-        recEmailList.SETFILTER("Code 2", '');
-        IF recEmailList.FINDSET THEN
-            REPEAT
-                IF (NOT bDelivery) AND ("UPS Delivery Notification") THEN BEGIN
-                    bDelivery := "UPS Delivery Notification";
-                    sDeliveryAddress := "E-Mail";
-                END;
-                IF (NOT bShipment) AND ("UPS Shipment Notification") THEN BEGIN
-                    bShipment := "UPS Shipment Notification";
-                    sShipmentAddress := "E-Mail";
-                END;
-                IF (NOT bException) AND ("UPS Exception Notification") THEN BEGIN
-                    bException := "UPS Exception Notification";
-                    sExceptionAddress := "E-Mail";
-                END;
-            UNTIL recEmailList.NEXT = 0;
+        IF ("UPS Delivery Notification") THEN BEGIN
+            bDelivery := "UPS Delivery Notification";
+            sDeliveryAddress := "E-Mail";
+        END;
+        IF ("UPS Shipment Notification") THEN BEGIN
+            bShipment := "UPS Shipment Notification";
+            sShipmentAddress := "E-Mail";
+        END;
+        IF ("UPS Exception Notification") THEN BEGIN
+            bException := "UPS Exception Notification";
+            sExceptionAddress := "E-Mail";
+        END;
 
         recUPSOptions.SETFILTER(Type, '%1', recUPSOptions.Type::"Master Data");
         recUPSOptions.SETFILTER("Source ID", Code);
@@ -72,7 +67,6 @@ pageextension 80908 EmailListEntryExt extends "E-Mail List Entries"
         recUPSOptions.SETFILTER("Shipping Agent Code", 'UPS');
         IF recUPSOptions.FINDSET THEN
             WITH recUPSOptions DO BEGIN
-                "Delivery Notification" := bDelivery;
                 "Delivery Notification Email" := sDeliveryAddress;
                 IF bDelivery THEN
                     "Delivery Info. Level" := "Delivery Info. Level"::Shipment

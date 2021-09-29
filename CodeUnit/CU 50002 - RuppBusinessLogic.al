@@ -174,9 +174,9 @@ codeunit 50002 "Rupp Business Logic"
         SalesLn."Inventory Status Code" := '';
         SalesLn."Compliance Group Code" := '';
         SalesLn."Compliance Group Code" := '';
-        SalesLn."Missing Reqd License" := false;
-        SalesLn."Missing Reqd Liability Waiver" := false;
-        SalesLn."Missing Reqd Quality Release" := false;
+        //        SalesLn."Rupp Missing License" := false;
+        //        SalesLn."Rupp Missing Liability Waiver" := false;
+        //        SalesLn."Rupp Missing Quality Release" := false;
 
         if SalesLn.Type = SalesLn.Type::Item then begin
             if SalesLn."No." <> '' then begin
@@ -197,7 +197,8 @@ codeunit 50002 "Rupp Business Logic"
                 end;
 
                 //Field: "Compliance Group Code"
-                ComplianceMgt.UpdateSalesLineCompliance(SalesLn);
+                //                ComplianceMgt.UpdateSalesLineCompliance(SalesLn);
+                SalesLn.CalcFields("Rupp Missing Liability Waiver", "Rupp Missing License", "Rupp Missing Quality Release");
 
                 //Field: "Original Item No."
                 SalesLn."Original Item No." := SalesLn."No.";

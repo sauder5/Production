@@ -4,17 +4,16 @@ pageextension 60042 SalesOrderExt extends "Sales Order"
     {
         addafter("Posting Date")
         {
-            field("PmtMethodCode"; "Payment Method Code")
+            field(PmtMethodCode; "Payment Method Code")
             {
                 applicationarea = all;
-                ToolTip = 'Payment Method Code';
                 trigger OnAssistEdit()
                 var
                     recPaymentAccount: Record "Payment Account";
                     pgCustPayAcct: Page "Customer Payment Accounts";
                 begin
                     //SOC-MA 07-13-15
-                    recPaymentAccount.RESET();
+                    recPaymentAccount.RESET;
                     // recPaymentAccount.SETRANGE("Payment Method Code", "Payment Method Code");
                     recPaymentAccount.SETRANGE("Customer No.", "Sell-to Customer No.");
                     page.run(Page::"Customer Payment Accounts", recPaymentAccount);
@@ -57,14 +56,6 @@ pageextension 60042 SalesOrderExt extends "Sales Order"
             {
                 applicationarea = all;
             }
-            // Added by TAE 2021-08-04 to support the online customer center and ordering
-            field("CustomerComment"; "Customer Comment")
-            {
-                ApplicationArea = All;
-                ToolTip = 'Customer Comment';
-                MultiLine = true;
-            }
-            // End
         }
         addbefore("Bill-to Name")
         {
@@ -83,7 +74,7 @@ pageextension 60042 SalesOrderExt extends "Sales Order"
                 begin
                     IF CopySellToAddress THEN BEGIN
                         CLEAR("Ship-to Code");
-                        CopySellToAddressToShipToAddress();
+                        CopySellToAddressToShipToAddress;
                     END;
                     ComplianceMgt.UpdateSalesLineComplianceHeader(Rec);
                 end;
@@ -194,11 +185,12 @@ pageextension 60042 SalesOrderExt extends "Sales Order"
                 IF "Posting Date" <> 0D THEN
                     ChangeExchangeRate.SetParameter("Currency Code", "Currency Factor", "Posting Date")
                 ELSE
-                    ChangeExchangeRate.SetParameter("Currency Code", "Currency Factor", WORKDATE());
-                IF ChangeExchangeRate.RUNMODAL() = ACTION::OK THEN BEGIN
-                    VALIDATE("Currency Factor", ChangeExchangeRate.GetParameter());
-                    CurrPage.SAVERECORD();
+                    ChangeExchangeRate.SetParameter("Currency Code", "Currency Factor", WORKDATE);
+                IF ChangeExchangeRate.RUNMODAL = ACTION::OK THEN BEGIN
+                    VALIDATE("Currency Factor", ChangeExchangeRate.GetParameter);
+                    CurrPage.SAVERECORD;
                 END;
+
             end;
         }
         modify("Third Party Ship. Account No.")
@@ -211,7 +203,7 @@ pageextension 60042 SalesOrderExt extends "Sales Order"
                     "Shipping Agent Code", ShippingAccount."Ship-to Type"::Customer,
                     "Sell-to Customer No.", "Ship-to Code")
                 THEN
-                    VALIDATE("Third Party Ship. Account No.", ShippingAccount.GetLookupAccountNo());
+                    VALIDATE("Third Party Ship. Account No.", ShippingAccount.GetLookupAccountNo);
             end;
         }
     }
@@ -226,14 +218,14 @@ pageextension 60042 SalesOrderExt extends "Sales Order"
         {
             trigger OnBeforeAction()
             begin
-                Commit();
+                Commit;
             end;
         }
         modify(SendEmailConfirmation)
         {
             trigger OnBeforeAction()
             begin
-                Commit();
+                Commit;
             end;
         }
         addafter(AssemblyOrders)
@@ -246,7 +238,7 @@ pageextension 60042 SalesOrderExt extends "Sales Order"
                 Image = Process;
                 trigger onAction()
                 begin
-                    commit();
+                    commit;
                     ComplianceMgt.ShowCompliancesReqd(Rec);
                 end;
             }
@@ -269,7 +261,7 @@ pageextension 60042 SalesOrderExt extends "Sales Order"
                 ApplicationArea = all;
                 trigger OnAction()
                 begin
-                    commit();
+                    commit;
                     CustPmtLinkMgt.ShowCustomerBalance("Sell-to Customer No.");
                 end;
             }
@@ -290,7 +282,7 @@ pageextension 60042 SalesOrderExt extends "Sales Order"
                 trigger OnAction()
                 begin
                     IF RuppFun.AddStaticShpgHandlingToSO(Rec) THEN BEGIN
-                        COMMIT();
+                        COMMIT;
                         MESSAGE('Added Shipping & Handling');
                     END ELSE
                         MESSAGE('Shipping & Handling Not added');

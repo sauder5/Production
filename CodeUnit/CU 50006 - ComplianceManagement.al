@@ -48,43 +48,44 @@ codeunit 50006 "Compliance Management"
         recCompliance: Record Compliance;
         recSalesHdr: Record "Sales Header";
     begin
-        recCompliance.Reset();
-        recCompliance.SetRange("Waiver Code", recComplianceItem."Waiver Code");
-        recCompliance.SetRange("Customer No.", SalesLine."Sell-to Customer No.");
-        if recSalesHdr.Get(SalesLine."Document Type", SalesLine."Document No.") then begin
-            if recSalesHdr."Ship-to Code" <> '' then begin
-                recCompliance.SetRange("Ship-to Code", recSalesHdr."Ship-to Code");
+        /*    recCompliance.Reset();
+            recCompliance.SetRange("Waiver Code", recComplianceItem."Waiver Code");
+            recCompliance.SetRange("Customer No.", SalesLine."Sell-to Customer No.");
+            if recSalesHdr.Get(SalesLine."Document Type", SalesLine."Document No.") then begin
+                if recSalesHdr."Ship-to Code" <> '' then begin
+                    recCompliance.SetRange("Ship-to Code", recSalesHdr."Ship-to Code");
+                end;
             end;
-        end;
 
-        //SalesLine."Missing Reqd License" := (recComplianceItem."License Required" AND NOT recCompliance.FINDFIRST());
-        if recComplianceItem."License Required" then begin
-            recCompliance.SetFilter("License No.", '<>%1', '');
-            recCompliance.SetFilter("License Expiration Date", '%1|>=%2', 0D, WorkDate);
-            SalesLine."Missing Reqd License" := not recCompliance.FindFirst();
-            recCompliance.SetRange("License No.");
-            recCompliance.SetRange("License Expiration Date");
-        end;
+            //SalesLine."Missing Reqd License" := (recComplianceItem."License Required" AND NOT recCompliance.FINDFIRST());
+            if recComplianceItem."License Required" then begin
+                recCompliance.SetFilter("License No.", '<>%1', '');
+                recCompliance.SetFilter("License Expiration Date", '%1|>=%2', 0D, WorkDate);
+                SalesLine."Missing Reqd License" := not recCompliance.FindFirst();
+                recCompliance.SetRange("License No.");
+                recCompliance.SetRange("License Expiration Date");
+            end;
 
-        //SalesLine."Missing Reqd Liability Waiver" := (recComplianceItem."Liability Waiver Required" AND NOT recCompliance.FINDFIRST());
-        if recComplianceItem."Liability Waiver Required" then begin
-            recCompliance.SetRange("Liability Waiver Signed", true);
-            recCompliance.SetFilter("Liability Waiver Start Date", '%1|<=%2', 0D, WorkDate);
-            recCompliance.SetFilter("Liability Waiver End Date", '%1|>=%2', 0D, WorkDate);
-            SalesLine."Missing Reqd Liability Waiver" := not recCompliance.FindFirst();
-            recCompliance.SetRange("Liability Waiver Signed");
-            recCompliance.SetRange("Liability Waiver Start Date");
-            recCompliance.SetRange("Liability Waiver End Date");
-        end;
+            //SalesLine."Missing Reqd Liability Waiver" := (recComplianceItem."Liability Waiver Required" AND NOT recCompliance.FINDFIRST());
+            if recComplianceItem."Liability Waiver Required" then begin
+                recCompliance.SetRange("Liability Waiver Signed", true);
+                recCompliance.SetFilter("Liability Waiver Start Date", '%1|<=%2', 0D, WorkDate);
+                recCompliance.SetFilter("Liability Waiver End Date", '%1|>=%2', 0D, WorkDate);
+                SalesLine."Missing Reqd Liability Waiver" := not recCompliance.FindFirst();
+                recCompliance.SetRange("Liability Waiver Signed");
+                recCompliance.SetRange("Liability Waiver Start Date");
+                recCompliance.SetRange("Liability Waiver End Date");
+            end;
 
-        //SalesLine."Missing Reqd Quality Release" := (recComplianceItem."Quality Release Required" AND NOT recCompliance.FINDFIRST());
-        if recComplianceItem."Quality Release Required" then begin
-            recCompliance.SetRange("Quality Release Signed", true);
-            recCompliance.SetFilter("Quality Release Start Date", '%1|<=%2', 0D, WorkDate);
-            recCompliance.SetFilter("Quality Release End Date", '%1|>=%2', 0D, WorkDate);
-            SalesLine."Missing Reqd Quality Release" := not recCompliance.FindFirst();
-        end;
-        // SalesLine.Modify();
+            //SalesLine."Missing Reqd Quality Release" := (recComplianceItem."Quality Release Required" AND NOT recCompliance.FINDFIRST());
+            if recComplianceItem."Quality Release Required" then begin
+                recCompliance.SetRange("Quality Release Signed", true);
+                recCompliance.SetFilter("Quality Release Start Date", '%1|<=%2', 0D, WorkDate);
+                recCompliance.SetFilter("Quality Release End Date", '%1|>=%2', 0D, WorkDate);
+                SalesLine."Missing Reqd Quality Release" := not recCompliance.FindFirst();
+            end;
+            // SalesLine.Modify();
+            */
     end;
 
     [Scope('Internal')]
@@ -117,25 +118,25 @@ codeunit 50006 "Compliance Management"
         recSL.SetFilter("Outstanding Quantity", '<>0');
         if recSL.FindSet() then begin
             repeat
-                recSL.CalcFields("Compliance Group Code");
+                recSL.CalcFields("Compliance Group Code", "Rupp Missing Liability Waiver", "Rupp Missing License", "Rupp Missing Quality Release");
                 recComplianceItemTmp.Init();
                 recComplianceItemTmp."Waiver Code" := recSL."Compliance Group Code";
                 recComplianceItemTmp."Item No." := recSL."No.";
 
-                if recSL."Missing Reqd License" then begin
+                if recSL."Rupp Missing License" then begin
                     //recComplianceItem.MARK(TRUE);
                     recComplianceItemTmp."License Required" := true;
                     recComplianceItemTmp.Insert();
                 end;
 
-                if recSL."Missing Reqd Liability Waiver" then begin
+                if recSL."Rupp Missing Liability Waiver" then begin
                     //recComplianceItem.MARK(TRUE);
                     recComplianceItemTmp."Liability Waiver Required" := true;
                     if not recComplianceItemTmp.Insert then
                         recComplianceItemTmp.Modify();
                 end;
 
-                if recSL."Missing Reqd Quality Release" then begin
+                if recSL."Rupp Missing Quality Release" then begin
                     //recComplianceItem.MARK(TRUE);
                     recComplianceItemTmp."Quality Release Required" := true;
                     if not recComplianceItemTmp.Insert then
@@ -186,96 +187,96 @@ codeunit 50006 "Compliance Management"
     var
         recSalesLine: Record "Sales Line";
         recItem: Record Item;
-        recComplianceItem: Record "Compliance Group Product Item";
-        bMissingReqdLicense: Boolean;
-        bMissingReqdLiability: Boolean;
-        bMissingReqdQualityWaiver: Boolean;
+        //        recComplianceItem: Record "Compliance Group Product Item";
+        //        bMissingReqdLicense: Boolean;
+        //        bMissingReqdLiability: Boolean;
+        //        bMissingReqdQualityWaiver: Boolean;
         bValidLicenseExists: Boolean;
         bValidLiabilityWaiverExists: Boolean;
         bValidQualityWaiverExists: Boolean;
         bModify: Boolean;
     begin
-        //Called by Table 50026 Compliance
-        recComplianceItem.Reset();
-        recComplianceItem.SetRange("Waiver Code", Compliance."Waiver Code");
+        /*        //Called by Table 50026 Compliance
+                recComplianceItem.Reset();
+                recComplianceItem.SetRange("Waiver Code", Compliance."Waiver Code");
 
-        recSalesLine.Reset();
-        recSalesLine.SetCurrentKey("Document Type", Type, "No.", "Variant Code", "Drop Shipment", "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code", "Location Code", "Shipment Date");
-        recSalesLine.SetRange("Document Type", recSalesLine."Document Type"::Order);
-        recSalesLine.SetRange(Type, recSalesLine.Type::Item);
-        recSalesLine.SetFilter("No.", '<>%1', '');
-        recSalesLine.SetRange("Compliance Group Code", Compliance."Waiver Code");
-        //IF NOT ComplDeleted THEN BEGIN
-        recSalesLine.SetRange("Sell-to Customer No.", Compliance."Customer No.");
-        if Compliance."Ship-to Code" <> '' then
-            recSalesLine.SetRange("Ship-to Code", Compliance."Ship-to Code");
-        //END;
-        if recSalesLine.FindSet() then begin
-            cPrevItemNo := '';
-            bMissingReqdLicense := false;
-            bMissingReqdLiability := false;
-            bMissingReqdQualityWaiver := false;
+                recSalesLine.Reset();
+                recSalesLine.SetCurrentKey("Document Type", Type, "No.", "Variant Code", "Drop Shipment", "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code", "Location Code", "Shipment Date");
+                recSalesLine.SetRange("Document Type", recSalesLine."Document Type"::Order);
+                recSalesLine.SetRange(Type, recSalesLine.Type::Item);
+                recSalesLine.SetFilter("No.", '<>%1', '');
+                recSalesLine.SetRange("Compliance Group Code", Compliance."Waiver Code");
+                //IF NOT ComplDeleted THEN BEGIN
+                recSalesLine.SetRange("Sell-to Customer No.", Compliance."Customer No.");
+                if Compliance."Ship-to Code" <> '' then
+                    recSalesLine.SetRange("Ship-to Code", Compliance."Ship-to Code");
+                //END;
+                if recSalesLine.FindSet() then begin
+                    cPrevItemNo := '';
+                    bMissingReqdLicense := false;
+                    bMissingReqdLiability := false;
+                    bMissingReqdQualityWaiver := false;
 
-            repeat
-                if recSalesLine."No." <> cPrevItemNo then begin
-                    recSalesLine.CalcFields("Ship-to Code");
-                    Commit; //SOC-SC 01-04-16
-                    CheckForValidCompliance(Compliance."Waiver Code", recSalesLine."Sell-to Customer No.", recSalesLine."Ship-to Code", Compliance.Code, ComplDeleted,
-                            bValidLicenseExists, bValidLiabilityWaiverExists, bValidQualityWaiverExists);
+                    repeat
+                        if recSalesLine."No." <> cPrevItemNo then begin
+                            recSalesLine.CalcFields("Ship-to Code");
+                            Commit; //SOC-SC 01-04-16
+                            CheckForValidCompliance(Compliance."Waiver Code", recSalesLine."Sell-to Customer No.", recSalesLine."Ship-to Code", Compliance.Code, ComplDeleted,
+                                    bValidLicenseExists, bValidLiabilityWaiverExists, bValidQualityWaiverExists);
 
-                    if not ComplDeleted then begin
-                        if not bValidLicenseExists then
-                            if ((Compliance."License No." <> '') and ((Compliance."License Expiration Date" = 0D) or (Compliance."License Expiration Date" > WorkDate))) then
-                                bValidLicenseExists := true;
+                            if not ComplDeleted then begin
+                                if not bValidLicenseExists then
+                                    if ((Compliance."License No." <> '') and ((Compliance."License Expiration Date" = 0D) or (Compliance."License Expiration Date" > WorkDate))) then
+                                        bValidLicenseExists := true;
 
-                        if not bValidLiabilityWaiverExists then
-                            if Compliance."Liability Waiver Signed" and
-                              ((Compliance."Liability Waiver Start Date" = 0D) or (Compliance."Liability Waiver Start Date" <= WorkDate)) and
-                              ((Compliance."Liability Waiver End Date" = 0D) or (Compliance."Liability Waiver End Date" >= WorkDate)) then
-                                bValidLiabilityWaiverExists := true;
+                                if not bValidLiabilityWaiverExists then
+                                    if Compliance."Liability Waiver Signed" and
+                                      ((Compliance."Liability Waiver Start Date" = 0D) or (Compliance."Liability Waiver Start Date" <= WorkDate)) and
+                                      ((Compliance."Liability Waiver End Date" = 0D) or (Compliance."Liability Waiver End Date" >= WorkDate)) then
+                                        bValidLiabilityWaiverExists := true;
 
-                        if not bValidQualityWaiverExists then
-                            if Compliance."Quality Release Signed" and
-                              ((Compliance."Quality Release Start Date" = 0D) or (Compliance."Quality Release Start Date" <= WorkDate)) and
-                              ((Compliance."Quality Release End Date" = 0D) or (Compliance."Quality Release End Date" >= WorkDate)) then
-                                bValidQualityWaiverExists := true;
+                                if not bValidQualityWaiverExists then
+                                    if Compliance."Quality Release Signed" and
+                                      ((Compliance."Quality Release Start Date" = 0D) or (Compliance."Quality Release Start Date" <= WorkDate)) and
+                                      ((Compliance."Quality Release End Date" = 0D) or (Compliance."Quality Release End Date" >= WorkDate)) then
+                                        bValidQualityWaiverExists := true;
 
-                    end;
+                            end;
 
-                    recComplianceItem.SetRange("Item No.", recSalesLine."No.");
-                    if recComplianceItem.FindFirst() then begin
+                            recComplianceItem.SetRange("Item No.", recSalesLine."No.");
+                            if recComplianceItem.FindFirst() then begin
 
-                        if recComplianceItem."License Required" then
-                            bMissingReqdLicense := not bValidLicenseExists;
+                                if recComplianceItem."License Required" then
+                                    bMissingReqdLicense := not bValidLicenseExists;
 
-                        if recComplianceItem."Liability Waiver Required" then
-                            bMissingReqdLiability := not bValidLiabilityWaiverExists;
+                                if recComplianceItem."Liability Waiver Required" then
+                                    bMissingReqdLiability := not bValidLiabilityWaiverExists;
 
-                        if recComplianceItem."Quality Release Required" then
-                            bMissingReqdQualityWaiver := not bValidQualityWaiverExists;
+                                if recComplianceItem."Quality Release Required" then
+                                    bMissingReqdQualityWaiver := not bValidQualityWaiverExists;
 
-                    end;
-                    cPrevItemNo := recSalesLine."No.";
-                end;
+                            end;
+                            cPrevItemNo := recSalesLine."No.";
+                        end;
 
-                bModify := false;
-                if recSalesLine."Missing Reqd License" <> bMissingReqdLicense then begin
-                    recSalesLine.Validate("Missing Reqd License", bMissingReqdLicense);
-                    bModify := true;
-                end;
-                if recSalesLine."Missing Reqd Liability Waiver" <> bMissingReqdLiability then begin
-                    recSalesLine.Validate("Missing Reqd Liability Waiver", bMissingReqdLiability);
-                    bModify := true;
-                end;
-                if recSalesLine."Missing Reqd Quality Release" <> bMissingReqdQualityWaiver then begin
-                    recSalesLine.Validate("Missing Reqd Quality Release", bMissingReqdQualityWaiver);
-                    bModify := true;
-                end;
+                        bModify := false;
+                        if recSalesLine."Missing Reqd License" <> bMissingReqdLicense then begin
+                            recSalesLine.Validate("Missing Reqd License", bMissingReqdLicense);
+                            bModify := true;
+                        end;
+                        if recSalesLine."Missing Reqd Liability Waiver" <> bMissingReqdLiability then begin
+                            recSalesLine.Validate("Missing Reqd Liability Waiver", bMissingReqdLiability);
+                            bModify := true;
+                        end;
+                        if recSalesLine."Missing Reqd Quality Release" <> bMissingReqdQualityWaiver then begin
+                            recSalesLine.Validate("Missing Reqd Quality Release", bMissingReqdQualityWaiver);
+                            bModify := true;
+                        end;
 
-                if bModify then
-                    recSalesLine.Modify();
-            until recSalesLine.Next = 0;
-        end;
+                        if bModify then
+                            recSalesLine.Modify();
+                    until recSalesLine.Next = 0;
+                end; */
     end;
 
     [Scope('Internal')]
@@ -364,63 +365,63 @@ codeunit 50006 "Compliance Management"
     var
         recSalesLine: Record "Sales Line";
     begin
-        recSalesLine.Reset();
-        recSalesLine.SetCurrentKey("Document Type", Type, "No.", "Variant Code", "Drop Shipment", "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code", "Location Code", "Shipment Date");
-        recSalesLine.SetRange("Document Type", recSalesLine."Document Type"::Order);
-        recSalesLine.SetRange(Type, recSalesLine.Type::Item);
-        recSalesLine.SetFilter("No.", '<>%1', '');
-        recSalesLine.SetFilter("Outstanding Quantity", '>%1', 0);
-        recSalesLine.SetRange("Compliance Group Code", WaiverCode);
-        recSalesLine.SetRange("Sell-to Customer No.", CustNo);
-        if ShipToCode <> '' then begin
-            recSalesLine.SetRange("Ship-to Code", ShipToCode);
-        end;
-        recSalesLine.SetRange("Missing Reqd License", ValidLicense);
-        if recSalesLine.FindSet() then begin
-            recSalesLine.ModifyAll("Missing Reqd License", not ValidLicense);
-        end;
+        /*        recSalesLine.Reset();
+                recSalesLine.SetCurrentKey("Document Type", Type, "No.", "Variant Code", "Drop Shipment", "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code", "Location Code", "Shipment Date");
+                recSalesLine.SetRange("Document Type", recSalesLine."Document Type"::Order);
+                recSalesLine.SetRange(Type, recSalesLine.Type::Item);
+                recSalesLine.SetFilter("No.", '<>%1', '');
+                recSalesLine.SetFilter("Outstanding Quantity", '>%1', 0);
+                recSalesLine.SetRange("Compliance Group Code", WaiverCode);
+                recSalesLine.SetRange("Sell-to Customer No.", CustNo);
+                if ShipToCode <> '' then begin
+                    recSalesLine.SetRange("Ship-to Code", ShipToCode);
+                end;
+                recSalesLine.SetRange("Rupp Missing License", ValidLicense);
+                if recSalesLine.FindSet() then begin
+                    recSalesLine.ModifyAll("Missing Reqd License", not ValidLicense);
+                end;*/
     end;
 
     local procedure UpdateSLWithLiability(WaiverCode: Code[20]; CustNo: Code[20]; ShipToCode: Code[10]; ValidLiability: Boolean)
     var
         recSalesLine: Record "Sales Line";
     begin
-        recSalesLine.Reset();
-        recSalesLine.SetCurrentKey("Document Type", Type, "No.", "Variant Code", "Drop Shipment", "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code", "Location Code", "Shipment Date");
-        recSalesLine.SetRange("Document Type", recSalesLine."Document Type"::Order);
-        recSalesLine.SetRange(Type, recSalesLine.Type::Item);
-        recSalesLine.SetFilter("No.", '<>%1', '');
-        recSalesLine.SetFilter("Outstanding Quantity", '>%1', 0);
-        recSalesLine.SetRange("Compliance Group Code", WaiverCode);
-        recSalesLine.SetRange("Sell-to Customer No.", CustNo);
-        if ShipToCode <> '' then begin
-            recSalesLine.SetRange("Ship-to Code", ShipToCode);
-        end;
-        recSalesLine.SetRange("Missing Reqd Liability Waiver", ValidLiability);
-        if recSalesLine.FindSet() then begin
-            recSalesLine.ModifyAll("Missing Reqd Liability Waiver", not ValidLiability);
-        end;
+        /*        recSalesLine.Reset();
+                recSalesLine.SetCurrentKey("Document Type", Type, "No.", "Variant Code", "Drop Shipment", "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code", "Location Code", "Shipment Date");
+                recSalesLine.SetRange("Document Type", recSalesLine."Document Type"::Order);
+                recSalesLine.SetRange(Type, recSalesLine.Type::Item);
+                recSalesLine.SetFilter("No.", '<>%1', '');
+                recSalesLine.SetFilter("Outstanding Quantity", '>%1', 0);
+                recSalesLine.SetRange("Compliance Group Code", WaiverCode);
+                recSalesLine.SetRange("Sell-to Customer No.", CustNo);
+                if ShipToCode <> '' then begin
+                    recSalesLine.SetRange("Ship-to Code", ShipToCode);
+                end;
+                recSalesLine.SetRange("Missing Reqd Liability Waiver", ValidLiability);
+                if recSalesLine.FindSet() then begin
+                    recSalesLine.ModifyAll("Missing Reqd Liability Waiver", not ValidLiability);
+                end;*/
     end;
 
     local procedure UpdateSLWithQualityWaiver(WaiverCode: Code[20]; CustNo: Code[20]; ShipToCode: Code[10]; ValidQualityWaiver: Boolean)
     var
         recSalesLine: Record "Sales Line";
     begin
-        recSalesLine.Reset();
-        recSalesLine.SetCurrentKey("Document Type", Type, "No.", "Variant Code", "Drop Shipment", "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code", "Location Code", "Shipment Date");
-        recSalesLine.SetRange("Document Type", recSalesLine."Document Type"::Order);
-        recSalesLine.SetRange(Type, recSalesLine.Type::Item);
-        recSalesLine.SetFilter("No.", '<>%1', '');
-        recSalesLine.SetFilter("Outstanding Quantity", '>%1', 0);
-        recSalesLine.SetRange("Compliance Group Code", WaiverCode);
-        recSalesLine.SetRange("Sell-to Customer No.", CustNo);
-        if ShipToCode <> '' then begin
-            recSalesLine.SetRange("Ship-to Code", ShipToCode);
-        end;
-        recSalesLine.SetRange("Missing Reqd Quality Release", ValidQualityWaiver);
-        if recSalesLine.FindSet() then begin
-            recSalesLine.ModifyAll("Missing Reqd Quality Release", not ValidQualityWaiver);
-        end;
+        /*        recSalesLine.Reset();
+                recSalesLine.SetCurrentKey("Document Type", Type, "No.", "Variant Code", "Drop Shipment", "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code", "Location Code", "Shipment Date");
+                recSalesLine.SetRange("Document Type", recSalesLine."Document Type"::Order);
+                recSalesLine.SetRange(Type, recSalesLine.Type::Item);
+                recSalesLine.SetFilter("No.", '<>%1', '');
+                recSalesLine.SetFilter("Outstanding Quantity", '>%1', 0);
+                recSalesLine.SetRange("Compliance Group Code", WaiverCode);
+                recSalesLine.SetRange("Sell-to Customer No.", CustNo);
+                if ShipToCode <> '' then begin
+                    recSalesLine.SetRange("Ship-to Code", ShipToCode);
+                end;
+                recSalesLine.SetRange("Missing Reqd Quality Release", ValidQualityWaiver);
+                if recSalesLine.FindSet() then begin
+                    recSalesLine.ModifyAll("Missing Reqd Quality Release", not ValidQualityWaiver);
+                end;*/
     end;
 }
 

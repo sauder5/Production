@@ -347,9 +347,10 @@ codeunit 50011 RuppCodeExt
     [EventSubscriber(ObjectType::Codeunit, codeunit::"Package Management", 'RuppLicenseCheck', '', true, true)]
     local procedure RuppLicenseCheck(VAR SalesLine: Record "Sales Line"; PackingControl: Record "Packing Control")
     begin
-        SalesLine.SETRANGE("Missing Reqd License", FALSE);
-        SalesLine.SETRANGE("Missing Reqd Liability Waiver", FALSE);
-        SalesLine.SETRANGE("Missing Reqd Quality Release", FALSE);
+        SalesLine.CalcFields("Rupp Missing Liability Waiver", "Rupp Missing License", "Rupp Missing Quality Release");
+        SalesLine.SETRANGE("Rupp Missing License", FALSE);
+        SalesLine.SETRANGE("Rupp Missing Liability Waiver", FALSE);
+        SalesLine.SETRANGE("Rupp Missing Quality Release", FALSE);
         IF PackingControl."Warehouse Shipment No." <> '' THEN BEGIN
             SalesLine.SETRANGE("Whse Shpt No. Filter", PackingControl."Warehouse Shipment No.");
             SalesLine.SETRANGE("Whse Shpt Line Exists", TRUE);
@@ -407,9 +408,10 @@ codeunit 50011 RuppCodeExt
     [EventSubscriber(ObjectType::Report, Report::"Get Source Documents", 'RuppCheckLicense', '', true, true)]
     local procedure RuppCheckLicense(SalesLine: Record "Sales Line"; var bMissingLicense: Boolean)
     begin
-        IF SalesLine."Missing Reqd License" OR
-          SalesLine."Missing Reqd Liability Waiver" OR
-          SalesLine."Missing Reqd Quality Release" THEN
+        SalesLine.CalcFields("Rupp Missing Liability Waiver", "Rupp Missing License", "Rupp Missing Quality Release");
+        IF SalesLine."Rupp Missing License" OR
+          SalesLine."Rupp Missing Liability Waiver" OR
+          SalesLine."Rupp Missing Quality Release" THEN
             bMissingLicense := true
         else
             bMissingLicense := false;
@@ -708,14 +710,14 @@ codeunit 50011 RuppCodeExt
         END;
     end;
 
-    [EventSubscriber(ObjectType::Table, database::"Warehouse Activity Line", 'RuppOnAfterDelete', '', true, true)]
-    local procedure RuppOnAfterDelete(WhseActivityLine: Record "Warehouse Activity Line")
-    var
-        RuppFun: Codeunit "Rupp Functions";
-    begin
-        RuppFun.UpdateHdrShpgStatusFromPickLn(WhseActivityLine, TRUE);
-    end;
-
+    /*    [EventSubscriber(ObjectType::Table, database::"Warehouse Activity Line", 'RuppOnAfterDelete', '', true, true)]
+        local procedure RuppOnAfterDelete(WhseActivityLine: Record "Warehouse Activity Line")
+        var
+            RuppFun: Codeunit "Rupp Functions";
+        begin
+            RuppFun.UpdateHdrShpgStatusFromPickLn(WhseActivityLine, TRUE);
+        end;
+    */
     [EventSubscriber(ObjectType::Table, database::"Item Journal Line", 'OnBeforeDisplayErrorIfItemIsBlocked', '', true, true)]
     local procedure OnBeforeDisplayErrorIfItemIsBlocked(VAR Item: Record Item; VAR ItemJournalLine: Record "Item Journal Line"; VAR IsHandled: Boolean)
     begin

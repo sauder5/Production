@@ -138,6 +138,21 @@ tableextension 60037 SalesLineExt extends "Sales Line"
         {
             DataClassification = CustomerContent;
         }
+        field(50131; "Rupp Missing License"; Boolean)
+        {
+            FieldClass = FlowField;
+            CalcFormula = lookup("Missing Compliances"."Missing License" where("Document Type" = field("Document Type"), "Document No." = field("Document No."), "Line No." = field("Line No.")));
+        }
+        field(50133; "Rupp Missing Liability Waiver"; Boolean)
+        {
+            FieldClass = FlowField;
+            CalcFormula = lookup("Missing Compliances"."Missing Liability Waiver" where("Document Type" = field("Document Type"), "Document No." = field("Document No."), "Line No." = field("Line No.")));
+        }
+        field(50135; "Rupp Missing Quality Release"; Boolean)
+        {
+            FieldClass = FlowField;
+            CalcFormula = lookup("Missing Compliances"."Missing Quality Release" where("Document Type" = field("Document Type"), "Document No." = field("Document No."), "Line No." = field("Line No.")));
+        }
         field(51000; "Product Code"; Code[17])
         {
             TableRelation = Product;

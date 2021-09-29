@@ -221,7 +221,7 @@ page 50079 "Open Order List"
         gtPickCreatedDate := 0D;
         CalcFields("Pick Qty.");
 
-
+        calcfields("Rupp Missing Liability Waiver", "Rupp Missing License", "Rupp Missing Quality Release");
         if "Pick Qty." > 0 then begin
             gsPickExists := 'YES';
             recWhseActLn.Reset();
@@ -251,6 +251,7 @@ page 50079 "Open Order List"
         else
             gcShipMethod := recSalesHeader."E-Ship Agent Service";
 
+        recSalesHeader.CalcFields("Missing Reqd Liability Waiver", "Missing Reqd License", "Missing Reqd Quality Release");
         if recSalesHeader."Missing Reqd License" then begin
             gsWaivers := 'License Required';
         end;
@@ -295,7 +296,7 @@ page 50079 "Open Order List"
         gsWaivers := '';
         if Type = Type::Item then begin
             gsWaivers := "Compliance Group Code";
-            if "Missing Reqd License" then begin
+            if "Rupp Missing License" then begin
                 gsWaivers := gsWaivers + ': ' + 'License Reqd';
             end else begin
                 if recCompliance.Get("Compliance Group Code", "Sell-to Customer No.", recSalesHeader."Ship-to Code", '') then begin//"Waiver Code","Customer No.","Ship-to Code","Code"
@@ -303,11 +304,11 @@ page 50079 "Open Order List"
                 end;
             end;
 
-            if "Missing Reqd Liability Waiver" then begin
+            if "Rupp Missing Liability Waiver" then begin
                 gsWaivers := gsWaivers + ' ,' + 'Liability Waiver Reqd.';
             end;
 
-            if "Missing Reqd Quality Release" then begin
+            if "Rupp Missing Quality Release" then begin
                 gsWaivers := gsWaivers + ' ,' + 'Missing Reqd Quality Release';
             end;
         end;
