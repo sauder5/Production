@@ -162,10 +162,6 @@ pageextension 60042 SalesOrderExt extends "Sales Order"
             Visible = true;
             Editable = true;
             ApplicationArea = all;
-            trigger OnAfterValidate()
-            begin
-                ComplianceMgt.UpdateSalesLineComplianceHeader(Rec);
-            end;
         }
         modify("Ship-to Name") { Visible = true; Editable = true; ApplicationArea = all; }
         modify("Ship-to Address") { Visible = true; Editable = true; ApplicationArea = all; }
