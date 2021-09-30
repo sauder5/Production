@@ -2,7 +2,6 @@ pageextension 65050 ContactCardExt extends "Contact Card"
 {
     layout
     {
-<<<<<<< HEAD
         addafter("Language Code")
         {
             field("UPS Delivery Notification"; "UPS Delivery Notification")
@@ -16,6 +15,13 @@ pageextension 65050 ContactCardExt extends "Contact Card"
             field("UPS Shipment Notification"; "UPS Shipment Notification")
             {
                 ApplicationArea = all;
+            }
+        }
+        addlast(General)
+        {
+            field(Last_Website_Login; "Last Website Login")
+            {
+                applicationarea = all;
             }
         }
         // Add changes to page layout here
@@ -104,14 +110,4 @@ pageextension 65050 ContactCardExt extends "Contact Card"
             recUPSOptions.MODIFY
         END;
     end;
-=======
-        addlast(General)
-        {
-            field(Last_Website_Login; "Last Website Login")
-            {
-                applicationarea = all;
-            }
-        }
-    }
->>>>>>> d58e8a6fd3076d209890743bcd08e0456d21ddb1
 }
