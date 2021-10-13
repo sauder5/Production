@@ -2,19 +2,19 @@ tableextension 65050 ContactExt extends Contact
 {
     fields
     {
-        field(50000; "UPS Delivery Notification"; Boolean)
+        field(50500; "UPS Delivery Notification"; Boolean)
         {
             DataClassification = CustomerContent;
         }
-        field(50001; "UPS Shipment Notification"; Boolean)
+        field(50501; "UPS Shipment Notification"; Boolean)
         {
             DataClassification = CustomerContent;
         }
-        field(50002; "UPS Exception Notification"; Boolean)
+        field(50502; "UPS Exception Notification"; Boolean)
         {
             DataClassification = CustomerContent;
         }
-        field(50010; "Last Website Login"; DateTime)
+        field(50550; "Last Website Login"; DateTime)
         {
             DataClassification = CustomerContent;
         }
