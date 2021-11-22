@@ -405,13 +405,21 @@ codeunit 50011 RuppCodeExt
         END;
     end;
 
+
     [EventSubscriber(ObjectType::Report, Report::"Get Source Documents", 'RuppCheckLicense', '', true, true)]
     local procedure RuppCheckLicense(SalesLine: Record "Sales Line"; var bMissingLicense: Boolean)
+    var
+        recMissingCompliance: Record "Missing Compliances";
     begin
+        bMissingLicense := false;
         SalesLine.CalcFields("Rupp Missing Liability Waiver", "Rupp Missing License", "Rupp Missing Quality Release");
-        IF SalesLine."Rupp Missing License" OR
-          SalesLine."Rupp Missing Liability Waiver" OR
-          SalesLine."Rupp Missing Quality Release" THEN
+        //        recMissingCompliance.SetFilter("Document No.", SalesLine."Document No.");
+        //       recMissingCompliance.SetFilter("Document Type", '%1', SalesLine."Document Type");
+        //        recMissingCompliance.SetFilter("Line No.", '%1', SalesLine."Line No.");
+        //        if recMissingCompliance.FindFirst() then
+        IF SalesLine."Rupp Missing Liability Waiver" OR
+        SalesLine."Rupp Missing License" OR
+        SalesLine."Rupp Missing Quality Release" THEN
             bMissingLicense := true
         else
             bMissingLicense := false;

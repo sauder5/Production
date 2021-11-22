@@ -10,6 +10,13 @@ pageextension 60021 CustomerCardExt extends "Customer Card"
             }
 
         }
+        addafter("Phone No.")
+        {
+            field("Mobile Phone No."; "Mobile Phone No.")
+            {
+                ApplicationArea = all;
+            }
+        }
         moveafter("Salesperson Code"; "Location Code")
         addafter("Location Code")
         {

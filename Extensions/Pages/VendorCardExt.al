@@ -2,6 +2,13 @@ pageextension 60026 VendorCardExt extends "Vendor Card"
 {
     layout
     {
+        addafter(Name)
+        {
+            field("Name 2"; "Name 2")
+            {
+                ApplicationArea = all;
+            }
+        }
         moveafter("Creditor No."; "Check Date Format")
         moveafter("Check Date Format"; "Check Date Separator")
         movelast("General"; "Location Code")

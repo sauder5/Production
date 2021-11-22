@@ -29,7 +29,7 @@ table 50018 "Compliance Group"
         }
         field(50; "Customer Compliance Exists"; Boolean)
         {
-            CalcFormula = Exist (Compliance WHERE("Waiver Code" = FIELD("Waiver Code"),
+            CalcFormula = Exist(Compliance WHERE("Waiver Code" = FIELD("Waiver Code"),
                                                   "Customer No." = FIELD("Customer No. Filter")));
             Description = 'FF';
             Editable = false;
@@ -69,6 +69,14 @@ table 50018 "Compliance Group"
         //IF "Vendor No." ='' THEN
         //  ERROR('Please enter Vendor No. and try again');
 
+    end;
+
+    trigger OnDelete()
+    var
+        recCompGrpItems: Record "Compliance Group Product Item";
+    begin
+        recCompGrpItems.SetFilter("Waiver Code", "Waiver Code");
+        recCompGrpItems.DeleteAll();
     end;
 }
 

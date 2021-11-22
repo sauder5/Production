@@ -902,7 +902,7 @@ codeunit 50005 "Receipt Management"
                         "Journal Template Name" := 'ITEM';
                         "Line No." := LineNo;
                         "Document No." := TransID;
-                        "Entry Type" := "Entry Type"::"Negative Adjmt.";                   //
+                        "Entry Type" := "Entry Type"::Purchase;                   //
                         "Document Type" := "Document Type"::"Purchase Receipt";   //
                         VALIDATE("Posting Date", TODAY);
                         VALIDATE("Item No.", recItemLedgerEntry."Item No.");
@@ -912,13 +912,13 @@ codeunit 50005 "Receipt Management"
                         VALIDATE("Shortcut Dimension 1 Code", recItemLedgerEntry."Global Dimension 1 Code");
                         VALIDATE("Shortcut Dimension 2 Code", recItemLedgerEntry."Global Dimension 2 Code");
                         VALIDATE("Country/Region Code", recItemLedgerEntry."Country/Region Code");
-                        VALIDATE(Quantity, recItemLedgerEntry.Quantity);
+                        VALIDATE(Quantity, -recItemLedgerEntry.Quantity);
                         VALIDATE("Invoiced Quantity", 0);
                         VALIDATE("Invoiced Qty. (Base)", 0);
                         "Unit Cost" := recScaleTkt."Unit Cost";
                         "Unit Cost (ACY)" := "Unit Cost";
                         "Qty. per Unit of Measure" := 1;
-                        Amount := recItemLedgerEntry."Cost Amount (Actual)";
+                        Amount := -recItemLedgerEntry."Cost Amount (Actual)";
                         VALIDATE("Applies-to Entry", recItemLedgerEntry."Entry No.");
                         "Document Line No." := "Line No.";
                         "External Document No." := recGrowerTkt."Grower Ticket No.";

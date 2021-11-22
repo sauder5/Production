@@ -113,8 +113,8 @@ codeunit 50002 "Rupp Business Logic"
                     until recSL.Next = 0;
                 end;
 
-                SalesHdr.CalcFields(SalesHdr."Missing Reqd License", SalesHdr."Missing Reqd Liability Waiver", SalesHdr."Missing Reqd Quality Release");
-                if SalesHdr."Missing Reqd License" or SalesHdr."Missing Reqd Liability Waiver" or SalesHdr."Missing Reqd Quality Release" then begin
+                SalesHdr.CalcFields(SalesHdr."Rupp Missing Reqd License", SalesHdr."Rupp Missing Reqd Liability", SalesHdr."Rupp Missing Reqd Quality Rel");
+                if SalesHdr."Rupp Missing Reqd License" or SalesHdr."Rupp Missing Reqd Liability" or SalesHdr."Rupp Missing Reqd Quality Rel" then begin
                     if not Confirm('There are compliances required for this order. Do you still want to release the order?', false) then begin
                         exit;
                     end;

@@ -146,7 +146,7 @@ tableextension 60037 SalesLineExt extends "Sales Line"
         field(50133; "Rupp Missing Liability Waiver"; Boolean)
         {
             FieldClass = FlowField;
-            CalcFormula = lookup("Missing Compliances"."Missing Liability Waiver" where("Document Type" = field("Document Type"), "Document No." = field("Document No."), "Line No." = field("Line No.")));
+            CalcFormula = Lookup("Missing Compliances"."Missing Liability Waiver" where("Document Type" = field("Document Type"), "Document No." = field("Document No."), "Line No." = field("Line No.")));
         }
         field(50135; "Rupp Missing Quality Release"; Boolean)
         {

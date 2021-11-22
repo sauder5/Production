@@ -5,22 +5,37 @@ tableextension 67321 WarehouseShipLineExt extends "Warehouse Shipment Line"
         field(50050; "Create Pick for Qty. to Pick"; Boolean)
         {
             FieldClass = FlowField;
-            CalcFormula = Lookup ("Warehouse Shipment Header"."Create Pick for Qty. to Pick" WHERE("No." = FIELD("No.")));
+            CalcFormula = Lookup("Warehouse Shipment Header"."Create Pick for Qty. to Pick" WHERE("No." = FIELD("No.")));
         }
         field(50121; "Missing Reqd License"; Boolean)
         {
             FieldClass = FlowField;
-            CalcFormula = Lookup ("Sales Line"."Missing Reqd License" WHERE("Document No." = FIELD("Source No."), "Line No." = FIELD("Source Line No."), "No." = FIELD("Item No.")));
+            CalcFormula = Lookup("Sales Line"."Missing Reqd License" WHERE("Document No." = FIELD("Source No."), "Line No." = FIELD("Source Line No."), "No." = FIELD("Item No.")));
         }
         field(50123; "Missing Reqd Liability Waiver"; Boolean)
         {
             FieldClass = FlowField;
-            CalcFormula = Lookup ("Sales Line"."Missing Reqd Liability Waiver" WHERE("Document No." = FIELD("Source No."), "Line No." = FIELD("Source Line No."), "No." = FIELD("Item No.")));
+            CalcFormula = Lookup("Sales Line"."Missing Reqd Liability Waiver" WHERE("Document No." = FIELD("Source No."), "Line No." = FIELD("Source Line No."), "No." = FIELD("Item No.")));
         }
         field(50125; "Missing Reqd Quality Release"; Boolean)
         {
             FieldClass = FlowField;
-            CalcFormula = Lookup ("Sales Line"."Missing Reqd Quality Release" WHERE("Document No." = FIELD("Source No."), "Line No." = FIELD("Source Line No."), "No." = FIELD("Item No.")));
+            CalcFormula = Lookup("Sales Line"."Missing Reqd Quality Release" WHERE("Document No." = FIELD("Source No."), "Line No." = FIELD("Source Line No."), "No." = FIELD("Item No.")));
+        }
+        field(50130; "Rupp Missing License"; Boolean)
+        {
+            FieldClass = FlowField;
+            CalcFormula = Lookup("Sales Line"."Rupp Missing License" WHERE("Document No." = FIELD("Source No."), "Line No." = FIELD("Source Line No."), "No." = FIELD("Item No.")));
+        }
+        field(50132; "Rupp Missing Liability Waiver"; Boolean)
+        {
+            FieldClass = FlowField;
+            CalcFormula = Lookup("Sales Line"."Rupp Missing Liability Waiver" WHERE("Document No." = FIELD("Source No."), "Line No." = FIELD("Source Line No."), "No." = FIELD("Item No.")));
+        }
+        field(50134; "Rupp Missing Quality Release"; Boolean)
+        {
+            FieldClass = FlowField;
+            CalcFormula = Lookup("Sales Line"."Rupp Missing Quality Release" WHERE("Document No." = FIELD("Source No."), "Line No." = FIELD("Source Line No."), "No." = FIELD("Item No.")));
         }
         field(51000; "Qty. to Pick"; Decimal)
         {
@@ -29,7 +44,7 @@ tableextension 67321 WarehouseShipLineExt extends "Warehouse Shipment Line"
         field(51005; "Item Tracking Code"; Code[10])
         {
             FieldClass = FlowField;
-            CalcFormula = Lookup (Item."Item Tracking Code" WHERE("No." = FIELD("Item No.")));
+            CalcFormula = Lookup(Item."Item Tracking Code" WHERE("No." = FIELD("Item No.")));
         }
         modify("Qty. to Pick")
         {

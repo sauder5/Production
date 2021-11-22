@@ -166,7 +166,8 @@ report 50005 "Open Orders"
                 else
                     gcShipMethod := recSalesHeader."E-Ship Agent Service";
 
-                if recSalesHeader."Missing Reqd License" then begin
+                recSalesHeader.CalcFields("Rupp Missing Reqd License");
+                if recSalesHeader."Rupp Missing Reqd License" then begin
                     gsWaivers := 'License Required';
                 end;
 
@@ -205,7 +206,7 @@ report 50005 "Open Orders"
                 gsWaivers := '';
                 if Type = Type::Item then begin
                     gsWaivers := "Compliance Group Code";
-                    if "Missing Reqd License" then begin
+                    if "Rupp Missing License" then begin
                         gsWaivers := gsWaivers + ': ' + 'License Reqd';
                     end else begin
                         if recCompliance.Get("Compliance Group Code", "Sales Line"."Sell-to Customer No.", recSalesHeader."Ship-to Code", '') then begin//"Waiver Code","Customer No.","Ship-to Code","Code"
@@ -213,11 +214,11 @@ report 50005 "Open Orders"
                         end;
                     end;
 
-                    if "Missing Reqd Liability Waiver" then begin
+                    if "Rupp Missing Liability Waiver" then begin
                         gsWaivers := gsWaivers + ' ,' + 'Liability Waiver Reqd.';
                     end;
 
-                    if "Missing Reqd Quality Release" then begin
+                    if "Rupp Missing Quality Release" then begin
                         gsWaivers := gsWaivers + ' ,' + 'Missing Reqd Quality Release';
                     end;
                 end;

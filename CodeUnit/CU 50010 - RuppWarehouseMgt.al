@@ -474,7 +474,6 @@ codeunit 50010 "Rupp Warehouse Mgt"
         sPrevOrder := '';
         recWHSLines.SetCurrentKey("No.", "Source Type", "Source Subtype", "Source No.", "Source Line No.");
         recWHSLines.SetFilter("No.", recWHSHead."No.");
-
         if recWHSLines.FindSet then begin
             repeat
                 if recSalesHead.Get(recWHSLines."Source Subtype", recWHSLines."Source No.") then begin
@@ -499,12 +498,13 @@ codeunit 50010 "Rupp Warehouse Mgt"
                         else
                             sError := sError + 'Order ' + recWHSLines."Source No." + ' is not marked for World Ease' + '\';
                     end;
-                    recWHSLines.CalcFields(recWHSLines."Missing Reqd License", recWHSLines."Missing Reqd Liability Waiver",
-                                             recWHSLines."Missing Reqd Quality Release");
+                    //                    recWHSLines.CalcFields(recWHSLines."Missing Reqd License", recWHSLines."Missing Reqd Liability Waiver",
+                    //                                             recWHSLines."Missing Reqd Quality Release");
+                    recWHSLines.CalcFields("Rupp Missing Liability Waiver", "Rupp Missing License", "Rupp Missing Quality Release");
                     if recWHSLines."Qty. to Pick" > 0 then
-                        if recWHSLines."Missing Reqd License" = true or
-                          recWHSLines."Missing Reqd Liability Waiver" = true or
-                           recWHSLines."Missing Reqd Quality Release" = true then
+                        if recWHSLines."Rupp Missing License" = true or
+                          recWHSLines."Rupp Missing Liability Waiver" = true or
+                           recWHSLines."Rupp Missing Quality Release" = true then
                             sError := sError + 'Order ' + recWHSLines."Source No." + '/Item ' + recWHSLines."Item No." + ' has missing compliances' + '\';
                     if recWHSLines.Description = '' then
                         sError := sError + 'Order ' + recWHSLines."Source No." + ' has a blank line' + '\';

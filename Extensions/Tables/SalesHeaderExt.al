@@ -112,6 +112,21 @@ tableextension 60036 SalesHeaderExt extends "Sales Header"
             FieldClass = FlowField;
             CalcFormula = Exist("Sales Line" WHERE("Document Type" = FIELD("Document Type"), "Document No." = FIELD("No."), "Missing Reqd Quality Release" = CONST(true), "Outstanding Quantity" = FILTER(> 0)));
         }
+        field(51015; "Rupp Missing Reqd License"; Boolean)
+        {
+            FieldClass = FlowField;
+            CalcFormula = Exist("Sales Line" WHERE("Document Type" = FIELD("Document Type"), "Document No." = FIELD("No."), "Rupp Missing License" = CONST(true), "Outstanding Quantity" = FILTER(> 0)));
+        }
+        field(51016; "Rupp Missing Reqd Liability"; Boolean)
+        {
+            FieldClass = FlowField;
+            CalcFormula = Exist("Sales Line" WHERE("Document Type" = FIELD("Document Type"), "Document No." = FIELD("No."), "Rupp Missing Liability Waiver" = CONST(true), "Outstanding Quantity" = FILTER(> 0)));
+        }
+        field(51017; "Rupp Missing Reqd Quality Rel"; Boolean)
+        {
+            FieldClass = FlowField;
+            CalcFormula = Exist("Sales Line" WHERE("Document Type" = FIELD("Document Type"), "Document No." = FIELD("No."), "Rupp Missing Quality Release" = CONST(true), "Outstanding Quantity" = FILTER(> 0)));
+        }
         field(51020; "Seasonal Cash Disc Code"; Code[20])
         {
             DataClassification = CustomerContent;
@@ -157,22 +172,6 @@ tableextension 60036 SalesHeaderExt extends "Sales Header"
             DataClassification = CustomerContent;
         }
         // End
-        modify("Sell-to Customer No.")
-        {
-            trigger OnAfterValidate()
-            begin
-                if not Cust.Get("Sell-to Customer No.") then
-                    Clear(Cust);
-                if not ShipToAddr.Get("Sell-to Customer No.", "Ship-to Code") then begin
-                    Clear(ShipToAddr);
-                    VALIDATE("Freight Charges Option", ShipToAddr."Freight Charges Option");
-                end ELSE
-                    validate("Freight Charges Option", Cust."Freight Charges Option");
-                "Region Code" := Cust."Region Code";
-                VALIDATE("Ship-to Code", '');
-                VALIDATE("Ship-to Code", Cust."Default Ship-to Code");
-            end;
-        }
         modify("Ship-to Code")
         {
             trigger OnAfterValidate()
@@ -181,11 +180,11 @@ tableextension 60036 SalesHeaderExt extends "Sales Header"
                 ComplianceMgt: Codeunit "Compliance Management";
             begin
                 if not ShipToAddr.Get("Sell-to Customer No.", "Ship-to Code") then
-                    Clear(ShipToAddr);
+                    Clear(ShipToAddr)
+                else
+                    VALIDATE("Freight Charges Option", ShipToAddr."Freight Charges Option");
                 IF ShipToAddr."Region Code" <> '' THEN
                     VALIDATE("Region Code", ShipToAddr."Region Code");
-
-                VALIDATE("Freight Charges Option", ShipToAddr."Freight Charges Option");
 
                 IF recUserSetup.GET(USERID) THEN BEGIN
                     IF recUserSetup."Default Location Code" <> '' THEN BEGIN
@@ -268,6 +267,19 @@ tableextension 60036 SalesHeaderExt extends "Sales Header"
     var
         ShipToAddr: Record "Ship-to Address";
         Cust: Record Customer;
+
+    trigger OnAfterInsert()
+    begin
+        if not Cust.Get("Sell-to Customer No.") then
+            Clear(Cust);
+        if not ShipToAddr.Get("Sell-to Customer No.", "Ship-to Code") then
+            VALIDATE("Freight Charges Option", Cust."Freight Charges Option")
+        ELSE
+            validate("Freight Charges Option", ShipToAddr."Freight Charges Option");
+        "Region Code" := Cust."Region Code";
+        validate("Ship-to Code", Cust."Default Ship-to Code");
+        modify();
+    end;
 
     procedure UpdateDueDate()
     var

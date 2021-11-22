@@ -32,4 +32,9 @@ table 50055 "Missing Compliances"
         field(220; "Quality Release Signed"; Boolean) { DataClassification = CustomerContent; }
         field(230; "Missing Quality Release"; Boolean) { DataClassification = CustomerContent; }
     }
+    keys
+    {
+        key(Main; "Document No.", "Document Type", "Line No.")
+        { }
+    }
 }

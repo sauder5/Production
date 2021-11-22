@@ -251,8 +251,8 @@ page 50079 "Open Order List"
         else
             gcShipMethod := recSalesHeader."E-Ship Agent Service";
 
-        recSalesHeader.CalcFields("Missing Reqd Liability Waiver", "Missing Reqd License", "Missing Reqd Quality Release");
-        if recSalesHeader."Missing Reqd License" then begin
+        recSalesHeader.CalcFields("Rupp Missing Reqd Liability", "Rupp Missing Reqd License", "Rupp Missing Reqd Quality Rel");
+        if recSalesHeader."Rupp Missing Reqd License" then begin
             gsWaivers := 'License Required';
         end;
 

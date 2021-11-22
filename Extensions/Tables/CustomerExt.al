@@ -25,7 +25,7 @@ tableextension 60018 CustomerExt extends Customer
         field(51050; "Sales Line Exists"; Boolean)
         {
             FieldClass = FlowField;
-            CalcFormula = Exist ("Sales Line" WHERE("Sell-to Customer No." = FIELD("No."), "Document Type" = CONST(Order), Type = CONST(Item), "Outstanding Quantity" = FILTER(> 0), "Drop Shipment" = CONST(False), "No." = FIELD("Item No. Filter")));
+            CalcFormula = Exist("Sales Line" WHERE("Sell-to Customer No." = FIELD("No."), "Document Type" = CONST(Order), Type = CONST(Item), "Outstanding Quantity" = FILTER(> 0), "Drop Shipment" = CONST(False), "No." = FIELD("Item No. Filter")));
         }
         field(51051; "Item No. Filter"; Text[20])
         {
@@ -34,27 +34,27 @@ tableextension 60018 CustomerExt extends Customer
         field(51100; "Total Potential Rem Amount"; Decimal)
         {
             FieldClass = FlowField;
-            CalcFormula = Sum ("Customer Payment Link"."Potential Remaining Amount" WHERE("Customer No." = FIELD("No."), Request = filter(true), Cancelled = FILTER(false)));
+            CalcFormula = Sum("Customer Payment Link"."Potential Remaining Amount" WHERE("Customer No." = FIELD("No."), Request = filter(true), Cancelled = FILTER(false)));
         }
         field(51101; "Remaining Seasonal Discount"; Decimal)
         {
             FieldClass = FlowField;
-            CalcFormula = - Sum ("Customer Payment Link"."Remaining Discount" WHERE("Customer No." = FIELD("No."), Request = FILTER(True), Cancelled = FILTER(False)));
+            CalcFormula = - Sum("Customer Payment Link"."Remaining Discount" WHERE("Customer No." = FIELD("No."), Request = FILTER(True), Cancelled = FILTER(False)));
         }
         field(51110; "Potential Deposit Amount"; Decimal)
         {
             FieldClass = FlowField;
-            CalcFormula = - Sum ("Gen. Journal Line"."Potential Amount" WHERE("Account Type" = filter(Customer), "Account No." = FIELD("No."), "Document Type" = CONST(Payment)));
+            CalcFormula = - Sum("Gen. Journal Line"."Potential Amount" WHERE("Account Type" = filter(Customer), "Account No." = FIELD("No."), "Document Type" = CONST(Payment)));
         }
         field(51111; "Potential Deposit Fall Amount"; Decimal)
         {
             FieldClass = FlowField;
-            CalcFormula = - Sum ("Gen. Journal Line"."Potential Fall Amount" WHERE("Account Type" = FILTER(Customer), "Account No." = FIELD("No."), "Credit Amount" = FILTER(<> 0)));
+            CalcFormula = - Sum("Gen. Journal Line"."Potential Fall Amount" WHERE("Account Type" = FILTER(Customer), "Account No." = FIELD("No."), "Credit Amount" = FILTER(<> 0)));
         }
         field(51112; "Potential Deposit Spring Amt"; Decimal)
         {
             FieldClass = FlowField;
-            CalcFormula = - Sum ("Gen. Journal Line"."Potential Spring Amount" WHERE("Account Type" = FILTER(Customer), "Account No." = FIELD("No."), "Credit Amount" = FILTER(<> 0)));
+            CalcFormula = - Sum("Gen. Journal Line"."Potential Spring Amount" WHERE("Account Type" = FILTER(Customer), "Account No." = FIELD("No."), "Credit Amount" = FILTER(<> 0)));
         }
         field(52000; "Region Code"; Code[20])
         {
@@ -68,12 +68,12 @@ tableextension 60018 CustomerExt extends Customer
         field(52010; "Partially Shipped Sales Orders"; Integer)
         {
             FieldClass = FlowField;
-            CalcFormula = Count ("Sales Header" WHERE("Document Type" = FILTER(Order), "Sell-to Customer No." = FIELD("No."), Status = FILTER(Released), Ship = FILTER(true), "Completely Shipped" = FILTER(false), "Shipment Date" = FIELD("Date Filter")));
+            CalcFormula = Count("Sales Header" WHERE("Document Type" = FILTER(Order), "Sell-to Customer No." = FIELD("No."), Status = FILTER(Released), Ship = FILTER(true), "Completely Shipped" = FILTER(false), "Shipment Date" = FIELD("Date Filter")));
         }
         field(52011; "Warehouse Pick Lines"; Integer)
         {
             FieldClass = FlowField;
-            CalcFormula = Count ("Warehouse Activity Line" WHERE("Activity Type" = FILTER(Pick), "Action Type" = FILTER(Take), "Destination Type" = FILTER(Customer), "Destination No." = FIELD("No."), "Due Date" = FIELD("Date Filter")));
+            CalcFormula = Count("Warehouse Activity Line" WHERE("Activity Type" = FILTER(Pick), "Action Type" = FILTER(Take), "Destination Type" = FILTER(Customer), "Destination No." = FIELD("No."), "Due Date" = FIELD("Date Filter")));
         }
         field(52020; "Blocked Reason Code"; Code[10])
         {
@@ -83,6 +83,10 @@ tableextension 60018 CustomerExt extends Customer
         field(52030; "Freight Charges Option"; Option)
         {
             OptionMembers = "User Decides","One Time Charge","All Actual Charges";
+            DataClassification = CustomerContent;
+        }
+        field(52031; "Mobile Phone No."; Text[30])
+        {
             DataClassification = CustomerContent;
         }
     }

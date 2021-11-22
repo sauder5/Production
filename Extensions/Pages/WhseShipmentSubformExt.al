@@ -41,8 +41,9 @@ pageextension 67336 WhseShipmentSubformExt extends "Whse. Shipment Subform"
 
     begin
         gShipName := '';
-        CALCFIELDS("Missing Reqd License", "Missing Reqd Liability Waiver", "Missing Reqd Quality Release");
-        IF ("Pick Qty." > 0) AND ("Missing Reqd License" OR "Missing Reqd Liability Waiver" OR "Missing Reqd Quality Release")
+        //        CALCFIELDS("Missing Reqd License", "Missing Reqd Liability Waiver", "Missing Reqd Quality Release");
+        CalcFields("Rupp Missing Liability Waiver", "Rupp Missing License", "Rupp Missing Quality Release");
+        IF ("Pick Qty." > 0) AND ("Rupp Missing License" OR "Rupp Missing Liability Waiver" OR "Rupp Missing Quality Release")
         THEN BEGIN
             bWarning := FALSE;
         END;

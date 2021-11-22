@@ -111,38 +111,42 @@ codeunit 50006 "Compliance Management"
                 Error('The table is not temporary');
         end;
 
-        recSL.Reset();
-        recSL.SetRange("Document Type", SalesHdr."Document Type");
-        recSL.SetRange("Document No.", SalesHdr."No.");
-        recSL.SetRange(Type, recSL.Type::Item);
-        recSL.SetFilter("Outstanding Quantity", '<>0');
-        if recSL.FindSet() then begin
-            repeat
-                recSL.CalcFields("Compliance Group Code", "Rupp Missing Liability Waiver", "Rupp Missing License", "Rupp Missing Quality Release");
-                recComplianceItemTmp.Init();
-                recComplianceItemTmp."Waiver Code" := recSL."Compliance Group Code";
-                recComplianceItemTmp."Item No." := recSL."No.";
+        with recSL do begin
+            Reset();
+            SetRange("Document Type", SalesHdr."Document Type");
+            SetRange("Document No.", SalesHdr."No.");
+            SetRange(Type, recSL.Type::Item);
+            SetFilter("Outstanding Quantity", '<>0');
+            if FindSet() then begin
+                repeat
+                    CalcFields("Compliance Group Code", "Rupp Missing Liability Waiver", "Rupp Missing License", "Rupp Missing Quality Release");
 
-                if recSL."Rupp Missing License" then begin
-                    //recComplianceItem.MARK(TRUE);
-                    recComplianceItemTmp."License Required" := true;
-                    recComplianceItemTmp.Insert();
-                end;
+                    recComplianceItemTmp.Init();
+                    recComplianceItemTmp."Waiver Code" := recSL."Compliance Group Code";
+                    recComplianceItemTmp."Item No." := "No.";
 
-                if recSL."Rupp Missing Liability Waiver" then begin
-                    //recComplianceItem.MARK(TRUE);
-                    recComplianceItemTmp."Liability Waiver Required" := true;
-                    if not recComplianceItemTmp.Insert then
-                        recComplianceItemTmp.Modify();
-                end;
+                    if "Rupp Missing License" then begin
+                        //recComplianceItem.MARK(TRUE);
+                        recComplianceItemTmp."License Required" := true;
+                        recComplianceItemTmp.Insert();
+                    end;
 
-                if recSL."Rupp Missing Quality Release" then begin
-                    //recComplianceItem.MARK(TRUE);
-                    recComplianceItemTmp."Quality Release Required" := true;
-                    if not recComplianceItemTmp.Insert then
-                        recComplianceItemTmp.Modify();
-                end;
-            until recSL.Next = 0;
+                    if "Rupp Missing Liability Waiver" then begin
+                        //recComplianceItem.MARK(TRUE);
+                        recComplianceItemTmp."Liability Waiver Required" := true;
+                        if not recComplianceItemTmp.Insert then
+                            recComplianceItemTmp.Modify();
+                    end;
+
+                    if "Rupp Missing Quality Release" then begin
+                        //recComplianceItem.MARK(TRUE);
+                        recComplianceItemTmp."Quality Release Required" := true;
+                        if not recComplianceItemTmp.Insert then
+                            recComplianceItemTmp.Modify();
+                    end;
+                until Next = 0;
+            end;
+
             if recComplianceItemTmp.FindSet() then;
             //MESSAGE('Count is %1', recComplianceItem.COUNT());
             PAGE.RunModal(0, recComplianceItemTmp);
