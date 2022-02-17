@@ -520,6 +520,12 @@ report 50015 "Sales Order Confirmation-Rupp"
                         column(UnitDiscount; TempSalesLine."Unit Discount")
                         {
                         }
+                        column(OnLineNumber; OnLineNumber)
+                        {
+                        }
+                        column(ItemCountNumber; ItemCountNumber)
+                        {
+                        }
                         dataitem(AsmLoop; "Integer")
                         {
                             DataItemTableView = SORTING(Number);
@@ -577,6 +583,8 @@ report 50015 "Sales Order Confirmation-Rupp"
                                     Find('-')
                                 else
                                     Next;
+                                if "No." > '' then
+                                    ItemCountNumber += 1;
 
                                 if Type = 0 then begin
                                     "No." := '';
@@ -1003,6 +1011,7 @@ report 50015 "Sales Order Confirmation-Rupp"
         NumberOfLines: Integer;
         OnLineNumber: Integer;
         HighestLineNo: Integer;
+        ItemCountNumber: Integer;
         SpacePointer: Integer;
         SalesPrinted: Codeunit "Sales-Printed";
         FormatAddress: Codeunit "Format Address";

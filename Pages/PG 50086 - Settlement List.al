@@ -60,6 +60,9 @@ page 50086 "Settlement List"
                 field("Date Posted"; "Date Posted")
                 {
                 }
+                field("Futures Date"; "Futures Date")
+                {
+                }
             }
         }
     }

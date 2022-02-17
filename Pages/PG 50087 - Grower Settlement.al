@@ -156,7 +156,8 @@ page 50087 "Grower Settlement"
                     cduReceiptMgt: Codeunit "Receipt Management";
                     recSettleTkt: Record "Settlement-Prepayment Ticket";
                 begin
-                    CheckSettlement;
+                    if not CheckSettlement then
+                        exit;
                     Status := Status::Posted;
                     "Date Posted" := TODAY;
                     MODIFY;
@@ -253,19 +254,31 @@ page 50087 "Grower Settlement"
         end;
     end;
 
-    local procedure CheckSettlement();
+    local procedure CheckSettlement() retValue: boolean;
+    var
+        bOk: Boolean;
     begin
-        if not recVendor.GET("Vendor No.") then
+        if not recVendor.GET("Vendor No.") then begin
             ERROR('Enter a valid vendor number for this settlement');
-
-        if "Generic Name Code" = '' then
+            exit(false);
+        end;
+        if "Generic Name Code" = '' then begin
             ERROR('Generic Name Code is a required field');
-        if "Settlement Quantity" <= 0 then
-            ERROR('Please enter a valid settlement quantity');
-        if "Base Settlement Price" <= 0 then
-            ERROR('Please enter a valid Base Settlement Price');
-        if ("Settlement Type" = "Settlement Type"::"Futures (New Crop)") and ("Futures Date" = 0D) then
+            exit(false);
+        end;
+        if "Settlement Quantity" <= 0 then begin
+            Error('Please enter a valid settlement quantity');
+            exit(false);
+        end;
+        if "Base Settlement Price" <= 0 then begin
+            bOk := Confirm('Do you want to post this settlement with a zero price', false);
+            if not bOk then
+                exit(false);
+        end;
+        if ("Settlement Type" = "Settlement Type"::"Futures (New Crop)") and ("Futures Date" = 0D) then begin
             ERROR('Futures date is required for a Futures (New Crop) settlement');
+            exit(false);
+        end;
         //IF "Location Code"='' THEN
         //  ERROR('Please enter a valid location code');
         //IF "Bin Code"='' THEN
@@ -273,11 +286,14 @@ page 50087 "Grower Settlement"
         if "Settlement Date" = 0D then
             "Settlement Date" := TODAY;
 
-        if "Settlement Type" = "Settlement Type"::Cash then
-            CheckGrowerTickets(Rec);
+        if "Settlement Type" = "Settlement Type"::Cash then begin
+            bOk := CheckGrowerTickets(Rec);
+            exit(bOk);
+        end;
+        exit(true);
     end;
 
-    local procedure CheckGrowerTickets(recsettle: Record "Settlement-Prepayment Ticket");
+    local procedure CheckGrowerTickets(recsettle: Record "Settlement-Prepayment Ticket") retValue: Boolean;
     var
         recGrowerTkt: Record "Grower Ticket";
     begin
@@ -291,8 +307,11 @@ page 50087 "Grower Settlement"
                 SETCURRENTKEY("Posting Date");
 
                 CALCSUMS("Remaining Quantity");
-                if "Remaining Quantity" < recsettle."Settlement Quantity" then
+                if "Remaining Quantity" < recsettle."Settlement Quantity" then begin
                     ERROR('Insufficent quantity available of %1 to satisfy settled quantity of %2', "Remaining Quantity", recsettle."Settlement Quantity");
+                    exit(false);
+                end else
+                    exit(true);
             end;
     end;
 

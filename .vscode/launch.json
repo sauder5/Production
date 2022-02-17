@@ -5,9 +5,9 @@
             "type": "al",
             "request": "launch",
             "name": "Your own server",
-            "server": "http://vnavserver",
-            "serverInstance": "NAVBCLive",
-            "port": 8049,
+            "server": "http://vsqltest",
+            "serverInstance": "NAVBC_Time",
+            "port": 7749,
             "authentication":"Windows",
             "schemaUpdateMode":"Synchronize"
         }

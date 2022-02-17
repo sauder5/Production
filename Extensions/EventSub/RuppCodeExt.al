@@ -808,6 +808,20 @@ codeunit 50011 RuppCodeExt
             Clear(sGenericCode);
     end;
 
+    [EventSubscriber(ObjectType::table, database::"Warehouse Shipment Header", 'OnBeforeWhseShptLineDelete', '', true, true)]
+    local procedure RuppWHStatus(VAR WarehouseShipmentLine: Record "Warehouse Shipment Line")
+    var
+        RuppFn: Codeunit "Rupp Functions";
+    begin
+        RuppFn.UpdateHdrShpgStatusFromWhseShptLn(WarehouseShipmentLine, TRUE);
+    end;
+
+    [EventSubscriber(ObjectType::Codeunit, codeunit::"Item Jnl.-Post Line", 'OnBeforeInsertCorrItemLedgEntry', '', true, true)]
+    local procedure RuppBeforeInsert(VAR NewItemLedgerEntry: Record "Item Ledger Entry"; VAR OldItemLedgerEntry: Record "Item Ledger Entry"; VAR ItemJournalLine: Record "Item Journal Line")
+    begin
+        NewItemLedgerEntry.validate("Remaining Quantity");
+    end;
+
     local procedure GetShippingSetup(var ShippingSetup: Record "Shipping Setup"; var SalesSetup: Record "Sales & Receivables Setup")
     begin
         ShippingSetup.GET;

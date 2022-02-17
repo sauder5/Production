@@ -280,14 +280,14 @@ page 50079 "Open Order List"
         end;
 
         if "Product Code" <> '' then begin
-            recProduct.Get("Product Code");
-            if recProduct."Seed Size" = recProduct."Seed Size"::Small then
-                gsSeedSize := 'Small'
-            else
-                if recProduct."Seed Size" = recProduct."Seed Size"::Large then
-                    gsSeedSize := 'Large'
+            if recProduct.Get("Product Code") then
+                if recProduct."Seed Size" = recProduct."Seed Size"::Small then
+                    gsSeedSize := 'Small'
                 else
-                    gsSeedSize := ' ';
+                    if recProduct."Seed Size" = recProduct."Seed Size"::Large then
+                        gsSeedSize := 'Large'
+                    else
+                        gsSeedSize := ' ';
         end;
         gdWtLbs := "Gross Weight" * "Outstanding Quantity";
 

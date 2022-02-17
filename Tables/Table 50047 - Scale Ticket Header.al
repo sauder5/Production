@@ -269,6 +269,10 @@ table 50047 "Scale Ticket Header"
             "Vendor No." := recProdLot."Vendor Number";
             VALIDATE("Receipt Date", TODAY());
             INSERT;
+            Validate("Moisture Test Result");
+            Validate("Splits Test Result");
+            Validate("Test Weight Result");
+            Validate("Vomitoxin Test Result");
             recScaleDtl.Init("Production Lot No.", "Scale Ticket No.");
             recGrowerTkt.Init("Production Lot No.", "Scale Ticket No.");
         end;

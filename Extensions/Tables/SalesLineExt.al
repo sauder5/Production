@@ -321,6 +321,13 @@ tableextension 60037 SalesLineExt extends "Sales Line"
         Modify();
     end;
 
+    trigger OnBeforeDelete()
+    begin
+        if ("Qty. Invoiced (Base)" > 0) or ("Qty. Shipped Not Invoiced" > 0)
+            or ("Qty. to Invoice" > 0) then
+            error('Invoicing has occurred for this line. It can not be deleted.');
+    end;
+
     trigger OnAfterDelete()
     var
         RuppFun: Codeunit "Rupp Functions";

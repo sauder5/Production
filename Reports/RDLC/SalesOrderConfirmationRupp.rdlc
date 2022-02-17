@@ -51,7 +51,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -162,7 +162,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -191,7 +191,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -220,7 +220,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -248,7 +248,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Fields!CopyNo.Value</Value>
+                                  <Value>=Fields!CopyNo.Value</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -282,7 +282,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -312,7 +312,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -344,7 +344,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -379,7 +379,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">Salesperson iD</Value>
+                                  <Value>Salesperson iD</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -414,7 +414,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">Payment Method</Value>
+                                  <Value>Payment Method</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -449,7 +449,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">Ship Via</Value>
+                                  <Value>Ship Via</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -486,7 +486,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -528,7 +528,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -561,7 +561,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Code.GetData(53,1)</Value>
+                                  <Value>=Code.GetData(53,1)</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -587,7 +587,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Fields!PaymentMethodDesc.Value</Value>
+                                  <Value>=Fields!PaymentMethodDesc.Value</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -619,7 +619,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Code.GetData(74,1) + " " + Code.GetData(75,1)</Value>
+                                  <Value>=Code.GetData(74,1) + " " + Code.GetData(75,1)</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -658,7 +658,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">Ordered</Value>
+                                  <Value>Ordered</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -694,7 +694,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">U of M</Value>
+                                  <Value>U of M</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -730,7 +730,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">Description</Value>
+                                  <Value>Description</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -767,7 +767,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">Unit Price</Value>
+                                  <Value>Unit Price</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -803,7 +803,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">Discount</Value>
+                                  <Value>Discount</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -838,7 +838,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">Total Price</Value>
+                                  <Value>Total Price</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -878,7 +878,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Code.BlankZero(Fields!TempSalesLineQuantity.Value)</Value>
+                                  <Value>=Code.BlankZero(Fields!TempSalesLineQuantity.Value)</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -896,15 +896,13 @@ cstr(fields!ShipToPhone.Value)
                               <Style>None</Style>
                             </Border>
                             <LeftBorder>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1pt</Width>
                             </LeftBorder>
                             <RightBorder>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1pt</Width>
                             </RightBorder>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>8pt</PaddingRight>
@@ -921,7 +919,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Fields!TempSalesLineUOM.Value</Value>
+                                  <Value>=Fields!TempSalesLineUOM.Value</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -939,15 +937,13 @@ cstr(fields!ShipToPhone.Value)
                               <Style>None</Style>
                             </Border>
                             <LeftBorder>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1pt</Width>
                             </LeftBorder>
                             <RightBorder>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1pt</Width>
                             </RightBorder>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>3pt</PaddingLeft>
                             <PaddingRight>1pt</PaddingRight>
@@ -963,7 +959,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Fields!TempSalesLineDesc.Value</Value>
+                                  <Value>=Fields!TempSalesLineDesc.Value</Value>
                                   <Style>
                                     <FontSize>8pt</FontSize>
                                   </Style>
@@ -986,19 +982,18 @@ cstr(fields!ShipToPhone.Value)
                             </BottomBorder>
                             <LeftBorder>
                               <Color>Black</Color>
-                              <Width>1pt</Width>
                             </LeftBorder>
                             <RightBorder>
                               <Color>Black</Color>
-                              <Width>1pt</Width>
                             </RightBorder>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -1009,7 +1004,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=IIF(Fields!TempSalesLineQuantity.Value=0, Fields!InvStatCodeDesc.Value, "")</Value>
+                                  <Value>=IIF(Fields!TempSalesLineQuantity.Value=0, Fields!InvStatCodeDesc.Value, "")</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1027,15 +1022,13 @@ cstr(fields!ShipToPhone.Value)
                               <Style>None</Style>
                             </Border>
                             <LeftBorder>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1pt</Width>
                             </LeftBorder>
                             <RightBorder>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1pt</Width>
                             </RightBorder>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>1pt</PaddingRight>
@@ -1052,7 +1045,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Code.BlankZero(Fields!UnitPriceToPrint.Value)</Value>
+                                  <Value>=Code.BlankZero(Fields!UnitPriceToPrint.Value)</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1071,15 +1064,13 @@ cstr(fields!ShipToPhone.Value)
                               <Style>None</Style>
                             </Border>
                             <LeftBorder>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1pt</Width>
                             </LeftBorder>
                             <RightBorder>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1pt</Width>
                             </RightBorder>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1096,7 +1087,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Code.BlankZero(Fields!TempSalesLineDiscAmt.Value)</Value>
+                                  <Value>=Code.BlankZero(Fields!TempSalesLineDiscAmt.Value)</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1115,15 +1106,13 @@ cstr(fields!ShipToPhone.Value)
                               <Style>None</Style>
                             </Border>
                             <LeftBorder>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1pt</Width>
                             </LeftBorder>
                             <RightBorder>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1pt</Width>
                             </RightBorder>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>1pt</PaddingRight>
@@ -1140,7 +1129,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Code.BlankZero(Fields!AmountExclInvDisc.Value)</Value>
+                                  <Value>=Code.BlankZero(Fields!AmountExclInvDisc.Value)</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1159,15 +1148,13 @@ cstr(fields!ShipToPhone.Value)
                               <Style>None</Style>
                             </Border>
                             <LeftBorder>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1pt</Width>
                             </LeftBorder>
                             <RightBorder>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1pt</Width>
                             </RightBorder>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>5pt</PaddingLeft>
                             <PaddingRight>3pt</PaddingRight>
@@ -1189,7 +1176,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1216,7 +1203,8 @@ cstr(fields!ShipToPhone.Value)
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
-                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>8pt</PaddingRight>
@@ -1233,7 +1221,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Fields!ItemGenericNameCode.Value</Value>
+                                  <Value>=Fields!ItemGenericNameCode.Value</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1251,16 +1239,13 @@ cstr(fields!ShipToPhone.Value)
                               <Style>None</Style>
                             </Border>
                             <LeftBorder>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1pt</Width>
                             </LeftBorder>
                             <RightBorder>
-                              <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1pt</Width>
                             </RightBorder>
-                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>3pt</PaddingLeft>
                             <PaddingRight>1pt</PaddingRight>
@@ -1277,7 +1262,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Fields!TempSalesLineNo.Value</Value>
+                                  <Value>=Fields!TempSalesLineNo.Value</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1304,7 +1289,8 @@ cstr(fields!ShipToPhone.Value)
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
-                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>10pt</PaddingLeft>
                             <PaddingRight>1pt</PaddingRight>
@@ -1322,7 +1308,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1349,7 +1335,8 @@ cstr(fields!ShipToPhone.Value)
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
-                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>1pt</PaddingRight>
@@ -1368,7 +1355,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Code.BlankZero(Fields!UnitDiscount.Value)</Value>
+                                  <Value>=Code.BlankZero(Fields!UnitDiscount.Value)</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1396,7 +1383,8 @@ cstr(fields!ShipToPhone.Value)
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
-                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>1pt</PaddingRight>
@@ -1413,7 +1401,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=iif(Fields!UnitDiscount.Value&gt;0, " Per Unit", "")</Value>
+                                  <Value>=iif(Fields!UnitDiscount.Value&gt;0, " Per Unit", "")</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1440,7 +1428,8 @@ cstr(fields!ShipToPhone.Value)
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
-                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>5pt</PaddingLeft>
                           </Style>
@@ -1461,7 +1450,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Code.BlankZero(Fields!AsmLineQuantity.Value)</Value>
+                                  <Value>=Code.BlankZero(Fields!AsmLineQuantity.Value)</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1488,6 +1477,8 @@ cstr(fields!ShipToPhone.Value)
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingRight>5pt</PaddingRight>
                           </Style>
@@ -1503,7 +1494,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Fields!AsmLineNo.Value</Value>
+                                  <Value>=Fields!AsmLineNo.Value</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1528,6 +1519,8 @@ cstr(fields!ShipToPhone.Value)
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>1pt</PaddingLeft>
                             <PaddingRight>1pt</PaddingRight>
@@ -1544,7 +1537,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Fields!AsmLineDescription.Value</Value>
+                                  <Value>=Fields!AsmLineDescription.Value</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1569,6 +1562,8 @@ cstr(fields!ShipToPhone.Value)
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>3pt</PaddingLeft>
                             <PaddingRight>1pt</PaddingRight>
@@ -1585,7 +1580,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=Fields!AsmLineUnitOfMeasureText.Value</Value>
+                                  <Value>=Fields!AsmLineUnitOfMeasureText.Value</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1612,6 +1607,8 @@ cstr(fields!ShipToPhone.Value)
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>1pt</PaddingRight>
@@ -1630,7 +1627,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1655,6 +1652,8 @@ cstr(fields!ShipToPhone.Value)
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>1pt</PaddingRight>
@@ -1671,7 +1670,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1696,6 +1695,8 @@ cstr(fields!ShipToPhone.Value)
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
+                            <BackgroundColor>=switch(Fields!ItemCountNumber.Value mod 2=0, "No Color",
+Fields!ItemCountNumber.Value mod 2=1, "LightGrey")</BackgroundColor>
                             <VerticalAlign>Top</VerticalAlign>
                             <PaddingLeft>5pt</PaddingLeft>
                           </Style>
@@ -1715,7 +1716,7 @@ cstr(fields!ShipToPhone.Value)
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1792,7 +1793,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1826,7 +1827,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto" />
+                                  <Value />
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -1856,7 +1857,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value EvaluationMode="Auto">=last(Fields!PrintFooter.Value)</Value>
+                                  <Value>=last(Fields!PrintFooter.Value)</Value>
                                   <Style>
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -2007,7 +2008,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value EvaluationMode="Auto">=Code.GetData(39,1)</Value>
+                          <Value>=Code.GetData(39,1)</Value>
                           <Style>
                             <FontFamily>Segoe UI</FontFamily>
                             <FontSize>8pt</FontSize>
@@ -2031,7 +2032,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value EvaluationMode="Auto">=Code.GetData(40,1)</Value>
+                          <Value>=Code.GetData(40,1)</Value>
                           <Style>
                             <FontFamily>Segoe UI</FontFamily>
                             <FontSize>8pt</FontSize>
@@ -2056,7 +2057,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value EvaluationMode="Auto">=Code.GetData(41,1)</Value>
+                          <Value>=Code.GetData(41,1)</Value>
                           <Style>
                             <FontFamily>Segoe UI</FontFamily>
                             <FontSize>8pt</FontSize>
@@ -2081,7 +2082,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value EvaluationMode="Auto">=Code.GetData(42,1)</Value>
+                          <Value>=Code.GetData(42,1)</Value>
                           <Style>
                             <FontFamily>Segoe UI</FontFamily>
                             <FontSize>8pt</FontSize>
@@ -2106,7 +2107,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value EvaluationMode="Auto">=Code.GetData(38,1)</Value>
+                          <Value>=Code.GetData(38,1)</Value>
                           <Style>
                             <FontFamily>Segoe UI</FontFamily>
                             <FontSize>8pt</FontSize>
@@ -2132,7 +2133,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value EvaluationMode="Auto">=Code.GetData(43,1)</Value>
+                          <Value>=Code.GetData(43,1)</Value>
                           <Style>
                             <FontFamily>Segoe UI</FontFamily>
                             <FontSize>9pt</FontSize>
@@ -2175,7 +2176,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value EvaluationMode="Auto">=Code.GetData(18,1)</Value>
+                          <Value>=Code.GetData(18,1)</Value>
                           <Style>
                             <FontFamily>Segoe UI</FontFamily>
                             <FontSize>8pt</FontSize>
@@ -2199,7 +2200,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value EvaluationMode="Auto">=Code.GetData(19,1)</Value>
+                          <Value>=Code.GetData(19,1)</Value>
                           <Style>
                             <FontFamily>Segoe UI</FontFamily>
                             <FontSize>8pt</FontSize>
@@ -2224,7 +2225,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value EvaluationMode="Auto">=Code.GetData(20,1)</Value>
+                          <Value>=Code.GetData(20,1)</Value>
                           <Style>
                             <FontFamily>Segoe UI</FontFamily>
                             <FontSize>8pt</FontSize>
@@ -2249,7 +2250,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value EvaluationMode="Auto">=Code.GetData(21,1)</Value>
+                          <Value>=Code.GetData(21,1)</Value>
                           <Style>
                             <FontFamily>Segoe UI</FontFamily>
                             <FontSize>8pt</FontSize>
@@ -2274,7 +2275,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value EvaluationMode="Auto">=Code.GetData(22,1)</Value>
+                          <Value>=Code.GetData(22,1)</Value>
                           <Style>
                             <FontFamily>Segoe UI</FontFamily>
                             <FontSize>8pt</FontSize>
@@ -2300,7 +2301,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value EvaluationMode="Auto">=Code.GetData(23,1)</Value>
+                          <Value>=Code.GetData(23,1)</Value>
                           <Style>
                             <FontFamily>Segoe UI</FontFamily>
                             <FontSize>9pt</FontSize>
@@ -2342,7 +2343,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">= Code.GetData(59,1)</Value>
+                      <Value>= Code.GetData(59,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2367,7 +2368,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">= Code.GetData(60,1)</Value>
+                      <Value>= Code.GetData(60,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2392,7 +2393,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=  Code.GetData(61,1)</Value>
+                      <Value>=  Code.GetData(61,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2417,7 +2418,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">= Code.GetData(65,1)</Value>
+                      <Value>= Code.GetData(65,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2440,7 +2441,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">= Code.GetData(66,1)</Value>
+                      <Value>= Code.GetData(66,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2463,7 +2464,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">= Code.GetData(72,1)</Value>
+                      <Value>= Code.GetData(72,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>14pt</FontSize>
@@ -2489,7 +2490,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(76,1)</Value>
+                      <Value>=Code.GetData(76,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2518,7 +2519,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=code.GetData(11,1)</Value>
+                      <Value>=code.GetData(11,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2543,7 +2544,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(51,1)</Value>
+                      <Value>=Code.GetData(51,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2556,7 +2557,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>3.21613in</Top>
+              <Top>3.21143in</Top>
               <Left>0.91935in</Left>
               <Height>11pt</Height>
               <Width>2.53323in</Width>
@@ -2569,7 +2570,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(49,1)</Value>
+                      <Value>=Code.GetData(49,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2594,7 +2595,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=code.GetData(14,1)</Value>
+                      <Value>=code.GetData(14,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2619,7 +2620,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=code.GetData(13,1)</Value>
+                      <Value>=code.GetData(13,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2645,7 +2646,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=code.GetGroupPageNumber(Code.IsNewPage(Code.GetData(11,1),ReportItems!CopyNo.value),Globals!PageNumber)</Value>
+                      <Value>=code.GetGroupPageNumber(Code.IsNewPage(Code.GetData(11,1),ReportItems!CopyNo.value),Globals!PageNumber)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2671,7 +2672,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(77,1)</Value>
+                      <Value>=Code.GetData(77,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2713,7 +2714,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=  Code.GetData(71,1)</Value>
+                      <Value>=  Code.GetData(71,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2736,7 +2737,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(47,1)</Value>
+                      <Value>=Code.GetData(47,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2765,7 +2766,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">= Code.GetData(67,1)</Value>
+                      <Value>= Code.GetData(67,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2796,7 +2797,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">= Code.GetData(62,1)</Value>
+                      <Value>= Code.GetData(62,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2819,7 +2820,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=  Code.GetData(63,1)</Value>
+                      <Value>=  Code.GetData(63,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2842,7 +2843,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">= Code.GetData(62,1)</Value>
+                      <Value>= Code.GetData(62,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2873,7 +2874,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(33,2)</Value>
+                      <Value>=Code.GetData(33,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2903,7 +2904,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(38,2)</Value>
+                      <Value>=Code.GetData(38,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2935,7 +2936,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(5,2)</Value>
+                      <Value>=Code.GetData(5,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2968,7 +2969,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(6,2)</Value>
+                      <Value>=Code.GetData(6,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3001,7 +3002,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code. BlankZero(Code.GetData(7,2))</Value>
+                      <Value>=Code. BlankZero(Code.GetData(7,2))</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3035,7 +3036,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">= Code.GetData(55,1)</Value>
+                      <Value>= Code.GetData(55,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3070,7 +3071,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=CDec(Code.GetData(15,2))</Value>
+                      <Value>=CDec(Code.GetData(15,2))</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3105,7 +3106,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(8,2)</Value>
+                      <Value>=Code.GetData(8,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3138,7 +3139,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(10,2)</Value>
+                      <Value>=Code.GetData(10,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3171,7 +3172,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(12,2)</Value>
+                      <Value>=Code.GetData(12,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3204,7 +3205,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code. BlankZero(Code.GetData(9,2))</Value>
+                      <Value>=Code. BlankZero(Code.GetData(9,2))</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3238,7 +3239,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code. BlankZero(Code.GetData(11,2))</Value>
+                      <Value>=Code. BlankZero(Code.GetData(11,2))</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3272,7 +3273,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code. BlankZero(Code.GetData(13,2))</Value>
+                      <Value>=Code. BlankZero(Code.GetData(13,2))</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3306,7 +3307,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">= Code.GetData(56,1)</Value>
+                      <Value>= Code.GetData(56,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3340,7 +3341,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=CDec(Code.GetData(17,2))</Value>
+                      <Value>=CDec(Code.GetData(17,2))</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3374,7 +3375,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(18,2)</Value>
+                      <Value>=Code.GetData(18,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3408,7 +3409,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=CDec(Code.GetData(19,2))</Value>
+                      <Value>=CDec(Code.GetData(19,2))</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3442,7 +3443,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">= Code.GetData(57,1)</Value>
+                      <Value>= Code.GetData(57,1)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3478,7 +3479,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=CDec(Code.GetData(21,2))</Value>
+                      <Value>=CDec(Code.GetData(21,2))</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3514,7 +3515,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(34,2)</Value>
+                      <Value>=Code.GetData(34,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3544,7 +3545,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(39,2)</Value>
+                      <Value>=Code.GetData(39,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3576,7 +3577,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto" />
+                      <Value />
                       <Style />
                     </TextRun>
                   </TextRuns>
@@ -3602,7 +3603,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(32,2)</Value>
+                      <Value>=Code.GetData(32,2)</Value>
                       <Style>
                         <FontSize>8pt</FontSize>
                         <FontWeight>Bold</FontWeight>
@@ -3632,7 +3633,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(35,2)</Value>
+                      <Value>=Code.GetData(35,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3661,7 +3662,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(36,2)</Value>
+                      <Value>=Code.GetData(36,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3690,7 +3691,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(40,2)</Value>
+                      <Value>=Code.GetData(40,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3720,7 +3721,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(41,2)</Value>
+                      <Value>=Code.GetData(41,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -3750,7 +3751,7 @@ CStr(SUM(Fields!TempSalesLineLineAmtTaxAmtInvDiscAmt.Value)) + Chr(177)+
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">=Code.GetData(37,2)</Value>
+                      <Value>=Code.GetData(37,2)</Value>
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -4774,6 +4775,12 @@ RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
         </Field>
         <Field Name="UnitDiscountFormat">
           <DataField>UnitDiscountFormat</DataField>
+        </Field>
+        <Field Name="OnLineNumber">
+          <DataField>OnLineNumber</DataField>
+        </Field>
+        <Field Name="ItemCountNumber">
+          <DataField>ItemCountNumber</DataField>
         </Field>
         <Field Name="AsmLineUnitOfMeasureText">
           <DataField>AsmLineUnitOfMeasureText</DataField>
