@@ -145,6 +145,7 @@ pageextension 60046 SalesOrderSubformExt extends "Sales Order Subform"
             field("Customer Price Group"; "Customer Price Group")
             {
                 applicationarea = all;
+                editable = true;
             }
         }
         modify(Control51)

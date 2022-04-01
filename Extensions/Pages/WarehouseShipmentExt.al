@@ -48,24 +48,9 @@ pageextension 67335 WarehouseShipmentExt extends "Warehouse Shipment"
                     EShipAgentService.LookupEShipAgentService(ShippingAgent, "E-Ship Agent Service", recSalesHead."Ship-to Country/Region Code");
                     IF PAGE.RUNMODAL(0, EShipAgentService) = ACTION::LookupOK THEN begin
                         VALIDATE("E-Ship Agent Service", EShipAgentService.Code);
-                        gShipAgentService := "E-Ship Agent Service";
-                        "Shipping Agent Service Code" := "E-Ship Agent Service";
                     end;
                 end;
             }
-            field("ShippingAgentServiceCode"; gShipAgentService)
-            {
-                Caption = 'Shipping Agent Service Code';
-                TableRelation = "E-Ship Agent Service".code where("Shipping Agent Code" = field("Shipping Agent Code"));
-                trigger OnValidate()
-                begin
-                    "Shipping Agent Service Code" := gShipAgentService;
-                end;
-            }
-        }
-        modify("Shipping Agent Service Code")
-        {
-            Visible = false;
         }
         addafter("Shipment Method Code")
         {

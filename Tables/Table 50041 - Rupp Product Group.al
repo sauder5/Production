@@ -1,5 +1,7 @@
 table 50041 "Rupp Product Group"
 {
+    DrillDownPageId = "Rupp Product Codes";
+    LookupPageId = "Rupp Product Codes";
     DataClassification = CustomerContent;
 
     fields

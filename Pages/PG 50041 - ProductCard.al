@@ -95,7 +95,6 @@ page 50041 "Product Card"
                 field("Product Group Code"; "Rupp Product Group Code")
                 {
                     Caption = 'Product Group Code';
-                    TableRelation = "Rupp Product Group"."Rupp Product Group Code";
                 }
                 field("Gen. Prod. Posting Group"; "Gen. Prod. Posting Group")
                 {
@@ -144,12 +143,12 @@ page 50041 "Product Card"
             action(Items)
             {
                 RunObject = Page "Item List";
-                RunPageLink = "Product Code" = FIELD (Code);
+                RunPageLink = "Product Code" = FIELD(Code);
             }
             action("Seasonal Discounts")
             {
                 RunObject = Page "Seasonal Cash Discounts";
-                RunPageLink = Code = FIELD (Code);
+                RunPageLink = Code = FIELD(Code);
             }
         }
         area(processing)
