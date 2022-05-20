@@ -24,34 +24,6 @@ pageextension 67335 WarehouseShipmentExt extends "Warehouse Shipment"
                 end;
             }
         }
-        addafter("Shipping Agent Code")
-        {
-            field("E-Ship Agent Service"; "E-Ship Agent Service")
-            {
-                ApplicationArea = all;
-                trigger OnLookup(var Text: Text): Boolean
-                var
-                    ShippingAgent: Record "Shipping Agent";
-                    recWHShipLine: Record "Warehouse Shipment Line";
-                    recSalesHead: Record "Sales Header";
-                    EShipAgentService: Record "E-Ship Agent Service";
-                begin
-                    TESTFIELD("Shipping Agent Code");
-                    ShippingAgent.GET("Shipping Agent Code");
-                    //rsi-ks
-                    recWHShipLine.RESET;
-                    CLEAR(recSalesHead);
-                    recWHShipLine.SETFILTER("No.", "No.");
-                    IF recWHShipLine.FINDSET THEN
-                        IF recSalesHead.GET(recSalesHead."Document Type"::Order, recWHShipLine."Source No.") THEN;
-                    //rsi-ks
-                    EShipAgentService.LookupEShipAgentService(ShippingAgent, "E-Ship Agent Service", recSalesHead."Ship-to Country/Region Code");
-                    IF PAGE.RUNMODAL(0, EShipAgentService) = ACTION::LookupOK THEN begin
-                        VALIDATE("E-Ship Agent Service", EShipAgentService.Code);
-                    end;
-                end;
-            }
-        }
         addafter("Shipment Method Code")
         {
             Group("")
@@ -62,18 +34,40 @@ pageextension 67335 WarehouseShipmentExt extends "Warehouse Shipment"
                 }
             }
         }
+        addafter("Shipping Agent Code")
+        {
+            field("E-Ship Agent Service"; "E-Ship Agent Service")
+            {
+                ApplicationArea = all;
+            }
+        }
         modify(Control1000000008)
         {
             Visible = not bSimpleRate;
         }
-        modify("Shipping Agent Code")
+        modify("Shipping Agent Service Code")
         {
-            trigger OnAfterValidate()
+            Visible = false;
+
+            trigger OnLookup(var Text: Text): Boolean
+            var
+                ShippingAgent: Record "Shipping Agent";
+                recWHShipLine: Record "Warehouse Shipment Line";
+                recSalesHead: Record "Sales Header";
+                EShipAgentService: Record "E-Ship Agent Service";
             begin
-                if "No." <> xRec."No." then begin
-                    clear("E-Ship Agent Service");
-                    clear("Shipping Agent Service Code");
-                end;
+                TESTFIELD("Shipping Agent Code");
+                ShippingAgent.GET("Shipping Agent Code");
+                //rsi-ks
+                recWHShipLine.RESET;
+                CLEAR(recSalesHead);
+                recWHShipLine.SETFILTER("No.", "No.");
+                IF recWHShipLine.FINDSET THEN
+                    IF recSalesHead.GET(recSalesHead."Document Type"::Order, recWHShipLine."Source No.") THEN;
+                //rsi-ks
+                EShipAgentService.LookupEShipAgentService(ShippingAgent, "E-Ship Agent Service", recSalesHead."Ship-to Country/Region Code");
+                IF PAGE.RUNMODAL(0, EShipAgentService) = ACTION::LookupOK THEN
+                    VALIDATE("E-Ship Agent Service", EShipAgentService.Code);
             end;
         }
     }
@@ -146,5 +140,4 @@ pageextension 67335 WarehouseShipmentExt extends "Warehouse Shipment"
         recWAH: Record "Warehouse Activity Header";
         cPrevPickNo: Code[20];
         repPickTicket: Report "Pick Ticket per Order";
-        gShipAgentService: Code[10];
 }

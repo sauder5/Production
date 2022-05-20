@@ -18,6 +18,10 @@ tableextension 60018 CustomerExt extends Customer
         {
             DataClassification = CustomerContent;
         }
+        field(50010; "Protected Customer"; Boolean)
+        {
+            DataClassification = CustomerContent;
+        }
         field(51022; "Linking Pmt Entry No."; Integer)
         {
             DataClassification = CustomerContent;
@@ -98,4 +102,5 @@ tableextension 60018 CustomerExt extends Customer
         VALIDATE("Check Date Separator", "Check Date Separator"::"/");
         //RSI-KS
     end;
+
 }

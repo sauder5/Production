@@ -55,6 +55,37 @@ tableextension 80701 PackageExt extends Package
             end;
         }
     }
+    var
+        recUPSOptions: Record "UPS Option Page";
+
+    trigger OnAfterInsert()
+    var
+        recWHSLine: Record "Warehouse Shipment Line";
+        recWHSHeader: Record "Warehouse Shipment Header";
+        recUserSetup: Record "User Setup";
+        recPackingStation: Record "Packing Station";
+        recShipAgent: Record "Shipping Agent";
+        codShipTypeMgt: Codeunit "Shipper Type Management";
+
+    begin
+        recWHSLine.setfilter("Source No.", "Source ID");
+        if recWHSLine.FindSet() then
+            if recWHSHeader.get(recWHSLine."No.") then
+                if recShipAgent.get(recWHSHeader."Shipping Agent Code") then
+                    if rec."Shipping Agent Account No." = '' then
+                        if recUserSetup.get(UserId) then
+                            if recPackingStation.get(recUserSetup."Packing Station") then begin
+                                codShipTypeMgt.PackageGetShipAgentAccountNo(rec, recPackingStation, recShipAgent);
+                                "Shipping Agent Code" := recWHSHeader."Shipping Agent Code";
+                                "Shipping Agent Service" := recWHSHeader."E-Ship Agent Service";
+                                if recShipAgent."Shipper Type" = recShipAgent."Shipper Type"::UPS then begin
+                                    recUPSOptions.SetPackage(rec);
+                                    recUPSOptions.Insert(true);
+                                end;
+                            end;
+    end;
+
+
     Procedure UpdateOrderTrackingNo(var Package: Record Package)
     var
         recSH: record "Sales Header";

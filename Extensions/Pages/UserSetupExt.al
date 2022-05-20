@@ -15,6 +15,10 @@ pageextension 60119 UserSetupExt extends "User Setup"
             {
                 ApplicationArea = all;
             }
+            field("Show Protected Customers"; "Show Protected Customers")
+            {
+                applicationarea = all;
+            }
             field("Default Ship-To for Purch. "; "Default Ship-To for Purch. ")
             {
                 ApplicationArea = all;

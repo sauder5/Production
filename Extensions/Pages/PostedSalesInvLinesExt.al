@@ -8,6 +8,10 @@ pageextension 60526 PostedSalesInvLinesExt extends "Posted Sales Invoice Lines"
             {
                 ApplicationArea = all;
             }
+            field("E-Ship Agent Service"; "E-Ship Agent Service")
+            {
+                ApplicationArea = all;
+            }
         }
     }
 

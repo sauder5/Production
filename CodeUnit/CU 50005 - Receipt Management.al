@@ -1046,6 +1046,7 @@ codeunit 50005 "Receipt Management"
             "Settlement Ticket No." := recSettle."Settlement No.";
             "Grower Ticket No." := recGrowerTkt."Grower Ticket No.";
             "Quantity Applied" := AppliedQty;
+            "Applied Date" := Today;
             INSERT;
 
             RESET;

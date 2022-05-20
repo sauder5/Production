@@ -8,7 +8,10 @@ pageextension 60021 CustomerCardExt extends "Customer Card"
             {
                 applicationarea = all;
             }
-
+            field("Protected Customer"; "Protected Customer")
+            {
+                ApplicationArea = all;
+            }
         }
         addafter("Phone No.")
         {
@@ -175,6 +178,19 @@ pageextension 60021 CustomerCardExt extends "Customer Card"
 
     var
         UPSOptionPage: record "UPS Option Page";
+        recUserSetup: record "User Setup";
+
+    trigger OnAfterGetCurrRecord()
+    begin
+        if recUserSetup.get(UserId) then begin
+            if (recUserSetup."Show Protected Customers" <> true) and
+                ("Protected Customer" = true) then begin
+                error('You are not authorized to view this customer');
+            end;
+        end
+        else
+            error('You are not authorized to view this customer');
+    end;
 
     procedure CheckCanada()
     begin

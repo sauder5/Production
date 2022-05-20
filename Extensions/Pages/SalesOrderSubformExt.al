@@ -74,6 +74,7 @@ pageextension 60046 SalesOrderSubformExt extends "Sales Order Subform"
             field("Qty. Requested"; "Qty. Requested")
             {
                 ApplicationArea = all;
+                DecimalPlaces = 0 : 5;
                 trigger OnValidate()
                 begin
                     GetUnitPricePerCUOM();
@@ -85,6 +86,7 @@ pageextension 60046 SalesOrderSubformExt extends "Sales Order Subform"
             field("Qty. Cancelled"; "Qty. Cancelled")
             {
                 applicationarea = all;
+                DecimalPlaces = 0 : 5;
             }
             field("Cancelled Reason Code"; "Cancelled Reason Code")
             {
@@ -137,6 +139,7 @@ pageextension 60046 SalesOrderSubformExt extends "Sales Order Subform"
             field("Pick Qty."; "Pick Qty.")
             {
                 applicationarea = all;
+                DecimalPlaces = 0 : 5;
             }
             field("Pick Creation DateTime"; "Pick Creation DateTime")
             {

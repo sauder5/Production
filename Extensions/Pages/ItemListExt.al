@@ -123,6 +123,7 @@ pageextension 60031 ItemListExt extends "Item List"
     trigger OnAfterGetRecord()
     begin
         UpdateCalculatedQuantities();
+        recVendor.SecurityFiltering := SecurityFiltering::Ignored;
         if not recVendor.get("Vendor No.") then
             Clear(recVendor);
         if not recProduct.get("Product Code") then

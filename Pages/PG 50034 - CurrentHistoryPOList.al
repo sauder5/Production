@@ -21,7 +21,7 @@ page 50034 "Current/History PO List"
 
                     trigger OnAssistEdit()
                     begin
-                        if Rec.Status = Rec.Status::"Released" then
+                        if Rec.Status = Rec.Status::History then
                             PAGE.Run(50035, Rec)
                         else
                             PAGE.Run(50, Rec);

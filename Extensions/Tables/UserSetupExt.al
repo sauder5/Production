@@ -27,6 +27,10 @@ tableextension 60091 UserSetupExt extends "User Setup"
             TableRelation = "Salesperson/Purchaser".Code;
             DataClassification = CustomerContent;
         }
+        field(51005; "Show Protected Customers"; Boolean)
+        {
+            DataClassification = CustomerContent;
+        }
 
     }
 }
