@@ -104,6 +104,14 @@ query 50010 "ItemsByProductAPI"
                     {
                         Caption = 'Rupp Product Group Code', Locked = true;
                     }
+                    column(productInventoryStatusCode; "Inventory Status Code")
+                    {
+                        Caption = 'Product Inventory Status Code', Locked = true;
+                    }
+                    column(productInventoryStatusModifiedDate; "Inventory Status Modified Date")
+                    {
+                        Caption = 'Product Inventory Status Modified Date', Locked = true;
+                    }
                     dataitem(ProductAttribute; "Product Attribute")
                     {
                         DataItemLink = "Code" = Product."Treatment Code";
@@ -124,7 +132,7 @@ query 50010 "ItemsByProductAPI"
                             {
                                 Caption = 'Product Group Code Description', Locked = true;
                             }
-                            dataitem(ruppReasonCode; "Rupp Reason Code")
+                            dataitem(RuppReasonCode; "Rupp Reason Code")
                             {
                                 DataItemLink = "Code" = ItemTable."Inventory Status Code";
                                 SqlJoinType = LeftOuterJoin;
