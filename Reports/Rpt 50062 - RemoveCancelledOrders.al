@@ -7,7 +7,7 @@ report 50062 "Remove Cancelled Orders"
     {
         dataitem("Sales Header"; "Sales Header")
         {
-            DataItemTableView = WHERE("Document Type" = FILTER(Order));
+            DataItemTableView = WHERE("Document Type" = FILTER(Order), "On Hold" = filter(''));
             column(OrderNum; "Sales Header"."No.")
             {
             }
