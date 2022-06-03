@@ -1,4 +1,4 @@
-query 50022 purchasedItemsByCustomerAPI
+query 50022 PurchasedItemsByCustomerAPI
 {
     APIGroup = 'items';
     APIPublisher = 'rupp';
@@ -9,50 +9,50 @@ query 50022 purchasedItemsByCustomerAPI
 
     elements
     {
-        dataitem(salesInvoiceHeader; "Sales Invoice Header")
+        dataitem(SalesInvoiceHeader; "Sales Invoice Header")
         {
-            column(invoiceNo; "No.")
+            column(InvoiceNo; "No.")
             {
                 Caption = 'Invoice No.', Locked = true;
             }
-            column(sellToCustomerNo; "Sell-to Customer No.")
+            column(SellToCustomerNo; "Sell-to Customer No.")
             {
                 Caption = 'Sell-to Customer No.', Locked = true;
             }
-            column(orderNo; "Order No.")
+            column(OrderNo; "Order No.")
             {
                 Caption = 'Order No.', Locked = true;
             }
-            column(orderDate; "Order Date")
+            column(OrderDate; "Order Date")
             {
                 Caption = 'Order Date', Locked = true;
             }
-            column(postingDate; "Posting Date")
+            column(PostingDate; "Posting Date")
             {
                 Caption = 'Posting Date', Locked = true;
             }
-            column(sellToCustomerName; "Sell-to Customer Name")
+            column(SellToCustomerName; "Sell-to Customer Name")
             {
                 Caption = 'Sell-to Customer Name', Locked = true;
             }
-            column(orderCreatedDateTime; "Order Created Date Time")
+            column(OrderCreatedDateTime; "Order Created Date Time")
             {
                 Caption = 'Order Created DateTime', Locked = true;
             }
-            dataitem(salesInvoiceLine; "Sales Invoice Line")
+            dataitem(SalesInvoiceLine; "Sales Invoice Line")
             {
-                DataItemLink = "Document No." = salesInvoiceHeader."No.";
+                DataItemLink = "Document No." = SalesInvoiceHeader."No.";
                 SqlJoinType = InnerJoin;
-                DataItemTableFilter = "Type" = filter(Item), Quantity = filter(> 0);
-                column(lineNo; "Line No.")
+                DataItemTableFilter = "Type" = filter(Item), Quantity = filter(<> 0);
+                column(LineNo; "Line No.")
                 {
                     Caption = 'Line No.', Locked = true;
                 }
-                column(itemNo; "No.")
+                column(ItemNo; "No.")
                 {
                     Caption = 'Item No.', Locked = true;
                 }
-                column(itemDescription; Description)
+                column(ItemDescription; Description)
                 {
                     Caption = 'Item Description', Locked = true;
                 }
@@ -60,34 +60,34 @@ query 50022 purchasedItemsByCustomerAPI
                 {
                     Caption = 'Quantity', Locked = true;
                 }
-                column(unitOfMeasure; "Unit of Measure")
+                column(UnitOfMeasure; "Unit of Measure")
                 {
                     Caption = 'Unit of Measure', Locked = true;
                 }
-                column(unitOfMeasureCode; "Unit of Measure Code")
+                column(UnitOfMeasureCode; "Unit of Measure Code")
                 {
                     Caption = 'Unit of Measure Code', Locked = true;
                 }
-                column(documentType; "Type")
+                column(LineType; "Type")
                 {
-                    Caption = 'Document Type', Locked = true;
+                    Caption = 'Line Type', Locked = true;
                 }
-                dataitem(item; Item)
+                dataitem(Item; Item)
                 {
-                    DataItemLink = "No." = salesInvoiceLine."No.";
+                    DataItemLink = "No." = SalesInvoiceLine."No.";
                     SqlJoinType = LeftOuterJoin;
 
-                    column(ruppProductGroupCode; "Rupp Product Group Code")
+                    column(RuppProductGroupCode; "Rupp Product Group Code")
                     {
                         Caption = 'Product Group Code', Locked = true;
                     }
 
-                    dataitem(ruppProductGroup; "Rupp Product Group")
+                    dataitem(RuppProductGroup; "Rupp Product Group")
                     {
-                        DataItemLink = "Rupp Product Group Code" = item."Rupp Product Group Code";
+                        DataItemLink = "Rupp Product Group Code" = Item."Rupp Product Group Code";
                         SqlJoinType = LeftOuterJoin;
 
-                        column(ruppProductGroupDescription; Description)
+                        column(RuppProductGroupDescription; Description)
                         {
                             Caption = 'Product Group Description', Locked = true;
                         }
