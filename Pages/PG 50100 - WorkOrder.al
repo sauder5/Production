@@ -541,7 +541,7 @@ page 50100 "Work Order"
                                 recConsumedItem.Modify;
                             until recConsumedItem.Next = 0;
                         end;
-
+                        Validate("Posting Date", Today);
 
                         CurrPage.Update(false);
 
